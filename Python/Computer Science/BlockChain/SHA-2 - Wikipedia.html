@@ -1,0 +1,1327 @@
+
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>SHA-2 - Wikipedia</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"XsCG2QpAIEIAAIfdgjYAAACK","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"SHA-2","wgTitle":"SHA-2","wgCurRevisionId":956953707,"wgRevisionId":956953707,"wgArticleId":1638777,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1: long volume value","CS1 errors: missing periodical","Webarchive template wayback links","Pages using RFC magic links","Articles with short description","Articles containing potentially dated statements from 2013","All articles containing potentially dated statements","All articles with dead external links",
+"Articles with dead external links from April 2018","Articles with permanently dead external links","Articles with example pseudocode","Cryptographic hash functions","Checksum algorithms","National Security Agency cryptography"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"SHA-2","wgRelevantArticleId":1638777,"wgIsProbablyEditable":!0,"wgRelevantPageIsProbablyEditable":!0,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!1},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgWikibaseItemId":"Q1968605","wgCentralAuthMobileDomain":!1,
+"wgEditSubmitButtonLabelPublish":!0};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","ext.math.styles":"ready","jquery.makeCollapsible.styles":"ready","mediawiki.toc.styles":"ready","skins.vector.styles.legacy":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","ext.math.scripts","site","mediawiki.page.startup","skins.vector.js","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init",
+"ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.toc.styles%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.35.0-wmf.31"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=SHA-2&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="/w/index.php?title=SHA-2&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/SHA-2"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 9]><script src="/w/resources/lib/html5shiv/html5shiv.js"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-SHA-2 rootpage-SHA-2 skin-vector action-view">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+		<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div>
+	<div class="mw-indicators mw-body-content">
+</div>
+
+	<h1 id="firstHeading" class="firstHeading" lang="en">SHA-2</h1>
+	
+	<div id="bodyContent" class="mw-body-content">
+		<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+		<div id="contentSub"></div>
+		
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#p-search">Jump to search</a>
+		<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">Set of cryptographic hash functions designed by the NSA</div>
+<table class="infobox" style="width:22em;width:18em; text-align:center; font-size:95%;"><tbody><tr><th colspan="2" style="text-align:center;font-size:125%;font-weight:bold;padding-bottom:0.3em; background:transparent; line-height:1.1em; font-size:125%; font-weight:bold;"><a href="/wiki/Secure_Hash_Algorithms" title="Secure Hash Algorithms">Secure Hash Algorithms</a></th></tr><tr><th colspan="2" style="text-align:center;background:#E7 C6A5;">Concepts</th></tr><tr><td colspan="2" style="text-align:center;line-height:1.4em;"><a href="/wiki/Cryptographic_hash_function" title="Cryptographic hash function">hash functions</a>&#160;<b>&#183;</b>&#32;<a href="/wiki/Secure_Hash_Algorithms" title="Secure Hash Algorithms">SHA</a>&#160;<b>&#183;</b>&#32;<a href="/wiki/Digital_Signature_Algorithm" title="Digital Signature Algorithm">DSA</a></td></tr><tr><th colspan="2" style="text-align:center;background:#E7 C6A5;">Main standards</th></tr><tr><td colspan="2" style="text-align:center;line-height:1.4em;"><a href="/wiki/SHA-1#SHA-0" title="SHA-1">SHA-0</a>&#160;<b>&#183;</b>&#32;<a href="/wiki/SHA-1" title="SHA-1">SHA-1</a>&#160;<b>&#183;</b>&#32;<a class="mw-selflink selflink">SHA-2</a>&#160;<b>&#183;</b>&#32;<a href="/wiki/SHA-3" title="SHA-3">SHA-3</a> <hr /></td></tr><tr><td colspan="2" style="text-align:right"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:SHA-box" title="Template:SHA-box"><abbr title="View this template">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:SHA-box" title="Template talk:SHA-box"><abbr title="Discuss this template">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:SHA-box&amp;action=edit"><abbr title="Edit this template">e</abbr></a></li></ul></div></td></tr></tbody></table>
+<table class="infobox" style="width:22em"><caption>SHA-2</caption><tbody><tr><th colspan="2" style="text-align:center">General</th></tr><tr><th scope="row">Designers</th><td><a href="/wiki/National_Security_Agency" title="National Security Agency">National Security Agency</a></td></tr><tr><th scope="row">First published</th><td>2001</td></tr><tr><th scope="row">Series</th><td>(<a href="/wiki/SHA-0" class="mw-redirect" title="SHA-0">SHA-0</a>), <a href="/wiki/SHA-1" title="SHA-1">SHA-1</a>, SHA-2, <a href="/wiki/SHA-3" title="SHA-3">SHA-3</a></td></tr><tr><th scope="row">Certification</th><td><a href="/wiki/Federal_Information_Processing_Standard" class="mw-redirect" title="Federal Information Processing Standard">FIPS</a> PUB 180-4, <a href="/wiki/CRYPTREC" title="CRYPTREC">CRYPTREC</a>, <a href="/wiki/NESSIE" title="NESSIE">NESSIE</a></td></tr><tr><th colspan="2" style="text-align:center">Detail</th></tr><tr><th scope="row"><a href="/wiki/Cryptographic_hash_function" title="Cryptographic hash function">Digest sizes</a></th><td>224, 256, 384, or 512 bits</td></tr><tr><th scope="row">Structure</th><td><a href="/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction" title="Merkle–Damgård construction">Merkle–Damgård construction</a> with <a href="/wiki/One-way_compression_function#Davies–Meyer" title="One-way compression function">Davies–Meyer compression function</a></td></tr><tr><th scope="row">Rounds</th><td>64 or 80</td></tr><tr><th colspan="2" style="text-align:center">Best public <a href="/wiki/Cryptanalysis" title="Cryptanalysis">cryptanalysis</a></th></tr><tr><td colspan="2" style="text-align:center;line-height: 1.25em; text-align: left">A 2011 attack breaks <a href="/wiki/Preimage_resistance" class="mw-redirect" title="Preimage resistance">preimage resistance</a> for 57 out of 80 rounds of SHA-512, and 52 out of 64 rounds for SHA-256.<sup id="cite_ref-preimage-khov_1-0" class="reference"><a href="#cite_note-preimage-khov-1">&#91;1&#93;</a></sup>
+<p>Pseudo-collision attack against up to 46 rounds of SHA-256.<sup id="cite_ref-collision-lamberger_2-0" class="reference"><a href="#cite_note-collision-lamberger-2">&#91;2&#93;</a></sup>
+</p>
+SHA-256 and SHA-512 are prone to <a href="/wiki/Length_extension_attack" title="Length extension attack">length extension attacks</a>. By guessing the hidden part of the state, length extension attacks on SHA-224 and SHA-384 succeed with probability 2<sup>−(256−224)</sup> = 2<sup>−32</sup> &gt; 2<sup>−224</sup> and 2<sup>−(512−384)</sup> = 2<sup>−128</sup> &gt; 2<sup>−384</sup> respectively.</td></tr></tbody></table>
+<p><b>SHA-2</b> (<b>Secure Hash Algorithm 2</b>) is a set of <a href="/wiki/Cryptographic_hash_function" title="Cryptographic hash function">cryptographic hash functions</a> designed by the United States <a href="/wiki/National_Security_Agency" title="National Security Agency">National Security Agency</a> (NSA) and first published in 2001.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">&#91;3&#93;</a></sup><sup id="cite_ref-:0_4-0" class="reference"><a href="#cite_note-:0-4">&#91;4&#93;</a></sup> They are built using the <a href="/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction" title="Merkle–Damgård construction">Merkle–Damgård structure</a>, from a <a href="/wiki/One-way_compression_function" title="One-way compression function">one-way compression function</a> itself built using the <a href="/wiki/One-way_compression_function#Davies–Meyer" title="One-way compression function">Davies–Meyer structure</a> from a (classified) specialized block cipher.
+</p><p>SHA-2 includes significant changes from its predecessor, <a href="/wiki/SHA-1" title="SHA-1">SHA-1</a>. The SHA-2 family consists of six hash functions with <a href="/wiki/Cryptographic_hash_function#message_digest" title="Cryptographic hash function">digests</a> (hash values) that are 224, 256, 384 or 512 bits: <b>SHA-224, SHA-256, SHA-384, SHA-512, SHA-512/224, SHA-512/256</b>. SHA-256 and SHA-512 are novel hash functions computed with 32-bit and 64-bit words, respectively. They use different shift amounts and additive constants, but their structures are otherwise virtually identical, differing only in the number of rounds. SHA-224 and SHA-384 are truncated versions of SHA-256 and SHA-512 respectively, computed with different initial values. SHA-512/224 and SHA-512/256 are also truncated versions of SHA-512, but the initial values are generated using the method described in <a href="/wiki/Federal_Information_Processing_Standards" title="Federal Information Processing Standards">Federal Information Processing Standards</a> (FIPS) PUB 180-4.
+</p><p>SHA-2 was first published by the <a href="/wiki/National_Institute_of_Standards_and_Technology" title="National Institute of Standards and Technology">National Institute of Standards and Technology</a> (NIST) as a U.S. federal standard (FIPS). The SHA-2 family of algorithms are patented in US patent 6829355.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">&#91;5&#93;</a></sup> The United States has released the patent under a <a href="/wiki/Royalty-free" title="Royalty-free">royalty-free</a> license.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">&#91;6&#93;</a></sup>
+</p><p>Currently, the best public attacks break <a href="/wiki/Preimage_attack" title="Preimage attack">preimage resistance</a> for 52 out of 64 rounds of SHA-256 or 57 out of 80 rounds of SHA-512, and <a href="/wiki/Collision_attack" title="Collision attack">collision resistance</a> for 46 out of 64 rounds of SHA-256.<sup id="cite_ref-preimage-khov_1-1" class="reference"><a href="#cite_note-preimage-khov-1">&#91;1&#93;</a></sup><sup id="cite_ref-collision-lamberger_2-1" class="reference"><a href="#cite_note-collision-lamberger-2">&#91;2&#93;</a></sup>
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Hash_standard"><span class="tocnumber">1</span> <span class="toctext">Hash standard</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Applications"><span class="tocnumber">2</span> <span class="toctext">Applications</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Cryptanalysis_and_validation"><span class="tocnumber">3</span> <span class="toctext">Cryptanalysis and validation</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Official_validation"><span class="tocnumber">3.1</span> <span class="toctext">Official validation</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Test_vectors"><span class="tocnumber">4</span> <span class="toctext">Test vectors</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Pseudocode"><span class="tocnumber">5</span> <span class="toctext">Pseudocode</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Comparison_of_SHA_functions"><span class="tocnumber">6</span> <span class="toctext">Comparison of SHA functions</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Implementations"><span class="tocnumber">7</span> <span class="toctext">Implementations</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#See_also"><span class="tocnumber">8</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#References"><span class="tocnumber">9</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Further_reading"><span class="tocnumber">10</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#External_links"><span class="tocnumber">11</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Hash_standard">Hash standard</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=SHA-2&amp;action=edit&amp;section=1" title="Edit section: Hash standard">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:402px;"><a href="/wiki/File:SHA-2.svg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/7d/SHA-2.svg/400px-SHA-2.svg.png" decoding="async" width="400" height="282" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/7d/SHA-2.svg/600px-SHA-2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/7d/SHA-2.svg/800px-SHA-2.svg.png 2x" data-file-width="836" data-file-height="590" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/wiki/File:SHA-2.svg" class="internal" title="Enlarge"></a></div>One iteration in a SHA-2 family compression function. The blue components perform the following operations:<br /> &#160;&#160;&#160;&#160;<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \operatorname {Ch} (E,F,G)=(E\land F)\oplus (\neg E\land G)}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>Ch</mi>
+        <mo>&#x2061;<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>E</mi>
+        <mo>,</mo>
+        <mi>F</mi>
+        <mo>,</mo>
+        <mi>G</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <mi>E</mi>
+        <mo>&#x2227;<!-- ∧ --></mo>
+        <mi>F</mi>
+        <mo stretchy="false">)</mo>
+        <mo>&#x2295;<!-- ⊕ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi mathvariant="normal">&#x00AC;<!-- ¬ --></mi>
+        <mi>E</mi>
+        <mo>&#x2227;<!-- ∧ --></mo>
+        <mi>G</mi>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \operatorname {Ch} (E,F,G)=(E\land F)\oplus (\neg E\land G)}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/aa960a18f0f865cdb519c20bba93c19944b4b839" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:35.583ex; height:2.843ex;" alt="{\displaystyle \operatorname {Ch} (E,F,G)=(E\land F)\oplus (\neg E\land G)}"/></span><br /> &#160;&#160;&#160;&#160;<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \operatorname {Ma} (A,B,C)=(A\land B)\oplus (A\land C)\oplus (B\land C)}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>Ma</mi>
+        <mo>&#x2061;<!-- ⁡ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo>,</mo>
+        <mi>B</mi>
+        <mo>,</mo>
+        <mi>C</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo>&#x2227;<!-- ∧ --></mo>
+        <mi>B</mi>
+        <mo stretchy="false">)</mo>
+        <mo>&#x2295;<!-- ⊕ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo>&#x2227;<!-- ∧ --></mo>
+        <mi>C</mi>
+        <mo stretchy="false">)</mo>
+        <mo>&#x2295;<!-- ⊕ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>B</mi>
+        <mo>&#x2227;<!-- ∧ --></mo>
+        <mi>C</mi>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \operatorname {Ma} (A,B,C)=(A\land B)\oplus (A\land C)\oplus (B\land C)}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/09e71d25f7d4ecf3600af38cb14078a50222bfcf" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:44.946ex; height:2.843ex;" alt="{\displaystyle \operatorname {Ma} (A,B,C)=(A\land B)\oplus (A\land C)\oplus (B\land C)}"/></span><br /> &#160;&#160;&#160;&#160;<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \Sigma _{0}(A)=(A\!\ggg \!2)\oplus (A\!\ggg \!13)\oplus (A\!\ggg \!22)}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi mathvariant="normal">&#x03A3;<!-- Σ --></mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>0</mn>
+          </mrow>
+        </msub>
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mspace width="negativethinmathspace" />
+        <mo>&#x22D9;<!-- ⋙ --></mo>
+        <mspace width="negativethinmathspace" />
+        <mn>2</mn>
+        <mo stretchy="false">)</mo>
+        <mo>&#x2295;<!-- ⊕ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mspace width="negativethinmathspace" />
+        <mo>&#x22D9;<!-- ⋙ --></mo>
+        <mspace width="negativethinmathspace" />
+        <mn>13</mn>
+        <mo stretchy="false">)</mo>
+        <mo>&#x2295;<!-- ⊕ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mspace width="negativethinmathspace" />
+        <mo>&#x22D9;<!-- ⋙ --></mo>
+        <mspace width="negativethinmathspace" />
+        <mn>22</mn>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \Sigma _{0}(A)=(A\!\ggg \!2)\oplus (A\!\ggg \!13)\oplus (A\!\ggg \!22)}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c583746b69370e003b08d29c0555e20204682135" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:42.373ex; height:2.843ex;" alt="\Sigma _{0}(A)=(A\!\ggg \!2)\oplus (A\!\ggg \!13)\oplus (A\!\ggg \!22)"/></span><br /> &#160;&#160;&#160;&#160;<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \Sigma _{1}(E)=(E\!\ggg \!6)\oplus (E\!\ggg \!11)\oplus (E\!\ggg \!25)}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi mathvariant="normal">&#x03A3;<!-- Σ --></mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo stretchy="false">(</mo>
+        <mi>E</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <mi>E</mi>
+        <mspace width="negativethinmathspace" />
+        <mo>&#x22D9;<!-- ⋙ --></mo>
+        <mspace width="negativethinmathspace" />
+        <mn>6</mn>
+        <mo stretchy="false">)</mo>
+        <mo>&#x2295;<!-- ⊕ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>E</mi>
+        <mspace width="negativethinmathspace" />
+        <mo>&#x22D9;<!-- ⋙ --></mo>
+        <mspace width="negativethinmathspace" />
+        <mn>11</mn>
+        <mo stretchy="false">)</mo>
+        <mo>&#x2295;<!-- ⊕ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>E</mi>
+        <mspace width="negativethinmathspace" />
+        <mo>&#x22D9;<!-- ⋙ --></mo>
+        <mspace width="negativethinmathspace" />
+        <mn>25</mn>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \Sigma _{1}(E)=(E\!\ggg \!6)\oplus (E\!\ggg \!11)\oplus (E\!\ggg \!25)}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5bbb767c4ac3154b0e41612bba422dff7dc27e43" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:42.503ex; height:2.843ex;" alt="\Sigma _{1}(E)=(E\!\ggg \!6)\oplus (E\!\ggg \!11)\oplus (E\!\ggg \!25)"/></span> <br /> The bitwise rotation uses different constants for SHA-512. The given numbers are for SHA-256.<br /> The red <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle \color {red}\boxplus }">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mstyle mathcolor="red">
+          <mo>&#x229E;<!-- ⊞ --></mo>
+        </mstyle>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \color {red}\boxplus }</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/234b9f9d061d7f499f6ba215b2cec330613cd332" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:1.808ex; height:2.176ex;" alt="\color {red}\boxplus "/></span> is addition modulo 2<sup>32</sup> for SHA-256, or 2<sup>64</sup> for SHA-512.</div></div></div>
+<p>With the publication of FIPS PUB 180-2, NIST added three additional hash functions in the SHA family. The algorithms are collectively known as SHA-2, named after their digest lengths (in bits): SHA-256, SHA-384, and SHA-512.
+</p><p>The algorithms were first published in 2001 in the draft FIPS PUB 180-2, at which time public review and comments were accepted. In August 2002, FIPS PUB 180-2 became the new <a href="/wiki/Secure_Hash_Standard" class="mw-redirect" title="Secure Hash Standard">Secure Hash Standard</a>, replacing FIPS PUB 180-1, which was released in April 1995. The updated standard included the original SHA-1 algorithm, with updated technical notation consistent with that describing the inner workings of the SHA-2 family.<sup id="cite_ref-:0_4-1" class="reference"><a href="#cite_note-:0-4">&#91;4&#93;</a></sup>
+</p><p>In February 2004, a change notice was published for FIPS PUB 180-2, specifying an additional variant, SHA-224, defined to match the key length of two-key <a href="/wiki/Triple_DES" title="Triple DES">Triple DES</a>.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;7&#93;</a></sup> In October 2008, the standard was updated in FIPS PUB 180-3, including SHA-224 from the change notice, but otherwise making no fundamental changes to the standard. The primary motivation for updating the standard was relocating security information about the hash algorithms and recommendations for their use to Special Publications 800-107 and 800-57.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">&#91;8&#93;</a></sup><sup id="cite_ref-sp800107_9-0" class="reference"><a href="#cite_note-sp800107-9">&#91;9&#93;</a></sup><sup id="cite_ref-sp80057_10-0" class="reference"><a href="#cite_note-sp80057-10">&#91;10&#93;</a></sup> Detailed test data and example message digests were also removed from the standard, and provided as separate documents.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11">&#91;11&#93;</a></sup>
+</p><p>In January 2011, NIST published SP800-131A, which specified a move from the then-current minimum of 80-bit security (provided by SHA-1) allowable for federal government use until the end of 2013, to 112-bit security (provided by SHA-2) being both the minimum requirement (starting in 2014) and the recommended <a href="/wiki/Security_level_management" title="Security level management">security level</a> (starting from the publication date in 2011).<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">&#91;12&#93;</a></sup>
+</p><p>In March 2012, the standard was updated in FIPS PUB 180-4, adding the hash functions SHA-512/224 and SHA-512/256, and describing a method for generating initial values for truncated versions of SHA-512. Additionally, a restriction on <a href="/wiki/Padding_(cryptography)" title="Padding (cryptography)">padding</a> the input data prior to hash calculation was removed, allowing hash data to be calculated simultaneously with content generation, such as a real-time video or audio feed. Padding the final data block must still occur prior to hash output.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13">&#91;13&#93;</a></sup>
+</p><p>In July 2012, NIST revised SP800-57, which provides guidance for cryptographic key management. The publication disallowed creation of digital signatures with a hash security lower than 112 bits after 2013. The previous revision from 2007 specified the cutoff to be the end of 2010.<sup id="cite_ref-sp80057_10-1" class="reference"><a href="#cite_note-sp80057-10">&#91;10&#93;</a></sup> In August 2012, NIST revised SP800-107 in the same manner.<sup id="cite_ref-sp800107_9-1" class="reference"><a href="#cite_note-sp800107-9">&#91;9&#93;</a></sup>
+</p><p>The <a href="/wiki/NIST_hash_function_competition" title="NIST hash function competition">NIST hash function competition</a> selected a new hash function, <a href="/wiki/SHA-3" title="SHA-3">SHA-3</a>, in 2012.<sup id="cite_ref-nist.gov_14-0" class="reference"><a href="#cite_note-nist.gov-14">&#91;14&#93;</a></sup> The SHA-3 algorithm is not derived from SHA-2.
+</p>
+<h2><span class="mw-headline" id="Applications">Applications</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=SHA-2&amp;action=edit&amp;section=2" title="Edit section: Applications">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div role="note" class="hatnote navigation-not-searchable">Further information: <a href="/wiki/Cryptographic_hash_function#Applications" title="Cryptographic hash function">Cryptographic hash function §&#160;Applications</a></div>
+<p>The SHA-2 hash function is implemented in some widely used security applications and protocols, including <a href="/wiki/Transport_Layer_Security" title="Transport Layer Security">TLS</a> and <a href="/wiki/Secure_Sockets_Layer" class="mw-redirect" title="Secure Sockets Layer">SSL</a>, <a href="/wiki/Pretty_Good_Privacy" title="Pretty Good Privacy">PGP</a>, <a href="/wiki/Secure_Shell" title="Secure Shell">SSH</a>, <a href="/wiki/S/MIME" title="S/MIME">S/MIME</a>, and <a href="/wiki/IPsec" title="IPsec">IPsec</a>.
+</p><p>SHA-256 partakes in the process of authenticating <a href="/wiki/Debian" title="Debian">Debian</a> software packages<sup id="cite_ref-15" class="reference"><a href="#cite_note-15">&#91;15&#93;</a></sup> and in the <a href="/wiki/DKIM" class="mw-redirect" title="DKIM">DKIM</a> message signing standard; SHA-512 is part of a system to authenticate archival video from the <a href="/wiki/International_Criminal_Tribunal_for_Rwanda" title="International Criminal Tribunal for Rwanda">International Criminal Tribunal of the Rwandan genocide</a>.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16">&#91;16&#93;</a></sup> SHA-256 and SHA-512 are proposed for use in <a href="/wiki/DNSSEC" class="mw-redirect" title="DNSSEC">DNSSEC</a>.<sup id="cite_ref-17" class="reference"><a href="#cite_note-17">&#91;17&#93;</a></sup> Unix and Linux vendors are moving to using 256- and 512-bit SHA-2 for secure password hashing.<sup id="cite_ref-18" class="reference"><a href="#cite_note-18">&#91;18&#93;</a></sup>
+</p><p>Several <a href="/wiki/Cryptocurrency" title="Cryptocurrency">cryptocurrencies</a> like <a href="/wiki/Bitcoin" title="Bitcoin">Bitcoin</a> use SHA-256 for verifying transactions and calculating <a href="/wiki/Proof_of_work" title="Proof of work">proof of work</a><sup id="cite_ref-19" class="reference"><a href="#cite_note-19">&#91;19&#93;</a></sup> or <a href="/wiki/Proof_of_stake" title="Proof of stake">proof of stake</a>.<sup id="cite_ref-20" class="reference"><a href="#cite_note-20">&#91;20&#93;</a></sup> The rise of <a href="/wiki/ASIC" class="mw-redirect" title="ASIC">ASIC</a> SHA-2 accelerator chips has led to the use of <a href="/wiki/Scrypt" title="Scrypt">scrypt</a>-based proof-of-work schemes.
+</p><p>SHA-1 and SHA-2 are the <a href="/wiki/Secure_Hash_Algorithms" title="Secure Hash Algorithms">Secure Hash Algorithms</a> required by law for use in certain <a href="/wiki/Federal_government_of_the_United_States" title="Federal government of the United States">U.S. Government</a> applications, including use within other cryptographic algorithms and protocols, for the protection of sensitive unclassified information. FIPS PUB 180-1 also encouraged adoption and use of SHA-1 by private and commercial organizations. SHA-1 is being retired for most government uses; the U.S. National Institute of Standards and Technology says, "Federal agencies <i><b>should</b></i> stop using SHA-1 for...applications that require collision resistance as soon as practical, and must use the SHA-2 family of hash functions for these applications after 2010" (emphasis in original).<sup id="cite_ref-21" class="reference"><a href="#cite_note-21">&#91;21&#93;</a></sup> NIST's directive that U.S. government agencies must stop uses of SHA-1 after 2010<sup id="cite_ref-22" class="reference"><a href="#cite_note-22">&#91;22&#93;</a></sup> was hoped to accelerate migration away from SHA-1.
+</p><p>The SHA-2 functions were not quickly adopted initially, despite better security than SHA-1. Reasons might include lack of support for SHA-2 on systems running Windows XP SP2 or older<sup id="cite_ref-23" class="reference"><a href="#cite_note-23">&#91;23&#93;</a></sup> and a lack of perceived urgency since SHA-1 collisions had not yet been found. The <a href="/wiki/Google_Chrome" title="Google Chrome">Google Chrome</a> team announced a plan to make their web browser gradually stop honoring SHA-1-dependent TLS certificates over a period from late 2014 and early 2015.<sup id="cite_ref-24" class="reference"><a href="#cite_note-24">&#91;24&#93;</a></sup><sup id="cite_ref-25" class="reference"><a href="#cite_note-25">&#91;25&#93;</a></sup><sup id="cite_ref-26" class="reference"><a href="#cite_note-26">&#91;26&#93;</a></sup> Similarly, Microsoft announced<sup id="cite_ref-27" class="reference"><a href="#cite_note-27">&#91;27&#93;</a></sup> that <a href="/wiki/Internet_Explorer" title="Internet Explorer">Internet Explorer</a> and <a href="/wiki/Microsoft_Edge" title="Microsoft Edge">Edge</a> would stop honoring public SHA-1-signed TLS certificates from February 2017. <a href="/wiki/Mozilla" title="Mozilla">Mozilla</a> disabled SHA-1 in early January 2016, but had to re-enable it temporarily via a <a href="/wiki/Firefox" title="Firefox">Firefox</a> update, after problems with web-based user interfaces of some router models and <a href="/wiki/Security_appliance" title="Security appliance">security appliances</a>.<sup id="cite_ref-28" class="reference"><a href="#cite_note-28">&#91;28&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Cryptanalysis_and_validation">Cryptanalysis and validation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=SHA-2&amp;action=edit&amp;section=3" title="Edit section: Cryptanalysis and validation">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>For a hash function for which <i>L</i> is the number of <a href="/wiki/Bit" title="Bit">bits</a> in the <a href="/wiki/Message_digest" class="mw-redirect" title="Message digest">message digest</a>, finding a message that corresponds to a given message digest can always be done using a <a href="/wiki/Brute-force_attack" title="Brute-force attack">brute force</a> search in 2<sup><i>L</i></sup> evaluations. This is called a <a href="/wiki/Preimage_attack" title="Preimage attack">preimage attack</a> and may or may not be practical depending on <i>L</i> and the particular computing environment. The second criterion, finding two different messages that produce the same message digest, known as a <a href="/wiki/Collision_(computer_science)" title="Collision (computer science)">collision</a>, requires on average only 2<sup><i>L</i>/2</sup> evaluations using a <a href="/wiki/Birthday_attack" title="Birthday attack">birthday attack</a>.
+</p><p>Some of the applications that use cryptographic hashes, such as password storage, are only minimally affected by a <a href="/wiki/Collision_attack" title="Collision attack">collision attack</a>. Constructing a password that works for a given account requires a preimage attack, as well as access to the hash of the original password (typically in the <code><a href="/wiki/Shadow_password" class="mw-redirect" title="Shadow password">shadow</a></code> file) which may or may not be trivial. Reversing password encryption (e.g., to obtain a password to try against a user's account elsewhere) is not made possible by the attacks. (However, even a secure password hash cannot prevent brute-force attacks on <a href="/wiki/Password_strength" title="Password strength">weak passwords</a>.)
+</p><p>In the case of document signing, an attacker could not simply fake a signature from an existing document—the attacker would have to produce a pair of documents, one innocuous and one damaging, and get the private key holder to sign the innocuous document. There are practical circumstances in which this is possible; until the end of 2008, it was possible to create forged <a href="/wiki/Transport_Layer_Security" title="Transport Layer Security">SSL</a> certificates using an <a href="/wiki/MD5" title="MD5">MD5</a> collision which would be accepted by widely used web browsers.<sup id="cite_ref-29" class="reference"><a href="#cite_note-29">&#91;29&#93;</a></sup>
+</p><p>Increased interest in cryptographic hash analysis during the SHA-3 competition produced several new attacks on the SHA-2 family, the best of which are given in the table below. Only the collision attacks are of practical complexity; none of the attacks extend to the full round hash function.
+</p><p>At <a href="/wiki/Fast_Software_Encryption" class="mw-redirect" title="Fast Software Encryption">FSE</a> 2012, researchers at <a href="/wiki/Sony" title="Sony">Sony</a> gave a presentation suggesting pseudo-collision attacks could be extended to 52 rounds on SHA-256 and 57 rounds on SHA-512 by building upon the <a href="/wiki/Biclique_attack" title="Biclique attack">biclique</a> pseudo-preimage attack.<sup id="cite_ref-30" class="reference"><a href="#cite_note-30">&#91;30&#93;</a></sup>
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>Published in
+</th>
+<th>Year
+</th>
+<th>Attack method
+</th>
+<th>Attack
+</th>
+<th>Variant
+</th>
+<th>Rounds
+</th>
+<th>Complexity
+</th></tr>
+<tr style="text-align:center;">
+<td rowspan="2"><i>New Collision Attacks Against<br />Up To 24-step SHA-2</i><sup id="cite_ref-collision-sanadhya_31-0" class="reference"><a href="#cite_note-collision-sanadhya-31">&#91;31&#93;</a></sup></td>
+<td rowspan="2">2008</td>
+<td rowspan="2">Deterministic</td>
+<td rowspan="2">Collision</td>
+<td>SHA-256</td>
+<td>24/64</td>
+<td>2<sup>28.5</sup>
+</td></tr>
+<tr style="text-align:center;">
+<td>SHA-512</td>
+<td>24/80</td>
+<td>2<sup>32.5</sup>
+</td></tr>
+<tr style="text-align:center;">
+<td rowspan="4"><i>Preimages for step-reduced SHA-2</i><sup id="cite_ref-preimage-merged_32-0" class="reference"><a href="#cite_note-preimage-merged-32">&#91;32&#93;</a></sup></td>
+<td rowspan="4">2009</td>
+<td rowspan="4"><a href="/wiki/Meet-in-the-middle_attack" title="Meet-in-the-middle attack">Meet-in-the-middle</a></td>
+<td rowspan="4">Preimage</td>
+<td rowspan="2">SHA-256</td>
+<td>42/64</td>
+<td>2<sup>251.7</sup>
+</td></tr>
+<tr style="text-align:center;">
+<td>43/64</td>
+<td>2<sup>254.9</sup>
+</td></tr>
+<tr style="text-align:center;">
+<td rowspan="2">SHA-512</td>
+<td>42/80</td>
+<td>2<sup>502.3</sup>
+</td></tr>
+<tr style="text-align:center;">
+<td>46/80</td>
+<td>2<sup>511.5</sup>
+</td></tr>
+<tr style="text-align:center;">
+<td rowspan="2"><i>Advanced meet-in-the-middle<br />preimage attacks</i><sup id="cite_ref-preimage-gou_33-0" class="reference"><a href="#cite_note-preimage-gou-33">&#91;33&#93;</a></sup></td>
+<td rowspan="2">2010</td>
+<td rowspan="2">Meet-in-the-middle</td>
+<td rowspan="2">Preimage</td>
+<td>SHA-256</td>
+<td>42/64</td>
+<td>2<sup>248.4</sup>
+</td></tr>
+<tr style="text-align:center;">
+<td>SHA-512</td>
+<td>42/80</td>
+<td>2<sup>494.6</sup>
+</td></tr>
+<tr style="text-align:center;">
+<td rowspan="2"><i>Higher-Order Differential Attack<br />on Reduced SHA-256</i><sup id="cite_ref-collision-lamberger_2-2" class="reference"><a href="#cite_note-collision-lamberger-2">&#91;2&#93;</a></sup></td>
+<td rowspan="2">2011</td>
+<td rowspan="2"><a href="/wiki/Differential_cryptanalysis" title="Differential cryptanalysis">Differential</a></td>
+<td rowspan="2">Pseudo-collision</td>
+<td rowspan="2">SHA-256</td>
+<td>46/64</td>
+<td>2<sup>178</sup>
+</td></tr>
+<tr style="text-align:center;">
+<td>33/64</td>
+<td>2<sup>46</sup>
+</td></tr>
+<tr style="text-align:center;">
+<td rowspan="4"><i>Bicliques for Preimages&#58; Attacks on<br />Skein-512 and the SHA-2 family</i><sup id="cite_ref-preimage-khov_1-2" class="reference"><a href="#cite_note-preimage-khov-1">&#91;1&#93;</a></sup></td>
+<td rowspan="4">2011</td>
+<td rowspan="4"><a href="/wiki/Biclique_attack" title="Biclique attack">Biclique</a></td>
+<td rowspan="2">Preimage</td>
+<td>SHA-256</td>
+<td>45/64</td>
+<td>2<sup>255.5</sup>
+</td></tr>
+<tr style="text-align:center;">
+<td>SHA-512</td>
+<td>50/80</td>
+<td>2<sup>511.5</sup>
+</td></tr>
+<tr style="text-align:center;">
+<td rowspan="2">Pseudo-preimage</td>
+<td>SHA-256</td>
+<td>52/64</td>
+<td>2<sup>255</sup>
+</td></tr>
+<tr style="text-align:center;">
+<td>SHA-512</td>
+<td>57/80</td>
+<td>2<sup>511</sup>
+</td></tr>
+<tr style="text-align:center;">
+<td rowspan="2"><i>Improving Local Collisions&#58; New<br />Attacks on Reduced SHA-256</i><sup id="cite_ref-collision-mendel_34-0" class="reference"><a href="#cite_note-collision-mendel-34">&#91;34&#93;</a></sup></td>
+<td rowspan="2">2013</td>
+<td rowspan="2">Differential</td>
+<td>Collision</td>
+<td>SHA-256</td>
+<td>31/64</td>
+<td>2<sup>65.5</sup>
+</td></tr>
+<tr style="text-align:center;">
+<td>Pseudo-collision</td>
+<td>SHA-256</td>
+<td>38/64</td>
+<td>2<sup>37</sup>
+</td></tr>
+<tr style="text-align:center;">
+<td rowspan="1"><i>Branching Heuristics in Differential Collision<br />Search with Applications to SHA-512</i><sup id="cite_ref-collision-eichlseder_35-0" class="reference"><a href="#cite_note-collision-eichlseder-35">&#91;35&#93;</a></sup></td>
+<td>2014</td>
+<td>Heuristic differential</td>
+<td>Pseudo-collision</td>
+<td>SHA-512</td>
+<td>38/80</td>
+<td>2<sup>40.5</sup>
+</td></tr>
+<tr style="text-align:center;">
+<td rowspan="3"><i>Analysis of SHA-512/224 and SHA-512/256</i><sup id="cite_ref-36" class="reference"><a href="#cite_note-36">&#91;36&#93;</a></sup></td>
+<td rowspan="3">2016</td>
+<td rowspan="3">Differential</td>
+<td rowspan="2">Collision</td>
+<td>SHA-256</td>
+<td>28/64</td>
+<td>practical
+</td></tr>
+<tr style="text-align:center;">
+<td>SHA-512</td>
+<td>27/80</td>
+<td>practical
+</td></tr>
+<tr style="text-align:center;">
+<td>Pseudo-collision</td>
+<td>SHA-512</td>
+<td>39/80</td>
+<td>practical
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Official_validation">Official validation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=SHA-2&amp;action=edit&amp;section=4" title="Edit section: Official validation">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div role="note" class="hatnote navigation-not-searchable">Main article: <a href="/wiki/Cryptographic_Module_Validation_Program" title="Cryptographic Module Validation Program">Cryptographic Module Validation Program</a></div>
+<p>Implementations of all FIPS-approved security functions can be officially validated through the <a href="/wiki/Cryptographic_Module_Validation_Program" title="Cryptographic Module Validation Program">CMVP program</a>, jointly run by the <a href="/wiki/National_Institute_of_Standards_and_Technology" title="National Institute of Standards and Technology">National Institute of Standards and Technology</a> (NIST) and the <a href="/wiki/Communications_Security_Establishment" title="Communications Security Establishment">Communications Security Establishment</a> (CSE). For informal verification, a package to generate a high number of test vectors is made available for download on the NIST site; the resulting verification, however, does not replace the formal CMVP validation, which is required by law for certain applications.
+</p><p>As of December 2013<sup class="plainlinks noexcerpt noprint asof-tag update" style="display:none;"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=SHA-2&amp;action=edit">&#91;update&#93;</a></sup>, there are over 1300 validated implementations of SHA-256 and over 900 of SHA-512, with only 5 of them being capable of handling messages with a length in bits not a multiple of eight while supporting both variants.<sup id="cite_ref-37" class="reference"><a href="#cite_note-37">&#91;37&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Test_vectors">Test vectors</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=SHA-2&amp;action=edit&amp;section=5" title="Edit section: Test vectors">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Hash values of an empty string (i.e., a zero-length input text).
+</p>
+<pre><span style="color:green">SHA224("")</span>
+0x d14a028c2a3a2bc9476102bb288234c415a2b01f828ea62ac5b3e42f
+<span style="color:green">SHA256("")</span>
+0x e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+<span style="color:green">SHA384("")</span>
+0x 38b060a751ac96384cd9327eb1b1e36a21fdb71114be07434c0cc7bf63f6e1da274edebfe76f65fbd51ad2f14898b95b
+<span style="color:green">SHA512("")</span>
+0x cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e
+<span style="color:green">SHA512/224("")</span>
+0x 6ed0dd02806fa89e25de060c19d3ac86cabb87d6a0ddd05c333b84f4
+<span style="color:green">SHA512/256("")</span>
+0x c672b8d1ef56ed28ab87c3622c5114069bdd3ad7b8f9737498d0c01ecef0967a
+</pre>
+<p>Even a small change in the message will (with overwhelming probability) result in a mostly different hash, due to the <a href="/wiki/Avalanche_effect" title="Avalanche effect">avalanche effect</a>. For example, adding a period to the end of the following sentence changes almost half (111 out of 224) of the bits in the hash:
+</p>
+<pre><span style="color:green">SHA224("<a href="/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog" title="The quick brown fox jumps over the lazy dog">The quick brown fox jumps over the lazy dog</a>")</span>
+0x 730e109bd7a8a32b1cb9d9a09aa2325d2430587ddbc0c38bad911525
+<span style="color:green">SHA224("<a href="/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog" title="The quick brown fox jumps over the lazy dog">The quick brown fox jumps over the lazy dog</a><span style="background:yellow">.</span>")</span>
+0x 619cba8e8e05826e9b8c519c0a5c68f4fb653e8a3d8aa04bb2c8cd4c
+</pre>
+<h2><span class="mw-headline" id="Pseudocode">Pseudocode</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=SHA-2&amp;action=edit&amp;section=6" title="Edit section: Pseudocode">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p><a href="/wiki/Pseudocode" title="Pseudocode">Pseudocode</a> for the SHA-256 algorithm follows. Note the great increase in mixing between bits of the <code>w&#91;16..63&#93;</code> words compared to SHA-1.
+</p>
+<pre><span style="color:green"><i>Note 1: All variables are 32 bit unsigned integers and addition is calculated modulo 2<sup>32</sup></i></span>
+<span style="color:green"><i>Note 2: For each round, there is one round constant k&#91;i&#93; and one entry in the message schedule array w&#91;i&#93;, 0 ≤ i ≤ 63</i></span>
+<span style="color:green"><i>Note 3: The compression function uses 8 working variables, a through h</i></span>
+<span style="color:green"><i>Note 4: Big-endian convention is used when expressing the constants in this pseudocode,</i></span>
+    <span style="color:green"><i>and when parsing message block data from bytes to words, for example,</i></span>
+    <span style="color:green"><i>the first word of the input message "abc" after padding is 0x61626380</i></span>
+
+<span style="color:green"><i>Initialize hash values:</i></span>
+<span style="color:green">(first 32 bits of the <i>fractional parts</i> of the square roots of the first 8 primes 2..19):</span>
+h0&#160;:= 0x6a09e667
+h1&#160;:= 0xbb67ae85
+h2&#160;:= 0x3c6ef372
+h3&#160;:= 0xa54ff53a
+h4&#160;:= 0x510e527f
+h5&#160;:= 0x9b05688c
+h6&#160;:= 0x1f83d9ab
+h7&#160;:= 0x5be0cd19
+
+<span style="color:green"><i>Initialize array of round constants:</i></span>
+<span style="color:green">(first 32 bits of the <i>fractional parts</i> of the cube roots of the first 64 primes 2..311):</span>
+k&#91;0..63&#93;&#160;:=
+   0x428a2f98, 0x71374491, 0xb5c0fbcf, 0xe9b5dba5, 0x3956c25b, 0x59f111f1, 0x923f82a4, 0xab1c5ed5,
+   0xd807aa98, 0x12835b01, 0x243185be, 0x550c7dc3, 0x72be5d74, 0x80deb1fe, 0x9bdc06a7, 0xc19bf174,
+   0xe49b69c1, 0xefbe4786, 0x0fc19dc6, 0x240ca1cc, 0x2de92c6f, 0x4a7484aa, 0x5cb0a9dc, 0x76f988da,
+   0x983e5152, 0xa831c66d, 0xb00327c8, 0xbf597fc7, 0xc6e00bf3, 0xd5a79147, 0x06ca6351, 0x14292967,
+   0x27b70a85, 0x2e1b2138, 0x4d2c6dfc, 0x53380d13, 0x650a7354, 0x766a0abb, 0x81c2c92e, 0x92722c85,
+   0xa2bfe8a1, 0xa81a664b, 0xc24b8b70, 0xc76c51a3, 0xd192e819, 0xd6990624, 0xf40e3585, 0x106aa070,
+   0x19a4c116, 0x1e376c08, 0x2748774c, 0x34b0bcb5, 0x391c0cb3, 0x4ed8aa4a, 0x5b9cca4f, 0x682e6ff3,
+   0x748f82ee, 0x78a5636f, 0x84c87814, 0x8cc70208, 0x90befffa, 0xa4506ceb, 0xbef9a3f7, 0xc67178f2
+
+<span style="color:green"><i>Pre-processing (Padding):</i></span>
+begin with the original message of length L bits
+append a single '1' bit
+append K '0' bits, where K is the minimum number &gt;= 0 such that L + 1 + K + 64 is a multiple of 512
+append L as a 64-bit big-endian integer, making the total post-processed length a multiple of 512 bits
+
+<span style="color:green"><i>Process the message in successive 512-bit chunks:</i></span>
+break message into 512-bit chunks
+<b>for</b> each chunk
+    create a 64-entry message schedule array w&#91;0..63&#93; of 32-bit words
+    <span style="color:green"><i>(The initial values in w&#91;0..63&#93; don't matter, so many implementations zero them here)</i></span>
+    copy chunk into first 16 words w[0..15] of the message schedule array
+
+    <span style="color:green"><i>Extend the first 16 words into the remaining 48 words w&#91;16..63&#93; of the message schedule array:</i></span>
+    <b>for</b> i <b>from</b> 16 to 63
+        s0&#160;:= (w&#91;i-15&#93; <b>rightrotate</b>  7) <b>xor</b> (w&#91;i-15&#93; <b>rightrotate</b> 18) <b>xor</b> (w&#91;i-15&#93; <b>rightshift</b>  3)
+        s1&#160;:= (w&#91;i- 2&#93; <b>rightrotate</b> 17) <b>xor</b> (w&#91;i- 2&#93; <b>rightrotate</b> 19) <b>xor</b> (w&#91;i- 2&#93; <b>rightshift</b> 10)
+        w&#91;i&#93;&#160;:= w&#91;i-16&#93; <b>+</b> s0 <b>+</b> w&#91;i-7&#93; <b>+</b> s1
+
+    <span style="color:green"><i>Initialize working variables to current hash value:</i></span>
+    a&#160;:= h0
+    b&#160;:= h1
+    c&#160;:= h2
+    d&#160;:= h3
+    e&#160;:= h4
+    f&#160;:= h5
+    g&#160;:= h6
+    h&#160;:= h7
+
+    <span style="color:green"><i>Compression function main loop:</i></span>
+    <b>for</b> i <b>from</b> 0 to 63
+        S1&#160;:= (e <b>rightrotate</b> 6) <b>xor</b> (e <b>rightrotate</b> 11) <b>xor</b> (e <b>rightrotate</b> 25)
+        ch&#160;:= (e <b>and</b> f) <b>xor</b> ((<b>not</b> e) <b>and</b> g)
+        temp1&#160;:= h <b>+</b> S1 <b>+</b> ch <b>+</b> k&#91;i&#93; <b>+</b> w&#91;i&#93;
+        S0&#160;:= (a <b>rightrotate</b> 2) <b>xor</b> (a <b>rightrotate</b> 13) <b>xor</b> (a <b>rightrotate</b> 22)
+        maj&#160;:= (a <b>and</b> b) <b>xor</b> (a <b>and</b> c) <b>xor</b> (b <b>and</b> c)
+        temp2&#160;:= S0 <b>+</b> maj
+ 
+        h&#160;:= g
+        g&#160;:= f
+        f&#160;:= e
+        e&#160;:= d <b>+</b> temp1
+        d&#160;:= c
+        c&#160;:= b
+        b&#160;:= a
+        a&#160;:= temp1 <b>+</b> temp2
+
+    <span style="color:green"><i>Add the compressed chunk to the current hash value:</i></span>
+    h0&#160;:= h0 <b>+</b> a
+    h1&#160;:= h1 <b>+</b> b
+    h2&#160;:= h2 <b>+</b> c
+    h3&#160;:= h3 <b>+</b> d
+    h4&#160;:= h4 <b>+</b> e
+    h5&#160;:= h5 <b>+</b> f
+    h6&#160;:= h6 <b>+</b> g
+    h7&#160;:= h7 <b>+</b> h
+
+<span style="color:green"><i>Produce the final hash value (big-endian):</i></span>
+digest&#160;:= hash&#160;:= h0 <b>append</b> h1 <b>append</b> h2 <b>append</b> h3 <b>append</b> h4 <b>append</b> h5 <b>append</b> h6 <b>append</b> h7
+</pre>
+<p>The computation of the <code>ch</code> and <code>maj</code> values can be optimized the same way <a href="/wiki/SHA-1#SHA-1_pseudocode" title="SHA-1">as described for SHA-1</a>.
+</p><p>SHA-224 is identical to SHA-256, except that:
+</p>
+<ul><li>the initial hash values <code>h0</code> through <code>h7</code> are different, and</li>
+<li>the output is constructed by omitting <code>h7</code>.</li></ul>
+<pre><span style="color:green">SHA-224 initial hash values (in big endian):</span>
+<span style="color:green">(The second 32 bits of the fractional parts of the square roots of the 9th through 16th primes 23..53)</span>
+h&#91;0..7&#93;&#160;:=
+    0xc1059ed8, 0x367cd507, 0x3070dd17, 0xf70e5939, 0xffc00b31, 0x68581511, 0x64f98fa7, 0xbefa4fa4
+</pre>
+<p>SHA-512 is identical in structure to SHA-256, but:
+</p>
+<ul><li>the message is broken into 1024-bit chunks,</li>
+<li>the initial hash values and round constants are extended to 64 bits,</li>
+<li>there are 80 rounds instead of 64,</li>
+<li>the message schedule array w has 80 64-bit words instead of 64 32-bit words,</li>
+<li>to extend the message schedule array w, the loop is from 16 to 79 instead of from 16 to 63,</li>
+<li>the round constants are based on the first 80 primes 2..409,</li>
+<li>the word size used for calculations is 64 bits long,</li>
+<li>the appended length of the message (before pre-processing), in <i>bits</i>, is a 128-bit big-endian integer, and</li>
+<li>the shift and rotate amounts used are different.</li></ul>
+<pre><span style="color:green">SHA-512 initial hash values (in big-endian):</span>
+<span style="color:green"></span>
+h&#91;0..7&#93;&#160;:= 0x6a09e667f3bcc908, 0xbb67ae8584caa73b, 0x3c6ef372fe94f82b, 0xa54ff53a5f1d36f1, 
+           0x510e527fade682d1, 0x9b05688c2b3e6c1f, 0x1f83d9abfb41bd6b, 0x5be0cd19137e2179
+
+<span style="color:green">SHA-512 round constants:</span>
+<span style="color:green"></span>
+k&#91;0..79&#93;&#160;:= [ 0x428a2f98d728ae22, 0x7137449123ef65cd, 0xb5c0fbcfec4d3b2f, 0xe9b5dba58189dbbc, 0x3956c25bf348b538, 
+              0x59f111f1b605d019, 0x923f82a4af194f9b, 0xab1c5ed5da6d8118, 0xd807aa98a3030242, 0x12835b0145706fbe, 
+              0x243185be4ee4b28c, 0x550c7dc3d5ffb4e2, 0x72be5d74f27b896f, 0x80deb1fe3b1696b1, 0x9bdc06a725c71235, 
+              0xc19bf174cf692694, 0xe49b69c19ef14ad2, 0xefbe4786384f25e3, 0x0fc19dc68b8cd5b5, 0x240ca1cc77ac9c65, 
+              0x2de92c6f592b0275, 0x4a7484aa6ea6e483, 0x5cb0a9dcbd41fbd4, 0x76f988da831153b5, 0x983e5152ee66dfab, 
+              0xa831c66d2db43210, 0xb00327c898fb213f, 0xbf597fc7beef0ee4, 0xc6e00bf33da88fc2, 0xd5a79147930aa725, 
+              0x06ca6351e003826f, 0x142929670a0e6e70, 0x27b70a8546d22ffc, 0x2e1b21385c26c926, 0x4d2c6dfc5ac42aed, 
+              0x53380d139d95b3df, 0x650a73548baf63de, 0x766a0abb3c77b2a8, 0x81c2c92e47edaee6, 0x92722c851482353b, 
+              0xa2bfe8a14cf10364, 0xa81a664bbc423001, 0xc24b8b70d0f89791, 0xc76c51a30654be30, 0xd192e819d6ef5218, 
+              0xd69906245565a910, 0xf40e35855771202a, 0x106aa07032bbd1b8, 0x19a4c116b8d2d0c8, 0x1e376c085141ab53, 
+              0x2748774cdf8eeb99, 0x34b0bcb5e19b48a8, 0x391c0cb3c5c95a63, 0x4ed8aa4ae3418acb, 0x5b9cca4f7763e373, 
+              0x682e6ff3d6b2b8a3, 0x748f82ee5defb2fc, 0x78a5636f43172f60, 0x84c87814a1f0ab72, 0x8cc702081a6439ec, 
+              0x90befffa23631e28, 0xa4506cebde82bde9, 0xbef9a3f7b2c67915, 0xc67178f2e372532b, 0xca273eceea26619c, 
+              0xd186b8c721c0c207, 0xeada7dd6cde0eb1e, 0xf57d4f7fee6ed178, 0x06f067aa72176fba, 0x0a637dc5a2c898a6, 
+              0x113f9804bef90dae, 0x1b710b35131c471b, 0x28db77f523047d84, 0x32caab7b40c72493, 0x3c9ebe0a15c9bebc, 
+              0x431d67c49c100d4c, 0x4cc5d4becb3e42b6, 0x597f299cfc657e2a, 0x5fcb6fab3ad6faec, 0x6c44198c4a475817]
+
+<span style="color:green">SHA-512 Sum &amp; Sigma:</span>
+<span style="color:green"></span>
+S0&#160;:= (a <b>rightrotate</b> 28) <b>xor</b> (a <b>rightrotate</b> 34) <b>xor</b> (a <b>rightrotate</b> 39)
+S1&#160;:= (e <b>rightrotate</b> 14) <b>xor</b> (e <b>rightrotate</b> 18) <b>xor</b> (e <b>rightrotate</b> 41)
+<span style="color:green"></span>
+s0&#160;:= (w&#91;i-15&#93; <b>rightrotate</b> 1) <b>xor</b> (w&#91;i-15&#93; <b>rightrotate</b> 8) <b>xor</b> (w&#91;i-15&#93; <b>rightshift</b> 7)
+s1&#160;:= (w&#91;i-2&#93; <b>rightrotate</b> 19) <b>xor</b> (w&#91;i-2&#93; <b>rightrotate</b> 61) <b>xor</b> (w&#91;i-2&#93; <b>rightshift</b> 6)
+</pre>
+<p>SHA-384 is identical to SHA-512, except that:
+</p>
+<ul><li>the initial hash values <code>h0</code> through <code>h7</code> are different (taken from the 9th through 16th primes), and</li>
+<li>the output is constructed by omitting <code>h6</code> and <code>h7</code>.</li></ul>
+<pre><span style="color:green">SHA-384 initial hash values (in big-endian):</span>
+<span style="color:green"></span>
+h&#91;0..7&#93;&#160;:= 0xcbbb9d5dc1059ed8, 0x629a292a367cd507, 0x9159015a3070dd17, 0x152fecd8f70e5939, 
+           0x67332667ffc00b31, 0x8eb44a8768581511, 0xdb0c2e0d64f98fa7, 0x47b5481dbefa4fa4
+</pre>
+<p>SHA-512/t is identical to SHA-512 except that:
+</p>
+<ul><li>the initial hash values <code>h0</code> through <code>h7</code> are given by the <i>SHA-512/t IV generation function</i>,</li>
+<li>the output is constructed by truncating the concatenation of <code>h0</code> through <code>h7</code> at <i>t</i> bits,</li>
+<li><i>t</i> equal to 384 is not allowed, instead SHA-384 should be used as specified, and</li>
+<li><i>t</i> values 224 and 256 are especially mentioned as approved.</li></ul>
+<p>The <i>SHA-512/t IV generation function</i> evaluates a <i>modified SHA-512</i> on the ASCII string "SHA-512/<i>t</i>", substituted with the decimal representation of <i>t</i>.  The <i>modified SHA-512</i> is the same as SHA-512 except its initial values <code>h0</code> through <code>h7</code> have each been <a href="/wiki/XORed" class="mw-redirect" title="XORed">XORed</a> with the hexadecimal constant <code>0xa5a5a5a5a5a5a5a5</code>.
+</p><p>Sample C implementation for SHA-2 family of hash functions can be found in <a class="external mw-magiclink-rfc" rel="nofollow" href="https://tools.ietf.org/html/rfc6234">RFC 6234</a>.
+</p>
+<h2><span class="mw-headline" id="Comparison_of_SHA_functions">Comparison of SHA functions</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=SHA-2&amp;action=edit&amp;section=7" title="Edit section: Comparison of SHA functions">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In the table below, <i>internal state</i> means the "internal hash sum" after each compression of a data block.
+</p>
+<div role="note" class="hatnote navigation-not-searchable">Further information: <a href="/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction" title="Merkle–Damgård construction">Merkle–Damgård construction</a></div>
+<p class="mw-empty-elt"></p><table class="wikitable" style="margin-top: 0px; width:100%">
+<caption>Comparison of SHA functions <div class="plainlinks hlist navbar" style="float:right"><ul><li class="nv-view"><a href="/wiki/Template:Comparison_of_SHA_functions" title="Template:Comparison of SHA functions"><span title="View this template">view</span></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Comparison_of_SHA_functions" title="Template talk:Comparison of SHA functions"><span title="Discuss this template">talk</span></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Comparison_of_SHA_functions&amp;action=edit"><span title="Edit this template">edit</span></a></li></ul></div>
+<p class="mw-empty-elt"></p></caption>
+
+<tbody><tr style="vertical-align:bottom;">
+<th colspan="2" rowspan="2">Algorithm and variant
+</th>
+<th rowspan="2">Output size<br />(bits)
+</th>
+<th rowspan="2">Internal state size<br />(bits)
+</th>
+<th rowspan="2">Block size<br />(bits)
+</th>
+<th rowspan="2">Rounds
+</th>
+<th rowspan="2">Operations
+</th>
+<th rowspan="2">Security (in<span class="nowrap">&#160;</span>bits) against <a href="/wiki/Collision_attack" title="Collision attack">collision attacks</a>
+</th>
+<th rowspan="2">Capacity<br />against <a href="/wiki/Length_extension_attack" title="Length extension attack">length extension attacks</a>
+</th>
+<th colspan="2">Performance on <a href="/wiki/Skylake_(microarchitecture)" title="Skylake (microarchitecture)">Skylake</a> (median <a href="/wiki/Cycles_per_byte" class="mw-redirect" title="Cycles per byte">cpb</a>)<sup id="cite_ref-38" class="reference"><a href="#cite_note-38">&#91;38&#93;</a></sup>
+</th>
+<th rowspan="2">First published
+</th></tr>
+<tr style="vertical-align:bottom;">
+<th>long messages</th>
+<th>8 bytes
+</th></tr>
+<tr style="text-align:center;vertical-align:top;">
+<td colspan="2"><b><a href="/wiki/MD5" title="MD5">MD5</a></b> (as reference)</td>
+<td>128</td>
+<td>128<br /><span class="nowrap">(4 × 32)</span></td>
+<td>512</td>
+<td>64</td>
+<td>And, Xor, Rot, <span class="nowrap">Add (mod&#160;2<sup>32</sup>),</span> Or</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">≤18<br />(collisions found)<sup id="cite_ref-39" class="reference"><a href="#cite_note-39">&#91;39&#93;</a></sup></td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">0</td>
+<td>4.99</td>
+<td>55.00</td>
+<td>1992
+</td></tr>
+<tr style="text-align:center;vertical-align:top;">
+<td colspan="2"><b><span class="nowrap"><a href="/wiki/SHA-0" class="mw-redirect" title="SHA-0">SHA-0</a></span></b></td>
+<td rowspan="2">160</td>
+<td rowspan="2">160<br /><span class="nowrap">(5 × 32)</span></td>
+<td rowspan="2">512</td>
+<td rowspan="2">80</td>
+<td rowspan="2">And, Xor, Rot, <span class="nowrap">Add (mod&#160;2<sup>32</sup>),</span> Or</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">&lt;34<br />(collisions found)</td>
+<td rowspan="2" style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">0</td>
+<td>≈ SHA-1</td>
+<td>≈ SHA-1</td>
+<td>1993
+</td></tr>
+<tr style="text-align:center;vertical-align:top;">
+<td colspan="2"><b><span class="nowrap"><a href="/wiki/SHA-1" title="SHA-1">SHA-1</a></span></b></td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">&lt;63<br />(collisions found)<sup id="cite_ref-40" class="reference"><a href="#cite_note-40">&#91;40&#93;</a></sup></td>
+<td>3.47</td>
+<td>52.00</td>
+<td>1995
+</td></tr>
+<tr style="text-align:center;vertical-align:top;">
+<td rowspan="3"><b><span class="nowrap"><a class="mw-selflink selflink">SHA-2</a></span></b></td>
+<td><i>SHA-224</i><br /><i>SHA-256</i></td>
+<td>224<br />256</td>
+<td>256<br /><span class="nowrap">(8 × 32)</span></td>
+<td>512</td>
+<td>64</td>
+<td>And, Xor, Rot, <span class="nowrap">Add (mod&#160;2<sup>32</sup>),</span> Or, Shr</td>
+<td style="background: #bfd; color: black; vertical-align: middle; text-align: center;" class="yes2 table-yes2">112 <br /> 128</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no">32<br />0</td>
+<td>7.62<br />7.63</td>
+<td>84.50<br />85.25</td>
+<td>2004<br />2001
+</td></tr>
+<tr style="text-align:center;vertical-align:top;">
+<td><i>SHA-384</i><br /><i>SHA-512</i></td>
+<td>384<br />512</td>
+<td rowspan="2">512<br /><span class="nowrap">(8 × 64)</span></td>
+<td rowspan="2">1024</td>
+<td rowspan="2">80</td>
+<td rowspan="2">And, Xor, Rot, <span class="nowrap">Add (mod&#160;2<sup>64</sup>),</span> Or, Shr</td>
+<td style="background: #bfd; color: black; vertical-align: middle; text-align: center;" class="yes2 table-yes2">192<br />256</td>
+<td style="background:#F99;vertical-align:middle;text-align:center;" class="table-no"><span class="nowrap">128 (&#8804; 384)</span><br />0</td>
+<td>5.12<br />5.06</td>
+<td>135.75<br />135.50</td>
+<td>2001
+</td></tr>
+<tr style="text-align:center;vertical-align:top;">
+<td><i><span class="nowrap">SHA-512/224</span></i><br /><i><span class="nowrap">SHA-512/256</span></i></td>
+<td>224<br />256</td>
+<td style="background: #bfd; color: black; vertical-align: middle; text-align: center;" class="yes2 table-yes2">112<br />128</td>
+<td style="background: #bfd; color: black; vertical-align: middle; text-align: center;" class="yes2 table-yes2">288<br />256</td>
+<td><span class="nowrap">≈ SHA-384</span></td>
+<td><span class="nowrap">≈ SHA-384</span></td>
+<td>2012
+</td></tr>
+<tr style="text-align:center;vertical-align:top;">
+<td rowspan="2"><b><span class="nowrap"><a href="/wiki/SHA-3" title="SHA-3">SHA-3</a></span></b></td>
+<td><i>SHA3-224</i><br /><i>SHA3-256</i><br /><i>SHA3-384</i><br /><i>SHA3-512</i></td>
+<td>224<br />256<br />384<br />512</td>
+<td rowspan="2">1600<br /><span class="nowrap">(5 × 5 × 64)</span></td>
+<td>1152<br />1088<br />832<br />576</td>
+<td rowspan="2"><span class="nowrap">24</span><sup id="cite_ref-41" class="reference"><a href="#cite_note-41">&#91;41&#93;</a></sup></td>
+<td rowspan="2">And, Xor, Rot, Not</td>
+<td style="background: #bfd; color: black; vertical-align: middle; text-align: center;" class="yes2 table-yes2">112<br />128<br />192<br />256</td>
+<td style="background: #bfd; color: black; vertical-align: middle; text-align: center;" class="yes2 table-yes2">448<br />512<br />768<br />1024</td>
+<td>8.12<br />8.59<br />11.06<br />15.88</td>
+<td>154.25<br />155.50<br />164.00<br />164.00</td>
+<td rowspan="2">2015
+</td></tr>
+<tr style="text-align:center;vertical-align:top;">
+<td><i>SHAKE128</i><br /><i>SHAKE256</i></td>
+<td><span class="nowrap"><i>d</i> (arbitrary)</span><br /><span class="nowrap"><i>d</i> (arbitrary)</span></td>
+<td>1344<br />1088</td>
+<td style="background: #bfd; color: black; vertical-align: middle; text-align: center;" class="yes2 table-yes2">min(<i>d</i>/2, 128)<br /><span class="nowrap">min(<i>d</i>/2, 256)</span></td>
+<td style="background: #bfd; color: black; vertical-align: middle; text-align: center;" class="yes2 table-yes2"><span class="nowrap">256<br />512</span></td>
+<td>7.08<br />8.59</td>
+<td>155.25<br />155.50
+</td></tr></tbody></table>
+<p>In the bitwise operations column, "Rot" stands for <a href="/wiki/Bitwise_operation#Rotate_no_carry" title="Bitwise operation">rotate no carry</a>, and "Shr" stands for <a href="/wiki/Bitwise_operation#Logical_shift" title="Bitwise operation">right logical shift</a>. All of these algorithms employ <a href="/wiki/Modular_arithmetic#Other_operations" title="Modular arithmetic">modular addition</a> in some fashion except for SHA-3.
+</p><p>More detailed performance measurements on modern processor architectures are given in the table below.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>CPU architecture
+</th>
+<th>Frequency
+</th>
+<th>Algorithm
+</th>
+<th>Word size (bits)
+</th>
+<th>Cycles/byte <a href="/wiki/X86" title="X86">x86</a>
+</th>
+<th>MiB/s x86
+</th>
+<th>Cycles/byte <a href="/wiki/X86-64" title="X86-64">x86-64</a>
+</th>
+<th>MiB/s x86-64
+</th></tr>
+<tr style="text-align:center;">
+<td rowspan="2"><a href="/wiki/Ivy_Bridge_(microarchitecture)" title="Ivy Bridge (microarchitecture)">Intel Ivy Bridge</a></td>
+<td rowspan="2">3.5&#160;GHz</td>
+<td>SHA-256</td>
+<td>32</td>
+<td>16.80</td>
+<td>199</td>
+<td>13.05</td>
+<td>256
+</td></tr>
+<tr style="text-align:center;">
+<td>SHA-512</td>
+<td>64</td>
+<td>43.66</td>
+<td>76</td>
+<td>8.48</td>
+<td>394
+</td></tr>
+<tr style="text-align:center;">
+<td rowspan="2"><a href="/wiki/Piledriver_(microarchitecture)" title="Piledriver (microarchitecture)">AMD Piledriver</a> APU</td>
+<td rowspan="2">3.8&#160;GHz</td>
+<td>SHA-256</td>
+<td>32</td>
+<td>22.87</td>
+<td>158</td>
+<td>18.47</td>
+<td>196
+</td></tr>
+<tr style="text-align:center;">
+<td>SHA-512</td>
+<td>64</td>
+<td>88.36</td>
+<td>41</td>
+<td>12.43</td>
+<td>292
+</td></tr></tbody></table>
+<p>The performance numbers labeled 'x86' were running using 32-bit code on 64-bit processors, whereas the 'x86-64' numbers are native 64-bit code. While SHA-256 is designed for 32-bit calculations, it does benefit from code optimized for 64-bit processors on the x86 architecture. 32-bit implementations of SHA-512 are significantly slower than their 64-bit counterparts. Variants of both algorithms with different output sizes will perform similarly, since the message expansion and compression functions are identical, and only the initial hash values and output sizes are different. The best implementations of MD5 and SHA-1 perform between 4.5 and 6 cycles per byte on modern processors.
+</p><p>Testing was performed by the <a href="/wiki/University_of_Illinois_at_Chicago" title="University of Illinois at Chicago">University of Illinois at Chicago</a> on their hydra8 system running an Intel Xeon E3-1275 V2 at a clock speed of 3.5&#160;GHz, and on their hydra9 system running an AMD A10-5800K APU at a clock speed of 3.8&#160;GHz.<sup id="cite_ref-42" class="reference"><a href="#cite_note-42">&#91;42&#93;</a></sup> The referenced cycles per byte speeds above are the median performance of an algorithm digesting a 4,096 byte message using the SUPERCOP cryptographic benchmarking software.<sup id="cite_ref-43" class="reference"><a href="#cite_note-43">&#91;43&#93;</a></sup> The MiB/s performance is extrapolated from the CPU clockspeed on a single core; real-world performance will vary due to a variety of factors.
+</p>
+<h2><span class="mw-headline" id="Implementations">Implementations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=SHA-2&amp;action=edit&amp;section=8" title="Edit section: Implementations">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Below is a list of cryptography libraries that support SHA-2:
+</p>
+<ul><li><a href="/wiki/Botan_(programming_library)" title="Botan (programming library)">Botan</a></li>
+<li><a href="/wiki/Bouncy_Castle_(cryptography)" title="Bouncy Castle (cryptography)">Bouncy Castle</a></li>
+<li><a href="/wiki/Cryptlib" title="Cryptlib">Cryptlib</a></li>
+<li><a href="/wiki/Crypto%2B%2B" title="Crypto++">Crypto++</a></li>
+<li><a href="/wiki/Libgcrypt" title="Libgcrypt">Libgcrypt</a></li>
+<li><a href="/wiki/Mbed_TLS" title="Mbed TLS">Mbed TLS</a><sup id="cite_ref-44" class="reference"><a href="#cite_note-44">&#91;44&#93;</a></sup><sup id="cite_ref-45" class="reference"><a href="#cite_note-45">&#91;45&#93;</a></sup></li>
+<li><a href="/wiki/NaCl_(software)" title="NaCl (software)">libsodium</a></li>
+<li><a href="/wiki/Nettle_(cryptographic_library)" title="Nettle (cryptographic library)">Nettle</a></li>
+<li><a href="/wiki/OpenSSL" title="OpenSSL">OpenSSL</a></li>
+<li><a href="/wiki/WolfSSL" title="WolfSSL">wolfSSL</a></li></ul>
+<p>Hardware acceleration is provided by the following processor extensions:
+</p>
+<ul><li><a href="/wiki/Intel_SHA_extensions" title="Intel SHA extensions">Intel SHA extensions</a>: Available on some Intel and AMD x86 processors.</li>
+<li>ARMv8 Cryptography Extensions <sup id="cite_ref-46" class="reference"><a href="#cite_note-46">&#91;46&#93;</a></sup></li></ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=SHA-2&amp;action=edit&amp;section=9" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Comparison_of_cryptographic_hash_functions" title="Comparison of cryptographic hash functions">Comparison of cryptographic hash functions</a></li>
+<li><a href="/wiki/Comparison_of_cryptography_libraries" title="Comparison of cryptography libraries">Comparison of cryptography libraries</a></li>
+<li><a href="/wiki/Hashcash" title="Hashcash">Hashcash</a></li>
+<li><a href="/wiki/HMAC" title="HMAC">HMAC</a></li>
+<li><a href="/wiki/International_Association_for_Cryptologic_Research" title="International Association for Cryptologic Research">International Association for Cryptologic Research</a> (IACR)</li>
+<li><code><a href="/wiki/Sha1sum" title="Sha1sum">sha1sum</a></code> (<code>sha224sum</code>, <code>sha256sum</code>, <code>sha384sum</code> and <code>sha512sum</code>) commands</li>
+<li><a href="/wiki/Trusted_timestamping" title="Trusted timestamping">Trusted timestamping</a></li></ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=SHA-2&amp;action=edit&amp;section=10" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-preimage-khov-1"><span class="mw-cite-backlink">^ <a href="#cite_ref-preimage-khov_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-preimage-khov_1-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-preimage-khov_1-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><cite id="CITEREFDmitry_Khovratovich,_Christian_RechbergerAlexandra_Savelieva2011" class="citation journal">Dmitry Khovratovich, Christian Rechberger &amp; Alexandra Savelieva (2011). <a rel="nofollow" class="external text" href="http://eprint.iacr.org/2011/286.pdf">"Bicliques for Preimages&#58; Attacks on Skein-512 and the SHA-2 family"</a> <span class="cs1-format">(PDF)</span>. <i>IACR Cryptology ePrint Archive</i>. 2011:286.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=IACR+Cryptology+ePrint+Archive&amp;rft.atitle=Bicliques+for+Preimages%26%2358%3B+Attacks+on+Skein-512+and+the+SHA-2+family&amp;rft.volume=2011%3A286&amp;rft.date=2011&amp;rft.au=Dmitry+Khovratovich%2C+Christian+Rechberger&amp;rft.au=Alexandra+Savelieva&amp;rft_id=http%3A%2F%2Feprint.iacr.org%2F2011%2F286.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><style data-mw-deduplicate="TemplateStyles:r951705291">.mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background-image:url("//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png");background-image:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg");background-repeat:no-repeat;background-size:9px;background-position:right .1em center}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background-image:url("//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png");background-image:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg");background-repeat:no-repeat;background-size:9px;background-position:right .1em center}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background-image:url("//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png");background-image:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg");background-repeat:no-repeat;background-size:9px;background-position:right .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background-image:url("//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png");background-image:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg");background-repeat:no-repeat;background-size:12px;background-position:right .1em center}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style></span>
+</li>
+<li id="cite_note-collision-lamberger-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-collision-lamberger_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-collision-lamberger_2-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-collision-lamberger_2-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><cite id="CITEREFMario_LambergerFlorian_Mendel2011" class="citation journal">Mario Lamberger &amp; Florian Mendel (2011). <a rel="nofollow" class="external text" href="http://eprint.iacr.org/2011/037.pdf">"Higher-Order Differential Attack on Reduced SHA-256"</a> <span class="cs1-format">(PDF)</span>. <i>IACR Cryptology ePrint Archive</i>. 2011:37.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=IACR+Cryptology+ePrint+Archive&amp;rft.atitle=Higher-Order+Differential+Attack+on+Reduced+SHA-256&amp;rft.volume=2011%3A37&amp;rft.date=2011&amp;rft.au=Mario+Lamberger&amp;rft.au=Florian+Mendel&amp;rft_id=http%3A%2F%2Feprint.iacr.org%2F2011%2F037.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20160330153520/http://www.staff.science.uu.nl/~werkh108/docs/study/Y5_07_08/infocry/project/Cryp08.pdf">"On the Secure Hash Algorithm family"</a> <span class="cs1-format">(PDF)</span>. Archived from <a rel="nofollow" class="external text" href="http://www.staff.science.uu.nl/~werkh108/docs/study/Y5_07_08/infocry/project/Cryp08.pdf">the original</a> <span class="cs1-format">(PDF)</span> on 2016-03-30.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=On+the+Secure+Hash+Algorithm+family&amp;rft_id=http%3A%2F%2Fwww.staff.science.uu.nl%2F~werkh108%2Fdocs%2Fstudy%2FY5_07_08%2Finfocry%2Fproject%2FCryp08.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-:0-4"><span class="mw-cite-backlink">^ <a href="#cite_ref-:0_4-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-:0_4-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Federal Register Notice 02-21599, <a rel="nofollow" class="external text" href="https://federalregister.gov/a/02-21599">Announcing Approval of FIPS Publication 180-2</a></span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><span class="citation patent"><a rel="nofollow" class="external text" href="https://worldwide.espacenet.com/textdoc?DB=EPODOC&amp;IDX=US6829355">US 6829355</a></span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Apatent&amp;rft.number=6829355&amp;rft.cc=US&amp;rft.title="><span style="display: none;">&#160;</span></span></span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><cite class="citation journal"><a rel="nofollow" class="external text" href="https://datatracker.ietf.org/ipr/858/">"Licensing Declaration for US patent 6829355"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2008-02-17</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Licensing+Declaration+for+US+patent+6829355.&amp;rft_id=https%3A%2F%2Fdatatracker.ietf.org%2Fipr%2F858%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span> <span class="cs1-hidden-error error citation-comment">Cite journal requires <code class="cs1-code">&#124;journal=</code> (<a href="/wiki/Help:CS1_errors#missing_periodical" title="Help:CS1 errors">help</a>)</span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://csrc.nist.gov/publications/fips/fips180-2/fips180-2withchangenotice.pdf">"FIPS 180-2 with Change Notice 1"</a> <span class="cs1-format">(PDF)</span>. <i>csrc.nist.gov</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=csrc.nist.gov&amp;rft.atitle=FIPS+180-2+with+Change+Notice+1&amp;rft_id=http%3A%2F%2Fcsrc.nist.gov%2Fpublications%2Ffips%2Ffips180-2%2Ffips180-2withchangenotice.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">Federal Register Notice E8-24743, <a rel="nofollow" class="external text" href="https://federalregister.gov/a/E8-24743">Announcing Approval of FIPS Publication 180-3</a></span>
+</li>
+<li id="cite_note-sp800107-9"><span class="mw-cite-backlink">^ <a href="#cite_ref-sp800107_9-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-sp800107_9-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">FIPS SP 800-107 <a rel="nofollow" class="external text" href="http://csrc.nist.gov/publications/nistpubs/800-107-rev1/sp800-107-rev1.pdf">Recommendation for Applications Using Approved Hash Algorithms</a></span>
+</li>
+<li id="cite_note-sp80057-10"><span class="mw-cite-backlink">^ <a href="#cite_ref-sp80057_10-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-sp80057_10-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">FIPS SP 800-57 <a rel="nofollow" class="external text" href="http://csrc.nist.gov/publications/nistpubs/800-57/sp800-57_part1_rev3_general.pdf">Recommendation for Key Management: Part 1: General</a></span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://csrc.nist.gov/groups/ST/toolkit/examples.html#aHashing">"NIST.gov – Computer Security Division – Computer Security Resource Center"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=NIST.gov+%E2%80%93+Computer+Security+Division+%E2%80%93+Computer+Security+Resource+Center&amp;rft_id=http%3A%2F%2Fcsrc.nist.gov%2Fgroups%2FST%2Ftoolkit%2Fexamples.html%23aHashing&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text">FIPS SP 800-131A <a rel="nofollow" class="external text" href="http://csrc.nist.gov/publications/nistpubs/800-131A/sp800-131A.pdf">Recommendation for Transitioning the Use of Cryptographic Algorithms and Key Lengths</a></span>
+</li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text">Federal Register Notice 2012-5400, <a rel="nofollow" class="external text" href="https://federalregister.gov/a/2012-5400">Announcing Approval of FIPS Publication 180-4</a></span>
+</li>
+<li id="cite_note-nist.gov-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-nist.gov_14-0">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://www.nist.gov/itl/csd/sha-100212.cfm">"NIST Selects Winner of Secure Hash Algorithm (SHA-3) Competition"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">24 February</span> 2015</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=NIST+Selects+Winner+of+Secure+Hash+Algorithm+%28SHA-3%29+Competition&amp;rft_id=https%3A%2F%2Fwww.nist.gov%2Fitl%2Fcsd%2Fsha-100212.cfm&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20111107215111/http://google.com/codesearch/p?hl=en">"Debian codebase in Google Code"</a>. Archived from <a rel="nofollow" class="external text" href="http://google.com/codesearch/p?hl=en#nywQboHfkw4/apt/apt-pkg/acquire-item.cc&amp;q=SHA256">the original</a> on November 7, 2011<span class="reference-accessdate">. Retrieved <span class="nowrap">2011-11-08</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Debian+codebase+in+Google+Code&amp;rft_id=http%3A%2F%2Fgoogle.com%2Fcodesearch%2Fp%3Fhl%3Den%23nywQboHfkw4%2Fapt%2Fapt-pkg%2Facquire-item.cc%26q%3DSHA256&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text">John Markoff, <a rel="nofollow" class="external text" href="https://www.nytimes.com/2009/01/27/science/27arch.html">A Tool to Verify Digital Records, Even as Technology Shifts</a>, <i>New York Times</i>, January 26, 2009</span>
+</li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><a class="external mw-magiclink-rfc" rel="nofollow" href="https://tools.ietf.org/html/rfc5702">RFC 5702</a>,<a rel="nofollow" class="external text" href="http://www.rfc-editor.org/rfc/rfc5702.txt">RFC-Editor.org</a></span>
+</li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text">Ulrich Drepper, <a rel="nofollow" class="external text" href="http://people.redhat.com/drepper/sha-crypt.html">Unix crypt with SHA-256/512</a></span>
+</li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><cite id="CITEREFBitcoin" class="citation web">Bitcoin, Surplus. <a rel="nofollow" class="external text" href="https://surplusbitcoin.com/">"Bitcoin Does Not Waste Energy"</a>. <i>Surplus Bitcoin</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2020-04-20</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Surplus+Bitcoin&amp;rft.atitle=Bitcoin+Does+Not+Waste+Energy&amp;rft.aulast=Bitcoin&amp;rft.aufirst=Surplus&amp;rft_id=https%3A%2F%2Fsurplusbitcoin.com%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><cite class="citation news"><a rel="nofollow" class="external text" href="https://www.mycryptopedia.com/sha-256-related-bitcoin/">"What Is SHA-256 And How Is It Related to Bitcoin? - Mycryptopedia"</a>. <i>Mycryptopedia</i>. 2017-09-21<span class="reference-accessdate">. Retrieved <span class="nowrap">2018-09-17</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Mycryptopedia&amp;rft.atitle=What+Is+SHA-256+And+How+Is+It+Related+to+Bitcoin%3F+-+Mycryptopedia&amp;rft.date=2017-09-21&amp;rft_id=https%3A%2F%2Fwww.mycryptopedia.com%2Fsha-256-related-bitcoin%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text">National Institute on Standards and Technology Computer Security Resource Center, <a rel="nofollow" class="external text" href="http://csrc.nist.gov/groups/ST/hash/policy.html">NIST's Policy on Hash Functions</a> <a rel="nofollow" class="external text" href="https://web.archive.org/web/20110609064344/http://csrc.nist.gov/groups/ST/hash/policy.html">Archived</a> 2011-06-09 at the <a href="/wiki/Wayback_Machine" title="Wayback Machine">Wayback Machine</a>, accessed March 29, 2009.</span>
+</li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20110625054822/http://csrc.nist.gov/groups/ST/toolkit/secure_hashing.html">"Secure Hashing"</a>. <i><a href="/wiki/NIST" class="mw-redirect" title="NIST">NIST</a></i>. Archived from <a rel="nofollow" class="external text" href="http://csrc.nist.gov/groups/ST/toolkit/secure_hashing.html">the original</a> on 2011-06-25<span class="reference-accessdate">. Retrieved <span class="nowrap">2010-11-25</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=NIST&amp;rft.atitle=Secure+Hashing&amp;rft_id=http%3A%2F%2Fcsrc.nist.gov%2Fgroups%2FST%2Ftoolkit%2Fsecure_hashing.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20080530175317/http://download.microsoft.com/download/6/8/7/687484ed-8174-496d-8db9-f02b40c12982/Overview%20of%20Windows%20XP%20Service%20Pack%203.pdf">"Overview of Windows XP Service Pack 3"</a> <span class="cs1-format">(PDF)</span>. Microsoft Corporation. Archived from <a rel="nofollow" class="external text" href="http://download.microsoft.com/download/6/8/7/687484ed-8174-496d-8db9-f02b40c12982/Overview%20of%20Windows%20XP%20Service%20Pack%203.pdf">the original</a> <span class="cs1-format">(PDF)</span> on May 30, 2008.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Overview+of+Windows+XP+Service+Pack+3&amp;rft.pub=Microsoft+Corporation&amp;rft_id=http%3A%2F%2Fdownload.microsoft.com%2Fdownload%2F6%2F8%2F7%2F687484ed-8174-496d-8db9-f02b40c12982%2FOverview%2520of%2520Windows%2520XP%2520Service%2520Pack%25203.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text">Chromium Blog, September 5, 2014, <a rel="nofollow" class="external text" href="https://blog.chromium.org/2014/09/gradually-sunsetting-sha-1.html">Gradually sunsetting SHA-1</a></span>
+</li>
+<li id="cite_note-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-25">^</a></b></span> <span class="reference-text"><cite id="CITEREFEric_Mill" class="citation web">Eric Mill. <a rel="nofollow" class="external text" href="https://shaaaaaaaaaaaaa.com/">"SHAAAAAAAAAAAAA"</a>. <i>SHAAAAAAAAAAAAA.com</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=SHAAAAAAAAAAAAA.com&amp;rft.atitle=SHAAAAAAAAAAAAA&amp;rft.au=Eric+Mill&amp;rft_id=https%3A%2F%2Fshaaaaaaaaaaaaa.com%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-26">^</a></b></span> <span class="reference-text">Filippo Valsorda, <a rel="nofollow" class="external text" href="https://blog.filippo.io/the-unofficial-chrome-sha1-faq/">The Unofficial Chrome SHA1 Deprecation FAQ</a></span>
+</li>
+<li id="cite_note-27"><span class="mw-cite-backlink"><b><a href="#cite_ref-27">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://blogs.windows.com/msedgedev/2016/04/29/sha1-deprecation-roadmap">"An update to our SHA-1 deprecation roadmap – Microsoft Edge Dev BlogMicrosoft Edge Dev Blog"</a>. <i>blogs.windows.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2016-11-28</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=blogs.windows.com&amp;rft.atitle=An+update+to+our+SHA-1+deprecation+roadmap+%E2%80%93+Microsoft+Edge+Dev+BlogMicrosoft+Edge+Dev+Blog&amp;rft_id=https%3A%2F%2Fblogs.windows.com%2Fmsedgedev%2F2016%2F04%2F29%2Fsha1-deprecation-roadmap&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-28"><span class="mw-cite-backlink"><b><a href="#cite_ref-28">^</a></b></span> <span class="reference-text">Fabian A. Scherschel, HeiseSecurity: <a rel="nofollow" class="external text" href="https://www.heise.de/security/meldung/Firefox-Mozilla-schaltet-SHA-1-ab-und-direkt-wieder-an-3066832.html">Firefox: Mozilla schaltet SHA-1 ab … und direkt wieder an</a> (German)</span>
+</li>
+<li id="cite_note-29"><span class="mw-cite-backlink"><b><a href="#cite_ref-29">^</a></b></span> <span class="reference-text">Alexander Sotirov, Marc Stevens, Jacob Appelbaum, Arjen Lenstra, David Molnar, Dag Arne Osvik, Benne de Weger, <a rel="nofollow" class="external text" href="http://www.win.tue.nl/hashclash/rogue-ca/">MD5 considered harmful today: Creating a rogue CA certificate</a>, accessed March 29, 2009.</span>
+</li>
+<li id="cite_note-30"><span class="mw-cite-backlink"><b><a href="#cite_ref-30">^</a></b></span> <span class="reference-text">Ji Li, Takanori Isobe and Kyoji Shibutani, Sony China Research Laboratory and Sony Corporation, <a rel="nofollow" class="external text" href="http://fse2012.inria.fr/SLIDES/67.pdf">Converting Meet-in-the-Middle Preimage Attack into Pseudo Collision Attack: Application to SHA-2 </a></span>
+</li>
+<li id="cite_note-collision-sanadhya-31"><span class="mw-cite-backlink"><b><a href="#cite_ref-collision-sanadhya_31-0">^</a></b></span> <span class="reference-text"><cite id="CITEREFSomitra_Kumar_SanadhyaPalash_Sarkar2008" class="citation journal">Somitra Kumar Sanadhya &amp; <a href="/wiki/Palash_Sarkar" title="Palash Sarkar">Palash Sarkar</a> (2008). <a rel="nofollow" class="external text" href="http://eprint.iacr.org/2008/270.pdf">"New Collision Attacks Against Up To 24-step SHA-2"</a> <span class="cs1-format">(PDF)</span>. <i>IACR Cryptology ePrint Archive</i>. 2008:270.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=IACR+Cryptology+ePrint+Archive&amp;rft.atitle=New+Collision+Attacks+Against+Up+To+24-step+SHA-2&amp;rft.volume=2008%3A270&amp;rft.date=2008&amp;rft.au=Somitra+Kumar+Sanadhya&amp;rft.au=Palash+Sarkar&amp;rft_id=http%3A%2F%2Feprint.iacr.org%2F2008%2F270.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-preimage-merged-32"><span class="mw-cite-backlink"><b><a href="#cite_ref-preimage-merged_32-0">^</a></b></span> <span class="reference-text"><cite id="CITEREFKazumaro_AokiJian_GuoKrystian_MatusiewiczYu_Sasaki2009" class="citation book">Kazumaro Aoki; Jian Guo; Krystian Matusiewicz; Yu Sasaki &amp; Lei Wang (2009). <i>Preimages for step-reduced SHA-2</i>. <i>Advances in Cryptology – ASIACRYPT 2009</i>. Lecture Notes in Computer Science. <b>5912</b>. Springer Berlin Heidelberg. pp.&#160;578–597. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<a rel="nofollow" class="external text" href="https://doi.org/10.1007%2F978-3-642-10366-7_34">10.1007/978-3-642-10366-7_34</a>. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-3-642-10366-7" title="Special:BookSources/978-3-642-10366-7"><bdi>978-3-642-10366-7</bdi></a>. <a href="/wiki/ISSN_(identifier)" class="mw-redirect" title="ISSN (identifier)">ISSN</a>&#160;<a rel="nofollow" class="external text" href="//www.worldcat.org/issn/0302-9743">0302-9743</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Preimages+for+step-reduced+SHA-2&amp;rft.series=Lecture+Notes+in+Computer+Science&amp;rft.pages=578-597&amp;rft.pub=Springer+Berlin+Heidelberg&amp;rft.date=2009&amp;rft.issn=0302-9743&amp;rft_id=info%3Adoi%2F10.1007%2F978-3-642-10366-7_34&amp;rft.isbn=978-3-642-10366-7&amp;rft.au=Kazumaro+Aoki&amp;rft.au=Jian+Guo&amp;rft.au=Krystian+Matusiewicz&amp;rft.au=Yu+Sasaki&amp;rft.au=Lei+Wang&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-preimage-gou-33"><span class="mw-cite-backlink"><b><a href="#cite_ref-preimage-gou_33-0">^</a></b></span> <span class="reference-text"><cite id="CITEREFJian_GuoSan_LingChristian_RechbergerHuaxiong_Wang2010" class="citation book">Jian Guo; San Ling; Christian Rechberger &amp; Huaxiong Wang (2010). <a rel="nofollow" class="external text" href="http://eprint.iacr.org/2010/016.pdf"><i>Advanced meet-in-the-middle preimage attacks&#58; First results on full Tiger, and improved results on MD4 and SHA-2</i></a> <span class="cs1-format">(PDF)</span>. <i>Advances in Cryptology – ASIACRYPT 2010</i>. Lecture Notes in Computer Science. <b>6477</b>. Springer Berlin Heidelberg. pp.&#160;56–75. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<a rel="nofollow" class="external text" href="https://doi.org/10.1007%2F978-3-642-17373-8_4">10.1007/978-3-642-17373-8_4</a>. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-3-642-17373-8" title="Special:BookSources/978-3-642-17373-8"><bdi>978-3-642-17373-8</bdi></a>. <a href="/wiki/ISSN_(identifier)" class="mw-redirect" title="ISSN (identifier)">ISSN</a>&#160;<a rel="nofollow" class="external text" href="//www.worldcat.org/issn/0302-9743">0302-9743</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Advanced+meet-in-the-middle+preimage+attacks%26%2358%3B+First+results+on+full+Tiger%2C+and+improved+results+on+MD4+and+SHA-2&amp;rft.series=Lecture+Notes+in+Computer+Science&amp;rft.pages=56-75&amp;rft.pub=Springer+Berlin+Heidelberg&amp;rft.date=2010&amp;rft.issn=0302-9743&amp;rft_id=info%3Adoi%2F10.1007%2F978-3-642-17373-8_4&amp;rft.isbn=978-3-642-17373-8&amp;rft.au=Jian+Guo&amp;rft.au=San+Ling&amp;rft.au=Christian+Rechberger&amp;rft.au=Huaxiong+Wang&amp;rft_id=http%3A%2F%2Feprint.iacr.org%2F2010%2F016.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-collision-mendel-34"><span class="mw-cite-backlink"><b><a href="#cite_ref-collision-mendel_34-0">^</a></b></span> <span class="reference-text"><cite id="CITEREFFlorian_MendelTomislav_NadMartin_Schläffer2013" class="citation book">Florian Mendel; Tomislav Nad; Martin Schläffer (2013). <a rel="nofollow" class="external text" href="https://online.tugraz.at/tug_online/voe_main2.getvolltext?pCurrPk=69018"><i>Improving Local Collisions&#58; New Attacks on Reduced SHA-256</i></a>. <i>Advances in Cryptology – EUROCRYPT 2013</i>. Lecture Notes in Computer Science. <b>7881</b>. Springer Berlin Heidelberg. pp.&#160;262–278. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<a rel="nofollow" class="external text" href="https://doi.org/10.1007%2F978-3-642-38348-9_16">10.1007/978-3-642-38348-9_16</a>. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-3-642-38348-9" title="Special:BookSources/978-3-642-38348-9"><bdi>978-3-642-38348-9</bdi></a>. <a href="/wiki/ISSN_(identifier)" class="mw-redirect" title="ISSN (identifier)">ISSN</a>&#160;<a rel="nofollow" class="external text" href="//www.worldcat.org/issn/0302-9743">0302-9743</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Improving+Local+Collisions%26%2358%3B+New+Attacks+on+Reduced+SHA-256&amp;rft.series=Lecture+Notes+in+Computer+Science&amp;rft.pages=262-278&amp;rft.pub=Springer+Berlin+Heidelberg&amp;rft.date=2013&amp;rft.issn=0302-9743&amp;rft_id=info%3Adoi%2F10.1007%2F978-3-642-38348-9_16&amp;rft.isbn=978-3-642-38348-9&amp;rft.au=Florian+Mendel&amp;rft.au=Tomislav+Nad&amp;rft.au=Martin+Schl%C3%A4ffer&amp;rft_id=https%3A%2F%2Fonline.tugraz.at%2Ftug_online%2Fvoe_main2.getvolltext%3FpCurrPk%3D69018&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-collision-eichlseder-35"><span class="mw-cite-backlink"><b><a href="#cite_ref-collision-eichlseder_35-0">^</a></b></span> <span class="reference-text"><cite id="CITEREFMaria_Eichlseder_and_Florian_Mendel_and_Martin_Schläffer2014" class="citation journal">Maria Eichlseder and Florian Mendel and Martin Schläffer (2014). <a rel="nofollow" class="external text" href="http://eprint.iacr.org/2014/302.pdf">"Branching Heuristics in Differential Collision Search with Applications to SHA-512"</a> <span class="cs1-format">(PDF)</span>. <i>IACR Cryptology ePrint Archive</i>. 2014:302.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=IACR+Cryptology+ePrint+Archive&amp;rft.atitle=Branching+Heuristics+in+Differential+Collision+Search+with+Applications+to+SHA-512&amp;rft.volume=2014%3A302&amp;rft.date=2014&amp;rft.au=Maria+Eichlseder+and+Florian+Mendel+and+Martin+Schl%C3%A4ffer&amp;rft_id=http%3A%2F%2Feprint.iacr.org%2F2014%2F302.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-36"><span class="mw-cite-backlink"><b><a href="#cite_ref-36">^</a></b></span> <span class="reference-text"><cite id="CITEREFChristoph_DobraunigMaria_EichlsederFlorian_Mendel2016" class="citation journal">Christoph Dobraunig; Maria Eichlseder &amp; Florian Mendel (2016). <a rel="nofollow" class="external text" href="https://eprint.iacr.org/2016/374.pdf">"Analysis of SHA-512/224 and SHA-512/256"</a> <span class="cs1-format">(PDF)</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Analysis+of+SHA-512%2F224+and+SHA-512%2F256&amp;rft.date=2016&amp;rft.au=Christoph+Dobraunig&amp;rft.au=Maria+Eichlseder&amp;rft.au=Florian+Mendel&amp;rft_id=https%3A%2F%2Feprint.iacr.org%2F2016%2F374.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span> <span class="cs1-hidden-error error citation-comment">Cite journal requires <code class="cs1-code">&#124;journal=</code> (<a href="/wiki/Help:CS1_errors#missing_periodical" title="Help:CS1 errors">help</a>)</span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-37"><span class="mw-cite-backlink"><b><a href="#cite_ref-37">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20170617035122/http://csrc.nist.gov/groups/STM/cavp/documents/shs/shaval.html">"SHS Validation List"</a>. <i>NIST</i>. 2017-06-16. Archived from <a rel="nofollow" class="external text" href="https://csrc.nist.gov/groups/STM/cavp/documents/shs/shaval.html">the original</a> on 2017-06-17.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=NIST&amp;rft.atitle=SHS+Validation+List&amp;rft.date=2017-06-16&amp;rft_id=https%3A%2F%2Fcsrc.nist.gov%2Fgroups%2FSTM%2Fcavp%2Fdocuments%2Fshs%2Fshaval.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-38"><span class="mw-cite-backlink"><b><a href="#cite_ref-38">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://bench.cr.yp.to/results-hash.html#amd64-skylake">"Measurements table"</a>. <i>bench.cr.yp.to</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=bench.cr.yp.to&amp;rft.atitle=Measurements+table&amp;rft_id=http%3A%2F%2Fbench.cr.yp.to%2Fresults-hash.html%23amd64-skylake&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-39"><span class="mw-cite-backlink"><b><a href="#cite_ref-39">^</a></b></span> <span class="reference-text"><cite id="CITEREFTaoLiuFeng2013" class="citation techreport">Tao, Xie; Liu, Fanbao; Feng, Dengguo (2013). <a rel="nofollow" class="external text" href="https://eprint.iacr.org/2013/170.pdf"><i>Fast Collision Attack on MD5</i></a> <span class="cs1-format">(PDF)</span>. <i>Cryptology ePrint Archive</i> (Technical report). <a href="/wiki/International_Association_for_Cryptologic_Research" title="International Association for Cryptologic Research">IACR</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=report&amp;rft.btitle=Fast+Collision+Attack+on+MD5&amp;rft.pub=IACR&amp;rft.date=2013&amp;rft.aulast=Tao&amp;rft.aufirst=Xie&amp;rft.au=Liu%2C+Fanbao&amp;rft.au=Feng%2C+Dengguo&amp;rft_id=https%3A%2F%2Feprint.iacr.org%2F2013%2F170.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-40"><span class="mw-cite-backlink"><b><a href="#cite_ref-40">^</a></b></span> <span class="reference-text"><cite id="CITEREFStevensBurszteinKarpmanAlbertini" class="citation techreport"><a href="/wiki/Marc_Stevens_(cryptology)" title="Marc Stevens (cryptology)">Stevens, Marc</a>; <a href="/wiki/Elie_Bursztein" title="Elie Bursztein">Bursztein, Elie</a>; Karpman, Pierre; Albertini, Ange; Markov, Yarik. <a rel="nofollow" class="external text" href="https://shattered.io/static/shattered.pdf"><i>The first collision for full SHA-1</i></a> <span class="cs1-format">(PDF)</span> (Technical report). <a href="/wiki/Google" title="Google">Google Research</a>. <a rel="nofollow" class="external text" href="https://security.googleblog.com/2017/02/announcing-first-sha1-collision.html">Lay summary</a> &#8211; <i>Google Security Blog</i> (February 23, 2017).</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=report&amp;rft.btitle=The+first+collision+for+full+SHA-1&amp;rft.pub=Google+Research&amp;rft.aulast=Stevens&amp;rft.aufirst=Marc&amp;rft.au=Bursztein%2C+Elie&amp;rft.au=Karpman%2C+Pierre&amp;rft.au=Albertini%2C+Ange&amp;rft.au=Markov%2C+Yarik&amp;rft_id=https%3A%2F%2Fshattered.io%2Fstatic%2Fshattered.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-41"><span class="mw-cite-backlink"><b><a href="#cite_ref-41">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://keccak.noekeon.org/specs_summary.html">"The Keccak sponge function family"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2016-01-27</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=The+Keccak+sponge+function+family&amp;rft_id=http%3A%2F%2Fkeccak.noekeon.org%2Fspecs_summary.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-42"><span class="mw-cite-backlink"><b><a href="#cite_ref-42">^</a></b></span> <span class="reference-text">SUPERCOP Benchmarks <a rel="nofollow" class="external text" href="http://bench.cr.yp.to/results-hash.html">Measurements of hash functions, indexed by machine</a></span>
+</li>
+<li id="cite_note-43"><span class="mw-cite-backlink"><b><a href="#cite_ref-43">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://bench.cr.yp.to/supercop.html">"SUPERCOP"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">24 February</span> 2015</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=SUPERCOP&amp;rft_id=http%3A%2F%2Fbench.cr.yp.to%2Fsupercop.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-44"><span class="mw-cite-backlink"><b><a href="#cite_ref-44">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://tls.mbed.org/supported-ssl-ciphersuites"><i>Supported SSL / TLS ciphersuites</i></a></span>
+</li>
+<li id="cite_note-45"><span class="mw-cite-backlink"><b><a href="#cite_ref-45">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://github.com/ARMmbed/mbedtls/blob/master/ChangeLog"><i>Mbed TLS Changelog</i>, 7 July 2007</a></span>
+</li>
+<li id="cite_note-46"><span class="mw-cite-backlink"><b><a href="#cite_ref-46">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0500e/CJHDEBAF.html">"ARM Cortex-A53 MPCore Processor Technical Reference Manual Cryptography Extension"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=ARM+Cortex-A53+MPCore+Processor+Technical+Reference+Manual+Cryptography+Extension&amp;rft_id=http%3A%2F%2Finfocenter.arm.com%2Fhelp%2Findex.jsp%3Ftopic%3D%2Fcom.arm.doc.ddi0500e%2FCJHDEBAF.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+</ol></div>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=SHA-2&amp;action=edit&amp;section=11" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r886047268">.mw-parser-output .refbegin{font-size:90%;margin-bottom:0.5em}.mw-parser-output .refbegin-hanging-indents>ul{list-style-type:none;margin-left:0}.mw-parser-output .refbegin-hanging-indents>ul>li,.mw-parser-output .refbegin-hanging-indents>dl>dd{margin-left:0;padding-left:3.2em;text-indent:-3.2em;list-style:none}.mw-parser-output .refbegin-100{font-size:100%}</style><div class="refbegin reflist" style="">
+<ul><li>Henri Gilbert, Helena Handschuh: Security Analysis of SHA-256 and Sisters. <a href="/wiki/Selected_Areas_in_Cryptography" title="Selected Areas in Cryptography">Selected Areas in Cryptography</a> 2003: pp175–193</li>
+<li><cite class="citation journal"><a rel="nofollow" class="external text" href="http://frwebgate1.access.gpo.gov/cgi-bin/waisgate.cgi?WAISdocID=5963452267+0+0+0&amp;WAISaction=retrieve">"Proposed Revision of Federal Information Processing Standard (FIPS) 180, Secure Hash Standard"</a>. <i>Federal Register</i>. <b>59</b> (131): 35317–35318. 1994-07-11<span class="reference-accessdate">. Retrieved <span class="nowrap">2007-04-26</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Federal+Register&amp;rft.atitle=Proposed+Revision+of+Federal+Information+Processing+Standard+%28FIPS%29+180%2C+Secure+Hash+Standard&amp;rft.volume=59&amp;rft.issue=131&amp;rft.pages=35317-35318&amp;rft.date=1994-07-11&amp;rft_id=http%3A%2F%2Ffrwebgate1.access.gpo.gov%2Fcgi-bin%2Fwaisgate.cgi%3FWAISdocID%3D5963452267%2B0%2B0%2B0%26WAISaction%3Dretrieve&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASHA-2" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/><sup class="noprint Inline-Template"><span style="white-space: nowrap;">&#91;<i><a href="/wiki/Wikipedia:Link_rot" title="Wikipedia:Link rot"><span title="&#160;Dead link since April 2018">permanent dead link</span></a></i>&#93;</span></sup></li></ul>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=SHA-2&amp;action=edit&amp;section=12" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20130526224224/http://csrc.nist.gov/groups/STM/cavp/documents/shs/sha256-384-512.pdf">Descriptions of SHA-256, SHA-384, and SHA-512</a> from <a href="/wiki/National_Institute_of_Standards_and_Technology" title="National Institute of Standards and Technology">NIST</a></li>
+<li><a rel="nofollow" class="external text" href="https://shachecker.com">SHA-2 Checker</a> – SHAChecker to check one's SSL compatibility for SHA-2</li>
+<li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20141008212020/https://w2.eff.org/Privacy/Digital_signature/?f=fips_sha_shs.standard.txt">Specifications for a Secure Hash Standard (SHS)</a> – Draft for proposed SHS (SHA-0)</li>
+<li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20141008212429/https://w2.eff.org/Privacy/Digital_signature/?f=fips_sha_shs.info.txt">Secure Hash Standard (SHS)</a> – Proposed SHS (SHA-0)</li>
+<li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20110625054822/http://csrc.nist.gov/groups/ST/toolkit/secure_hashing.html">CSRC Cryptographic Toolkit</a> – Official <a href="/wiki/National_Institute_of_Standards_and_Technology" title="National Institute of Standards and Technology">NIST</a> site for the Secure Hash Standard</li>
+<li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20161126003357/http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf">FIPS PUB 180-4: Secure Hash Standard (SHS)</a> (<a href="/wiki/Portable_Document_Format" class="mw-redirect" title="Portable Document Format">PDF</a>, 834 KB) – Current version of the Secure Hash Standard (SHA-1, SHA-224, SHA-256, SHA-384, and SHA-512), August 2015</li>
+<li><a rel="nofollow" class="external text" href="https://www.cosic.esat.kuleuven.be/nessie/testvectors/hash/sha/index.html">Test vectors for SHA-256/384/512</a> from the <a href="/wiki/NESSIE" title="NESSIE">NESSIE</a> project</li>
+<li><a rel="nofollow" class="external text" href="http://csrc.nist.gov/groups/STM/cavp/index.html#03">Test vectors for SHA-1, SHA-2</a> from <a href="/wiki/National_Institute_of_Standards_and_Technology" title="National Institute of Standards and Technology">NIST</a> site</li>
+<li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20100505162618/http://csrc.nist.gov/groups/ST/hash/index.html">NIST Cryptographic Hash Project</a> – SHA-3 competition</li>
+<li><a class="external mw-magiclink-rfc" rel="nofollow" href="https://tools.ietf.org/html/rfc3874">RFC 3874</a>: "A 224-bit One-way Hash Function: SHA-224"</li>
+<li><a class="external mw-magiclink-rfc" rel="nofollow" href="https://tools.ietf.org/html/rfc6234">RFC 6234</a>: "US Secure Hash Algorithms (SHA and SHA-based HMAC and HKDF)"; contains sample C implementation</li></ul>
+<div role="navigation" class="navbox" aria-label="Navbox" style="padding:3px"><table class="nowraplinks hlist navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table class="nowraplinks hlist navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:Cryptography_hash" title="Template:Cryptography hash"><abbr title="View this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Cryptography_hash" title="Template talk:Cryptography hash"><abbr title="Discuss this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Cryptography_hash&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="Cryptographic_hash_functions_&amp;amp;_message_authentication_codes" style="font-size:114%;margin:0 4em"><a href="/wiki/Cryptographic_hash_function" title="Cryptographic hash function">Cryptographic hash functions</a> &amp; <a href="/wiki/Message_authentication_code" title="Message authentication code">message authentication codes</a></div></th></tr><tr><td class="navbox-abovebelow" colspan="2"><div id="*_List_*_Comparison_*_Known_attacks">
+<ul><li><a href="/wiki/List_of_hash_functions" title="List of hash functions">List</a></li>
+<li><a href="/wiki/Comparison_of_cryptographic_hash_functions" title="Comparison of cryptographic hash functions">Comparison</a></li>
+<li><a href="/wiki/Hash_function_security_summary" title="Hash function security summary">Known attacks</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Common functions</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/MD5" title="MD5">MD5</a></li>
+<li><a href="/wiki/SHA-1" title="SHA-1">SHA-1</a></li>
+<li><a class="mw-selflink selflink">SHA-2</a></li>
+<li><a href="/wiki/SHA-3" title="SHA-3">SHA-3</a></li>
+<li><a href="/wiki/BLAKE_(hash_function)#BLAKE2" title="BLAKE (hash function)">BLAKE2</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/NIST_hash_function_competition" title="NIST hash function competition">SHA-3 finalists</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/BLAKE_(hash_function)" title="BLAKE (hash function)">BLAKE</a></li>
+<li><a href="/wiki/Gr%C3%B8stl" title="Grøstl">Grøstl</a></li>
+<li><a href="/wiki/JH_(hash_function)" title="JH (hash function)">JH</a></li>
+<li><a href="/wiki/Skein_(hash_function)" title="Skein (hash function)">Skein</a></li>
+<li><a href="/wiki/SHA-3" title="SHA-3">Keccak (winner)</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other functions</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/BLAKE3" class="mw-redirect" title="BLAKE3">BLAKE3</a></li>
+<li><a href="/wiki/CubeHash" title="CubeHash">CubeHash</a></li>
+<li><a href="/wiki/Elliptic_curve_only_hash" title="Elliptic curve only hash">ECOH</a></li>
+<li><a href="/wiki/Fast_syndrome-based_hash" title="Fast syndrome-based hash">FSB</a></li>
+<li><a href="/wiki/GOST_(hash_function)" title="GOST (hash function)">GOST</a></li>
+<li><a href="/wiki/HAS-160" title="HAS-160">HAS-160</a></li>
+<li><a href="/wiki/HAVAL" title="HAVAL">HAVAL</a></li>
+<li><a href="/wiki/Kupyna" title="Kupyna">Kupyna</a></li>
+<li><a href="/wiki/MD2_(hash_function)" title="MD2 (hash function)">MD2</a></li>
+<li><a href="/wiki/MD4" title="MD4">MD4</a></li>
+<li><a href="/wiki/MD6" title="MD6">MD6</a></li>
+<li><a href="/wiki/MDC-2" title="MDC-2">MDC-2</a></li>
+<li><a href="/wiki/N-Hash" title="N-Hash">N-Hash</a></li>
+<li><a href="/wiki/RIPEMD" title="RIPEMD">RIPEMD</a></li>
+<li><a href="/wiki/RadioGat%C3%BAn" title="RadioGatún">RadioGatún</a></li>
+<li><a href="/wiki/SM3_(hash_function)" title="SM3 (hash function)">SM3</a></li>
+<li><a href="/wiki/SWIFFT" title="SWIFFT">SWIFFT</a></li>
+<li><a href="/wiki/Snefru" title="Snefru">Snefru</a></li>
+<li><a href="/wiki/Streebog" title="Streebog">Streebog</a></li>
+<li><a href="/wiki/Tiger_(hash_function)" title="Tiger (hash function)">Tiger</a></li>
+<li><a href="/wiki/Very_smooth_hash" title="Very smooth hash">VSH</a></li>
+<li><a href="/wiki/Whirlpool_(hash_function)" title="Whirlpool (hash function)">Whirlpool</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Password hashing/<br /><a href="/wiki/Key_stretching" title="Key stretching">key stretching</a> functions</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Argon2" title="Argon2">Argon2</a></li>
+<li><a href="/wiki/Balloon_hashing" title="Balloon hashing">Balloon</a></li>
+<li><a href="/wiki/Bcrypt" title="Bcrypt">bcrypt</a></li>
+<li><a href="/wiki/Catena_(cryptography)" class="mw-redirect" title="Catena (cryptography)">Catena</a></li>
+<li><a href="/wiki/Crypt_(C)" title="Crypt (C)">crypt</a></li>
+<li><a href="/wiki/LAN_Manager#LM_hash_details" title="LAN Manager">LM hash</a></li>
+<li><a href="/wiki/Lyra2" title="Lyra2">Lyra2</a></li>
+<li><a href="/wiki/Makwa_(cryptography)" class="mw-redirect" title="Makwa (cryptography)">Makwa</a></li>
+<li><a href="/wiki/PBKDF2" title="PBKDF2">PBKDF2</a></li>
+<li><a href="/wiki/Scrypt" title="Scrypt">scrypt</a></li>
+<li><a href="/wiki/Yescrypt" class="mw-redirect" title="Yescrypt">yescrypt</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">General purpose<br /><a href="/wiki/Key_derivation_function" title="Key derivation function">key derivation functions</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/HKDF" title="HKDF">HKDF</a></li>
+<li>KDF2</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Message_authentication_code" title="Message authentication code">MAC functions</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Data_Authentication_Algorithm" title="Data Authentication Algorithm">DAA</a></li>
+<li><a href="/wiki/CBC-MAC" title="CBC-MAC">CBC-MAC</a></li>
+<li><a href="/wiki/Galois_Message_Authentication_Code" class="mw-redirect" title="Galois Message Authentication Code">GMAC</a></li>
+<li><a href="/wiki/HMAC" title="HMAC">HMAC</a></li>
+<li><a href="/wiki/NMAC" class="mw-redirect" title="NMAC">NMAC</a></li>
+<li><a href="/wiki/One-key_MAC" title="One-key MAC">OMAC</a>/<a href="/wiki/One-key_MAC" title="One-key MAC">CMAC</a></li>
+<li><a href="/wiki/PMAC_(cryptography)" title="PMAC (cryptography)">PMAC</a></li>
+<li><a href="/wiki/VMAC" title="VMAC">VMAC</a></li>
+<li><a href="/wiki/UMAC" title="UMAC">UMAC</a></li>
+<li><a href="/wiki/Poly1305" title="Poly1305">Poly1305</a></li>
+<li><a href="/wiki/SipHash" title="SipHash">SipHash</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Authenticated_encryption" title="Authenticated encryption">Authenticated<br />encryption</a> modes</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/CCM_mode" title="CCM mode">CCM</a></li>
+<li><a href="/wiki/CWC_mode" title="CWC mode">CWC</a></li>
+<li><a href="/wiki/EAX_mode" title="EAX mode">EAX</a></li>
+<li><a href="/wiki/Galois/Counter_Mode" title="Galois/Counter Mode">GCM</a></li>
+<li><a href="/wiki/IAPM_(mode)" title="IAPM (mode)">IAPM</a></li>
+<li><a href="/wiki/OCB_mode" title="OCB mode">OCB</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Attacks</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Collision_attack" title="Collision attack">Collision attack</a></li>
+<li><a href="/wiki/Preimage_attack" title="Preimage attack">Preimage attack</a></li>
+<li><a href="/wiki/Birthday_attack" title="Birthday attack">Birthday attack</a></li>
+<li><a href="/wiki/Brute-force_attack" title="Brute-force attack">Brute-force attack</a></li>
+<li><a href="/wiki/Rainbow_table" title="Rainbow table">Rainbow table</a></li>
+<li><a href="/wiki/Side-channel_attack" title="Side-channel attack">Side-channel attack</a></li>
+<li><a href="/wiki/Length_extension_attack" title="Length extension attack">Length extension attack</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Design</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Avalanche_effect" title="Avalanche effect">Avalanche effect</a></li>
+<li><a href="/wiki/Collision_(computer_science)" title="Collision (computer science)">Hash collision</a></li>
+<li><a href="/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction" title="Merkle–Damgård construction">Merkle–Damgård construction</a></li>
+<li><a href="/wiki/Sponge_function" title="Sponge function">Sponge function</a></li>
+<li><a href="/wiki/HAIFA_construction" title="HAIFA construction">HAIFA construction</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Standardization</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/CRYPTREC" title="CRYPTREC">CRYPTREC</a></li>
+<li><a href="/wiki/NESSIE" title="NESSIE">NESSIE</a></li>
+<li><a href="/wiki/NIST_hash_function_competition" title="NIST hash function competition">NIST hash function competition</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Utilization</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Post-quantum_cryptography#Hash-based_cryptography" title="Post-quantum cryptography">Hash-based cryptography</a></li>
+<li><a href="/wiki/Merkle_tree" title="Merkle tree">Merkle tree</a></li>
+<li><a href="/wiki/Message_authentication" title="Message authentication">Message authentication</a></li>
+<li><a href="/wiki/Proof-of-work_system" class="mw-redirect" title="Proof-of-work system">Proof of work</a></li>
+<li><a href="/wiki/Salt_(cryptography)" title="Salt (cryptography)">Salt</a></li>
+<li><a href="/wiki/Pepper_(cryptography)" title="Pepper (cryptography)">Pepper</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr></tbody></table><div></div></td></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table class="nowraplinks mw-collapsible mw-collapsed navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:Cryptography_navbox" title="Template:Cryptography navbox"><abbr title="View this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Cryptography_navbox" title="Template talk:Cryptography navbox"><abbr title="Discuss this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Cryptography_navbox&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="Cryptography" style="font-size:114%;margin:0 4em"><a href="/wiki/Cryptography" title="Cryptography">Cryptography</a></div></th></tr><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/History_of_cryptography" title="History of cryptography">History of cryptography</a></li>
+<li><a href="/wiki/Cryptanalysis" title="Cryptanalysis">Cryptanalysis</a></li>
+<li><a href="/wiki/Outline_of_cryptography" title="Outline of cryptography">Outline of cryptography</a></li></ul>
+</div></td></tr><tr><td colspan="2" class="navbox-list navbox-even" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Symmetric-key_algorithm" title="Symmetric-key algorithm">Symmetric-key algorithm</a></li>
+<li><a href="/wiki/Block_cipher" title="Block cipher">Block cipher</a></li>
+<li><a href="/wiki/Stream_cipher" title="Stream cipher">Stream cipher</a></li>
+<li><a href="/wiki/Public-key_cryptography" title="Public-key cryptography">Public-key cryptography</a></li>
+<li><a href="/wiki/Cryptographic_hash_function" title="Cryptographic hash function">Cryptographic hash function</a></li>
+<li><a href="/wiki/Message_authentication_code" title="Message authentication code">Message authentication code</a></li>
+<li><a href="/wiki/Cryptographically_secure_pseudorandom_number_generator" title="Cryptographically secure pseudorandom number generator">Random numbers</a></li>
+<li><a href="/wiki/Steganography" title="Steganography">Steganography</a></li></ul>
+</div></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div>
+<ul><li><img alt="Category" src="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" decoding="async" title="Category" width="16" height="14" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" data-file-width="36" data-file-height="31" /> <a href="/wiki/Category:Cryptography" title="Category:Cryptography">Category</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr></tbody></table></div>
+<div role="navigation" class="navbox" aria-labelledby="Bitcoin" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="3"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:Bitcoin" title="Template:Bitcoin"><abbr title="View this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Bitcoin" title="Template talk:Bitcoin"><abbr title="Discuss this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Bitcoin&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="Bitcoin" style="font-size:114%;margin:0 4em"><a href="/wiki/Bitcoin" title="Bitcoin">Bitcoin</a></div></th></tr><tr><td class="navbox-abovebelow" colspan="3"><div id="*_History_*_Economics_*_Legal_status">
+<ul><li><a href="/wiki/History_of_bitcoin" title="History of bitcoin">History</a></li>
+<li><a href="/wiki/Economics_of_bitcoin" title="Economics of bitcoin">Economics</a></li>
+<li><a href="/wiki/Legality_of_bitcoin_by_country_or_territory" title="Legality of bitcoin by country or territory">Legal status</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">People</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Gavin_Andresen" title="Gavin Andresen">Gavin Andresen</a></li>
+<li><a href="/wiki/Andreas_Antonopoulos" title="Andreas Antonopoulos">Andreas Antonopoulos</a></li>
+<li><a href="/wiki/Wences_Casares" title="Wences Casares">Wences Casares</a></li>
+<li><a href="/wiki/Tim_Draper" title="Tim Draper">Tim Draper</a></li>
+<li><a href="/wiki/Hal_Finney_(computer_scientist)" title="Hal Finney (computer scientist)">Hal Finney</a></li>
+<li><a href="/wiki/Mark_Karpel%C3%A8s" title="Mark Karpelès">Mark Karpelès</a></li>
+<li><a href="/wiki/Bobby_C._Lee" title="Bobby C. Lee">Bobby C. Lee</a></li>
+<li><a href="/wiki/Satoshi_Nakamoto" title="Satoshi Nakamoto">Satoshi Nakamoto</a></li>
+<li><a href="/wiki/Charlie_Shrem" title="Charlie Shrem">Charlie Shrem</a></li>
+<li><a href="/wiki/Nick_Szabo" title="Nick Szabo">Nick Szabo</a></li>
+<li><a href="/wiki/Amir_Taaki" title="Amir Taaki">Amir Taaki</a></li>
+<li><a href="/wiki/Ross_Ulbricht" title="Ross Ulbricht">Ross Ulbricht</a></li>
+<li><a href="/wiki/Roger_Ver" title="Roger Ver">Roger Ver</a></li>
+<li><a href="/wiki/Cody_Wilson" title="Cody Wilson">Cody Wilson</a></li>
+<li><a href="/wiki/Winklevoss_twins" title="Winklevoss twins">Winklevoss twins</a></li></ul>
+</div></td><td class="navbox-image" rowspan="6" style="width:1px;padding:0px 0px 0px 2px"><div><style data-mw-deduplicate="TemplateStyles:r936637989">.mw-parser-output .portal{border:solid #aaa 1px;padding:0}.mw-parser-output .portal.tleft{margin:0.5em 1em 0.5em 0}.mw-parser-output .portal.tright{margin:0.5em 0 0.5em 1em}.mw-parser-output .portal>ul{display:table;box-sizing:border-box;padding:0.1em;max-width:175px;background:#f9f9f9;font-size:85%;line-height:110%;font-style:italic;font-weight:bold}.mw-parser-output .portal>ul>li{display:table-row}.mw-parser-output .portal>ul>li>span:first-child{display:table-cell;padding:0.2em;vertical-align:middle;text-align:center}.mw-parser-output .portal>ul>li>span:last-child{display:table-cell;padding:0.2em 0.2em 0.2em 0.3em;vertical-align:middle}</style><div role="navigation" aria-label="Portals" class="noprint portal plainlist tright">
+<ul>
+<li><span><img alt="icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/55/Bills_and_coins.svg/32px-Bills_and_coins.svg.png" decoding="async" width="32" height="16" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/55/Bills_and_coins.svg/48px-Bills_and_coins.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/55/Bills_and_coins.svg/64px-Bills_and_coins.svg.png 2x" data-file-width="960" data-file-height="465" /></span><span><a href="/wiki/Portal:Money" title="Portal:Money">Money portal</a></span></li></ul></div></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Groups</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/List_of_bitcoin_companies" title="List of bitcoin companies">List of bitcoin companies</a></li>
+<li><a href="/wiki/List_of_bitcoin_organizations" title="List of bitcoin organizations">List of bitcoin organizations</a></li>
+<li><a href="/wiki/List_of_people_in_blockchain_technology" title="List of people in blockchain technology">List of people in blockchain technology</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Technologies</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Base58" title="Base58">Base58</a></li>
+<li><a href="/wiki/Bitcoin_network" title="Bitcoin network">Bitcoin network</a></li>
+<li><a href="/wiki/Blockchain" title="Blockchain">Blockchain</a></li>
+<li><a href="/wiki/Cryptocurrency" title="Cryptocurrency">Cryptocurrency</a></li>
+<li><a href="/wiki/Bitcoin_ATM" title="Bitcoin ATM">Bitcoin ATM</a></li>
+<li><a href="/wiki/Elliptic_Curve_Digital_Signature_Algorithm" title="Elliptic Curve Digital Signature Algorithm">ECDSA</a></li>
+<li><a href="/wiki/Lightning_Network" title="Lightning Network">Lightning Network</a></li>
+<li><a href="/wiki/Peer-to-peer" title="Peer-to-peer">P2P</a></li>
+<li><a href="/wiki/Proof_of_work" title="Proof of work">Proof of work</a></li>
+<li><a href="/wiki/SegWit" title="SegWit">SegWit</a></li>
+<li><a class="mw-selflink selflink">SHA-2</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Software client</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Bitcoin_Core" title="Bitcoin Core">Bitcoin Core</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/List_of_bitcoin_forks" title="List of bitcoin forks">Forks</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%">Client</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Bitcoin_XT" title="Bitcoin XT">Bitcoin XT</a></li>
+<li><a href="/wiki/Bitcoin_Classic" title="Bitcoin Classic">Bitcoin Classic</a></li>
+<li><a href="/wiki/Bitcoin_Unlimited" title="Bitcoin Unlimited">Bitcoin Unlimited</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Currency</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Bitcoin_Cash" title="Bitcoin Cash">Bitcoin Cash</a></li>
+<li><a href="/wiki/Bitcoin_Gold" title="Bitcoin Gold">Bitcoin Gold</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Cryptocurrency_exchange" title="Cryptocurrency exchange">Exchanges</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Binance" title="Binance">Binance</a></li>
+<li><a href="/wiki/Bitcoin_Center_NYC" title="Bitcoin Center NYC">Bitcoin Center NYC</a></li>
+<li><a href="/wiki/Bitfinex" title="Bitfinex">Bitfinex</a></li>
+<li><a href="/wiki/BitFlyer" title="BitFlyer">bitFlyer</a></li>
+<li><a href="/wiki/Bithumb" title="Bithumb">Bithumb</a></li>
+<li><a href="/wiki/BitMEX" title="BitMEX">BitMEX</a></li>
+<li><a href="/wiki/Bitstamp" title="Bitstamp">Bitstamp</a></li>
+<li><a href="/wiki/Bittrex" title="Bittrex">Bittrex</a></li>
+<li><a href="/wiki/BTCC_(company)" title="BTCC (company)">BTCC</a></li>
+<li><a href="/wiki/BuyUcoin" title="BuyUcoin">BuyUcoin</a></li>
+<li><a href="/wiki/Coinbase" title="Coinbase">Coinbase</a></li>
+<li><a href="/wiki/Coincheck" title="Coincheck">Coincheck</a></li>
+<li><a href="/wiki/CoinCorner" title="CoinCorner">CoinCorner</a></li>
+<li><a href="/wiki/Coinfloor" title="Coinfloor">Coinfloor</a></li>
+<li><a href="/wiki/Coinrail" title="Coinrail">Coinrail</a></li>
+<li><a href="/wiki/Coins.ph" title="Coins.ph">Coins.ph</a></li>
+<li><a href="/wiki/Gemini_(company)" title="Gemini (company)">Gemini</a></li>
+<li><a href="/wiki/Huobi" title="Huobi">Huobi</a></li>
+<li><a href="/wiki/Kraken_(company)" title="Kraken (company)">Kraken</a></li>
+<li><a href="/wiki/LocalBitcoins" title="LocalBitcoins">LocalBitcoins</a></li>
+<li><a href="/wiki/OKEx" title="OKEx">OKEx</a></li>
+<li><a href="/wiki/ShapeShift" title="ShapeShift">ShapeShift</a></li>
+<li><a href="/wiki/Upbit" title="Upbit">Upbit</a></li>
+<li><a href="/wiki/Zebpay" title="Zebpay">Zebpay</a></li></ul>
+</div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th id="Defunct" scope="row" class="navbox-group" style="width:1%">Defunct</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/BTC-e" title="BTC-e">BTC-e</a></li>
+<li><a href="/wiki/Cryptopia" title="Cryptopia">Cryptopia</a></li>
+<li><a href="/wiki/Mt._Gox" title="Mt. Gox">Mt. Gox</a></li>
+<li><a href="/wiki/Quadriga_Fintech_Solutions" title="Quadriga Fintech Solutions">QuadrigaCX</a></li></ul>
+</div></td></tr></tbody></table><div>
+</div></td></tr><tr><td class="navbox-abovebelow hlist" colspan="3"><div>
+<ul><li><img alt="Wikipedia book" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Symbol_book_class2.svg/16px-Symbol_book_class2.svg.png" decoding="async" title="Wikipedia book" width="16" height="16" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Symbol_book_class2.svg/23px-Symbol_book_class2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/89/Symbol_book_class2.svg/31px-Symbol_book_class2.svg.png 2x" data-file-width="180" data-file-height="185" /> <a href="/wiki/Book:Bitcoin" title="Book:Bitcoin">Book</a></li>
+<li><img alt="Category" src="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" decoding="async" title="Category" width="16" height="14" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" data-file-width="36" data-file-height="31" /> <a href="/wiki/Category:Bitcoin" title="Category:Bitcoin">Category</a></li>
+<li><img alt="Commons page" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" decoding="async" title="Commons page" width="12" height="16" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /> <a href="https://commons.wikimedia.org/wiki/Category:Bitcoin" class="extiw" title="commons:Category:Bitcoin">Commons</a></li></ul>
+</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw1328
+Cached time: 20200516232540
+Cache expiry: 2592000
+Dynamic content: false
+Complications: [vary‐revision‐sha1]
+CPU time usage: 0.604 seconds
+Real time usage: 0.936 seconds
+Preprocessor visited node count: 3253/1000000
+Post‐expand include size: 169587/2097152 bytes
+Template argument size: 6416/2097152 bytes
+Highest expansion depth: 15/40
+Expensive parser function count: 3/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 119561/5000000 bytes
+Number of Wikibase entities loaded: 0/400
+Lua time usage: 0.259/10.000 seconds
+Lua memory usage: 6.37 MB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  760.693      1 -total
+ 38.82%  295.336      1 Template:Reflist
+ 16.82%  127.940      7 Template:Cite_journal
+ 15.97%  121.471      1 Template:Refbegin
+ 14.88%  113.176      7 Template:Navbox
+  8.03%   61.068     15 Template:Cite_web
+  6.72%   51.128      1 Template:Short_description
+  5.56%   42.281      1 Template:Cryptography_navbox
+  5.33%   40.583      1 Template:Dead_link
+  4.96%   37.693      1 Template:Pagetype
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1638777-0!canonical!math=5 and timestamp 20200516232539 and revision id 956953707
+ -->
+</div><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>
+		<div class="printfooter">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=SHA-2&amp;oldid=956953707">https://en.wikipedia.org/w/index.php?title=SHA-2&amp;oldid=956953707</a>"</div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Cryptographic_hash_functions" title="Category:Cryptographic hash functions">Cryptographic hash functions</a></li><li><a href="/wiki/Category:Checksum_algorithms" title="Category:Checksum algorithms">Checksum algorithms</a></li><li><a href="/wiki/Category:National_Security_Agency_cryptography" title="Category:National Security Agency cryptography">National Security Agency cryptography</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:CS1:_long_volume_value" title="Category:CS1: long volume value">CS1: long volume value</a></li><li><a href="/wiki/Category:CS1_errors:_missing_periodical" title="Category:CS1 errors: missing periodical">CS1 errors: missing periodical</a></li><li><a href="/wiki/Category:Webarchive_template_wayback_links" title="Category:Webarchive template wayback links">Webarchive template wayback links</a></li><li><a href="/wiki/Category:Pages_using_RFC_magic_links" title="Category:Pages using RFC magic links">Pages using RFC magic links</a></li><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Articles_containing_potentially_dated_statements_from_2013" title="Category:Articles containing potentially dated statements from 2013">Articles containing potentially dated statements from 2013</a></li><li><a href="/wiki/Category:All_articles_containing_potentially_dated_statements" title="Category:All articles containing potentially dated statements">All articles containing potentially dated statements</a></li><li><a href="/wiki/Category:All_articles_with_dead_external_links" title="Category:All articles with dead external links">All articles with dead external links</a></li><li><a href="/wiki/Category:Articles_with_dead_external_links_from_April_2018" title="Category:Articles with dead external links from April 2018">Articles with dead external links from April 2018</a></li><li><a href="/wiki/Category:Articles_with_permanently_dead_external_links" title="Category:Articles with permanently dead external links">Articles with permanently dead external links</a></li><li><a href="/wiki/Category:Articles_with_example_pseudocode" title="Category:Articles with example pseudocode">Articles with example pseudocode</a></li></ul></div></div>
+		<div class="visualClear"></div>
+		
+	</div>
+</div>
+<div id='mw-data-after-content'>
+	<div class="read-more-container"></div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		
+<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+	<h3 id="p-personal-label">Personal tools</h3>
+	<ul >
+		<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=SHA-2" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=SHA-2" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o">Log in</a></li>
+	</ul>
+</div>
+
+		<div id="left-navigation">
+			<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+	<h3 id="p-namespaces-label">Namespaces</h3>
+	<ul >
+		<li id="ca-nstab-main" class="selected"><a href="/wiki/SHA-2" title="View the content page [c]" accesskey="c">Article</a></li><li id="ca-talk"><a href="/wiki/Talk:SHA-2" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t">Talk</a></li>
+	</ul>
+</div>
+
+			<div id="p-variants" role="navigation" class="emptyPortlet vectorMenu" aria-labelledby="p-variants-label">
+	<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+	<h3 id="p-variants-label">
+		<span>Variants</span>
+	</h3>
+	<ul class="menu" >
+		
+	</ul>
+</div>
+
+		</div>
+		<div id="right-navigation">
+			<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+	<h3 id="p-views-label">Views</h3>
+	<ul >
+		<li id="ca-view" class="collapsible selected"><a href="/wiki/SHA-2">Read</a></li><li id="ca-edit" class="collapsible"><a href="/w/index.php?title=SHA-2&amp;action=edit" title="Edit this page [e]" accesskey="e">Edit</a></li><li id="ca-history" class="collapsible"><a href="/w/index.php?title=SHA-2&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></li>
+	</ul>
+</div>
+
+			<div id="p-cactions" role="navigation" class="emptyPortlet vectorMenu" aria-labelledby="p-cactions-label">
+	<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+	<h3 id="p-cactions-label">
+		<span>More</span>
+	</h3>
+	<ul class="menu" >
+		
+	</ul>
+</div>
+
+			<div id="p-search" role="search">
+	<h3 >
+		<label for="searchInput">Search</label>
+	</h3>
+	<form action="/w/index.php" id="searchform">
+		<div id="simpleSearch">
+			<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/>
+			<input type="hidden" value="Special:Search" name="title"/>
+			<input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/>
+			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>
+		</div>
+	</form>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel">
+	<div id="p-logo" role="banner">
+		<a  title="Visit the main page" class="mw-wiki-logo" href="/wiki/Main_Page"></a>
+	</div>
+	<div class="portal portal-first" role="navigation" id="p-navigation"  aria-labelledby="p-navigation-label">
+	<h3  id="p-navigation-label">
+		Navigation
+	</h3>
+	<div class="body">
+		<ul><li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Wikipedia:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li></ul>
+		
+	</div>
+</div>
+
+
+	<div class="portal" role="navigation" id="p-interaction"  aria-labelledby="p-interaction-label">
+	<h3  id="p-interaction-label">
+		Interaction
+	</h3>
+	<div class="body">
+		<ul><li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li></ul>
+		
+	</div>
+</div>
+
+<div class="portal" role="navigation" id="p-tb"  aria-labelledby="p-tb-label">
+	<h3  id="p-tb-label">
+		Tools
+	</h3>
+	<div class="body">
+		<ul><li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/SHA-2" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/SHA-2" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=SHA-2&amp;oldid=956953707" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=SHA-2&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q1968605" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=SHA-2&amp;id=956953707&amp;wpFormIdentifier=titleform" title="Information on how to cite this page">Cite this page</a></li></ul>
+		
+	</div>
+</div>
+
+<div class="portal" role="navigation" id="p-coll-print_export"  aria-labelledby="p-coll-print_export-label">
+	<h3  id="p-coll-print_export-label">
+		Print/export
+	</h3>
+	<div class="body">
+		<ul><li id="coll-download-as-rl"><a href="/w/index.php?title=Special:ElectronPdf&amp;page=SHA-2&amp;action=show-download-screen">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=SHA-2&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>
+		
+	</div>
+</div>
+
+<div class="portal" role="navigation" id="p-lang"  aria-labelledby="p-lang-label">
+	<h3  id="p-lang-label">
+		Languages
+	</h3>
+	<div class="body">
+		<ul><li class="interlanguage-link interwiki-zh-min-nan"><a href="https://zh-min-nan.wikipedia.org/wiki/SHA-2" title="SHA-2 – Chinese (Min Nan)" lang="nan" hreflang="nan" class="interlanguage-link-target">Bân-lâm-gú</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/SHA-2" title="SHA-2 – German" lang="de" hreflang="de" class="interlanguage-link-target">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/SHA-2" title="SHA-2 – Spanish" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%A7%D8%B3%E2%80%8C%D8%A7%DA%86%E2%80%8C%D8%A7%DB%8C-%DB%B2" title="اس‌اچ‌ای-۲ – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/SHA-2" title="SHA-2 – French" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/SHA-2" title="SHA-2 – Korean" lang="ko" hreflang="ko" class="interlanguage-link-target">한국어</a></li><li class="interlanguage-link interwiki-hr"><a href="https://hr.wikipedia.org/wiki/SHA-2" title="SHA-2 – Croatian" lang="hr" hreflang="hr" class="interlanguage-link-target">Hrvatski</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/SHA-2" title="SHA-2 – Hebrew" lang="he" hreflang="he" class="interlanguage-link-target">עברית</a></li><li class="interlanguage-link interwiki-lv"><a href="https://lv.wikipedia.org/wiki/Dro%C5%A1ais_jauk%C5%A1anas_algoritms_2" title="Drošais jaukšanas algoritms 2 – Latvian" lang="lv" hreflang="lv" class="interlanguage-link-target">Latviešu</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/SHA-2" title="SHA-2 – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target">日本語</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/SHA-2" title="SHA-2 – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/SHA-2" title="SHA-2 – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target">Português</a></li><li class="interlanguage-link interwiki-ro"><a href="https://ro.wikipedia.org/wiki/SHA-2" title="SHA-2 – Romanian" lang="ro" hreflang="ro" class="interlanguage-link-target">Română</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/SHA-2" title="SHA-2 – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/SHA-2" title="SHA-2 – Serbian" lang="sr" hreflang="sr" class="interlanguage-link-target">Српски / srpski</a></li><li class="interlanguage-link interwiki-tr"><a href="https://tr.wikipedia.org/wiki/SHA-2" title="SHA-2 – Turkish" lang="tr" hreflang="tr" class="interlanguage-link-target">Türkçe</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/SHA-2" title="SHA-2 – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target">Українська</a></li><li class="interlanguage-link interwiki-wuu"><a href="https://wuu.wikipedia.org/wiki/SHA-2" title="SHA-2 – Wu Chinese" lang="wuu" hreflang="wuu" class="interlanguage-link-target">吴语</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/SHA-2" title="SHA-2 – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li></ul>
+		<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q1968605#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+	</div>
+</div>
+
+
+</div>
+
+</div>
+
+<div id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info" >
+		<li id="footer-info-lastmod"> This page was last edited on 16 May 2020, at 06:25<span class="anonymous-show">&#160;(UTC)</span>.</li>
+		<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+	</ul>
+	<ul id="footer-places" >
+		<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+		<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+		<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+		<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+		<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+		<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+		<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+		<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=SHA-2&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	</ul>
+	<ul id="footer-icons" class="noprint">
+		<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a></li>
+		<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a></li>
+	</ul>
+	<div style="clear: both;"></div>
+</div>
+
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.604","walltime":"0.936","ppvisitednodes":{"value":3253,"limit":1000000},"postexpandincludesize":{"value":169587,"limit":2097152},"templateargumentsize":{"value":6416,"limit":2097152},"expansiondepth":{"value":15,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":119561,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  760.693      1 -total"," 38.82%  295.336      1 Template:Reflist"," 16.82%  127.940      7 Template:Cite_journal"," 15.97%  121.471      1 Template:Refbegin"," 14.88%  113.176      7 Template:Navbox","  8.03%   61.068     15 Template:Cite_web","  6.72%   51.128      1 Template:Short_description","  5.56%   42.281      1 Template:Cryptography_navbox","  5.33%   40.583      1 Template:Dead_link","  4.96%   37.693      1 Template:Pagetype"]},"scribunto":{"limitreport-timeusage":{"value":"0.259","limit":"10.000"},"limitreport-memusage":{"value":6680227,"limit":52428800}},"cachereport":{"origin":"mw1328","timestamp":"20200516232540","ttl":2592000,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"SHA-2","url":"https:\/\/en.wikipedia.org\/wiki\/SHA-2","sameAs":"http:\/\/www.wikidata.org\/entity\/Q1968605","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q1968605","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-03-23T09:16:49Z","dateModified":"2020-05-16T06:25:12Z","headline":"set of cryptographic hash functions"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":119,"wgHostname":"mw1329"});});</script></body></html>

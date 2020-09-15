@@ -1,0 +1,10 @@
+- Pickle Model with Joblib: 
+
+	from sklearn.externals import joblib
+
+	joblib.dump(regressor, '#####')
+
+
+- Import Model using Joblib: 
+
+	joblib_model= joblib.load('####')
