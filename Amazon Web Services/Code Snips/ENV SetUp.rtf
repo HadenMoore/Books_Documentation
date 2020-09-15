@@ -1,0 +1,84 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww12880\viewh11580\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 Amazon Web Services / Terminal Code: Getting the Env Started. \
+
+\f1\b0 	\
+	conda update -n base -c defaults conda\
+\
+	cd SageMaker\
+\
+	cd yelp-dataset-challenge-1-ds\
+\
+	conda env create -f environment.yml\
+\
+	source activate ydc2 #(ydc1) \
+	\
+	pip install python-decouple\
+\
+\
+	\
+
+\f0\b - Spacy \
+
+\f1\b0 \
+	python -m spacy download en_core_web_lg\
+\
+	python -m spacy link en_core_web_lg english\
+\
+
+\f0\b - Check spaCy Version: 
+\f1\b0 \
+\
+		conda search spacy --info\
+\
+\
+
+\f0\b - To install csv on the Notebook: 
+\f1\b0 \
+\
+	import pandas as pd\
+	from sklearn.feature_extraction.text 	\
+	import TfidfVectorizer\
+	import spacy\
+	import s3\
+	from pprintpp import pprint as pp\
+	from sklearn.externals import joblib\
+	nlp = spacy.load('en')\
+\
+
+\f0\b - Only have to run this once.
+\f1\b0 \
+Installs the .csv 'Locally' on SageMaker Instance\
+\
+	bucket.get('datasets/df.csv', 'df.csv')\
+\
+
+\f0\b - Load In Bucket: 
+\f1\b0 \
+\
+# Load in Bucket\
+bucket = s3.Bucket('yelpchallenge1')\
+# Look inside the bucket.\
+bucket.contents\
+\
+\
+
+\f0\b # Read-in df.csv
+\f1\b0 \
+df = pd.read_csv('df.csv')\
+# Dropping Column\
+df = df.drop(columns=['Unnamed: 0'])\
+# Dropping all Missing / Na Values from Entire Dataframe\
+df = df.dropna()\
+\
+
+\f0\b # Checking Null Values and Shape
+\f1\b0 \
+print(df.isna().sum())\
+print(df.shape)\
+}

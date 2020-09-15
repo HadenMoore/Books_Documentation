@@ -1,0 +1,43 @@
+# Progress Bar Install: 
+
+- Pip Installs: 
+
+pip install pyprind
+
+pip install psutil
+ 
+# Imports: 
+	
+import pyprind
+import psutil
+import random
+import time
+
+# Code: 
+
+n = 100
+bar = pyprind.ProgBar(n, monitor=True)
+for i in range(n):
+    tfidf = TfidfVectorizer(tokenizer=tokenize, min_df=0.025, max_df=.95, ngram_range=(1,2))
+    bar.update()
+print(bar)
+
+
+
+- Another Progress Bar: 
+
+
+from ipywidgets import IntProgress
+from IPython.display import display
+import time
+
+max_count = 100
+
+f = IntProgress(min=0, max=max_count) # instantiate the bar
+display(f) # display the bar
+
+count = 0
+while count <= max_count:
+    f.value += 1 # signal to increment the progress bar
+    time.sleep(.1)
+    count += 1

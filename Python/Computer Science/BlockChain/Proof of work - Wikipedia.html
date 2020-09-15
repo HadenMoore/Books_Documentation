@@ -1,0 +1,589 @@
+
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Proof of work - Wikipedia</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"XrkmOApAMNMAA9f7uCgAAAEC","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Proof_of_work","wgTitle":"Proof of work","wgCurRevisionId":950649470,"wgRevisionId":950649470,"wgArticleId":1560204,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 errors: missing periodical","Articles with short description","Articles needing cleanup from May 2015","All pages needing cleanup","Cleanup tagged articles with a reason field from May 2015","Wikipedia pages needing cleanup from May 2015","Wikipedia articles needing clarification from February 2018",
+"All accuracy disputes","Articles with disputed statements from May 2019","Webarchive template wayback links","Cryptography","Cryptocurrencies"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Proof_of_work","wgRelevantArticleId":1560204,"wgIsProbablyEditable":!0,"wgRelevantPageIsProbablyEditable":!0,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!1},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgWikibaseItemId":"Q7249984","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready"
+,"noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","jquery.makeCollapsible.styles":"ready","mediawiki.toc.styles":"ready","skins.vector.styles.legacy":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.startup","skins.vector.js","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns",
+"ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.toc.styles%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.35.0-wmf.30"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Proof_of_work&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Proof_of_work&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Proof_of_work"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 9]><script src="/w/resources/lib/html5shiv/html5shiv.js"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Proof_of_work rootpage-Proof_of_work skin-vector action-view">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+		<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div>
+	<div class="mw-indicators mw-body-content">
+</div>
+
+	<h1 id="firstHeading" class="firstHeading" lang="en">Proof of work</h1>
+	
+	<div id="bodyContent" class="mw-body-content">
+		<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+		<div id="contentSub"></div>
+		
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#p-search">Jump to search</a>
+		<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">A system that regulates the formation of blocks on a blockchain</div>
+<table class="box-Cleanup plainlinks metadata ambox ambox-style ambox-Cleanup" role="presentation"><tbody><tr><td class="mbox-image"><div style="width:52px"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png" decoding="async" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/60px-Edit-clear.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/80px-Edit-clear.svg.png 2x" data-file-width="48" data-file-height="48" /></div></td><td class="mbox-text"><div class="mbox-text-span">This article may <b>require <a href="/wiki/Wikipedia:Cleanup" title="Wikipedia:Cleanup">cleanup</a></b> to meet Wikipedia's <a href="/wiki/Wikipedia:Manual_of_Style" title="Wikipedia:Manual of Style">quality standards</a>. The specific problem is: <b>Needs verification and documentation</b><span class="hide-when-compact"> Please help <a class="external text" href="https://en.wikipedia.org/w/index.php?title=Proof_of_work&amp;action=edit">improve this article</a> if you can.</span>  <small class="date-container"><i>(<span class="date">May 2015</span>)</i></small><small class="hide-when-compact"><i> (<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></div></td></tr></tbody></table>
+<p>A <b>proof-of-work</b> (<b>PoW</b>) <b>system</b> (or <b>protocol</b>, or <b>function</b>) is a <a href="/wiki/Consensus_(computer_science)" title="Consensus (computer science)">consensus mechanism</a>. It deters <a href="/wiki/Denial-of-service_attack" title="Denial-of-service attack">denial-of-service attacks</a> and other service abuses such as <a href="/wiki/Spam_(electronic)" class="mw-redirect" title="Spam (electronic)">spam</a> on a network by requiring some work from the service requester, usually meaning processing time by a computer. The concept was invented by <a href="/wiki/Cynthia_Dwork" title="Cynthia Dwork">Cynthia Dwork</a> and <a href="/wiki/Moni_Naor" title="Moni Naor">Moni Naor</a> as presented in a 1993 journal article.<sup id="cite_ref-DwoNao1992_1-0" class="reference"><a href="#cite_note-DwoNao1992-1">&#91;1&#93;</a></sup> The term "proof of work" was first coined and formalized in a 1999 paper by <a href="/wiki/Markus_Jakobsson" title="Markus Jakobsson">Markus Jakobsson</a> and Ari Juels.<sup id="cite_ref-JaJue1999_2-0" class="reference"><a href="#cite_note-JaJue1999-2">&#91;2&#93;</a></sup>
+</p><p>A key feature of these schemes is their asymmetry: the work must be moderately hard (yet feasible) on the requester side but easy to check for the service provider. This idea is also known as a CPU cost function, <a href="/wiki/Client_Puzzle_Protocol" title="Client Puzzle Protocol">client puzzle</a>, computational puzzle, or CPU pricing function. It is distinct from a <a href="/wiki/CAPTCHA" title="CAPTCHA">CAPTCHA</a>, which is intended for a human to solve quickly, while being difficult to solve for a computer.
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Background"><span class="tocnumber">1</span> <span class="toctext">Background</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Variants"><span class="tocnumber">2</span> <span class="toctext">Variants</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#List_of_proof-of-work_functions"><span class="tocnumber">3</span> <span class="toctext">List of proof-of-work functions</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Reusable_proof-of-work_as_e-money"><span class="tocnumber">4</span> <span class="toctext">Reusable proof-of-work as e-money</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Bitcoin-type_proof_of_work"><span class="tocnumber">4.1</span> <span class="toctext">Bitcoin-type proof of work</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Energy_consumption"><span class="tocnumber">4.2</span> <span class="toctext">Energy consumption</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#ASICs_and_mining_pools"><span class="tocnumber">5</span> <span class="toctext">ASICs and mining pools</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Notes"><span class="tocnumber">7</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#External_links"><span class="tocnumber">9</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Background">Background</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Proof_of_work&amp;action=edit&amp;section=1" title="Edit section: Background">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>One popular system, used in <a href="/wiki/Hashcash" title="Hashcash">Hashcash</a>, uses partial hash inversions to prove that work was done, as a goodwill token to send an <a href="/wiki/E-mail" class="mw-redirect" title="E-mail">e-mail</a>. For instance, the following header represents about 2<sup>52</sup> hash computations to send a message to <code>calvin@comics.net</code> on <a href="/wiki/January_19,_2038" class="mw-redirect" title="January 19, 2038">January 19, 2038</a>:
+</p>
+<pre>X-Hashcash: 1:52:380119:calvin@comics.net:::9B760005E92F0DAE
+</pre>
+<p>It is verified with a single computation by checking that the <a href="/wiki/SHA-1" title="SHA-1">SHA-1</a> hash of the stamp (omit the header name <code>X-Hashcash:</code> including the colon and any amount of whitespace following it up to the digit '1') begins with 52 binary zeros, that is 13 hexadecimal zeros:<sup class="reference plainlinks nourlexpansion" id="ref_a"><a class="external autonumber" href="https://en.wikipedia.org/wiki/Proof_of_work#endnote_a">[1]</a></sup>
+</p>
+<pre>0000000000000756af69e2ffbdb930261873cd71
+</pre>
+<p>Whether PoW systems can actually solve a particular denial-of-service issue such as the spam problem is subject to debate;<sup id="cite_ref-LauClay2004_3-0" class="reference"><a href="#cite_note-LauClay2004-3">&#91;3&#93;</a></sup><sup id="cite_ref-LiuCa2006_4-0" class="reference"><a href="#cite_note-LiuCa2006-4">&#91;4&#93;</a></sup>
+the system must make sending spam emails obtrusively unproductive for the spammer, but should also not prevent legitimate users from sending their messages. In other words, a genuine user should not encounter any difficulties when sending an email, but an email spammer would have to expend a considerable amount of computing power to send out many emails at once. Proof-of-work systems are being used as a primitive by other more complex cryptographic systems such as <a href="/wiki/Bitcoin" title="Bitcoin">bitcoin</a> which uses a system similar to Hashcash.
+</p>
+<h2><span class="mw-headline" id="Variants">Variants</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Proof_of_work&amp;action=edit&amp;section=2" title="Edit section: Variants">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>There are two classes of proof-of-work protocols.
+</p>
+<ul><li><b>Challenge–response</b> protocols assume a direct interactive link between the requester (client) and the provider (server). The provider chooses a challenge, say an item in a set with a property, the requester finds the relevant response in the set, which is sent back and checked by the provider. As the challenge is chosen on the spot by the provider, its difficulty can be adapted to its current load. The work on the requester side may be bounded if the challenge-response protocol has a known solution (chosen by the provider), or is known to exist within a bounded search space.</li></ul>
+<div class="center"><div class="floatnone"><a href="/wiki/File:Proof_of_Work_challenge_response.svg" class="image"><img alt="Proof of Work challenge response.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/55/Proof_of_Work_challenge_response.svg/550px-Proof_of_Work_challenge_response.svg.png" decoding="async" width="550" height="151" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/55/Proof_of_Work_challenge_response.svg/825px-Proof_of_Work_challenge_response.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/55/Proof_of_Work_challenge_response.svg/1100px-Proof_of_Work_challenge_response.svg.png 2x" data-file-width="459" data-file-height="126" /></a></div></div>
+<ul><li><b>Solution–verification</b> protocols do not assume such a link: as a result, the problem must be self-imposed before a solution is sought by the requester, and the provider must check both the problem choice and the found solution. Most such schemes are unbounded probabilistic iterative procedures such as <a href="/wiki/Hashcash" title="Hashcash">Hashcash</a>.</li></ul>
+<div class="center"><div class="floatnone"><a href="/wiki/File:Proof_of_Work_solution_verification.svg" class="image"><img alt="Proof of Work solution verification.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Proof_of_Work_solution_verification.svg/550px-Proof_of_Work_solution_verification.svg.png" decoding="async" width="550" height="151" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Proof_of_Work_solution_verification.svg/825px-Proof_of_Work_solution_verification.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/24/Proof_of_Work_solution_verification.svg/1100px-Proof_of_Work_solution_verification.svg.png 2x" data-file-width="459" data-file-height="126" /></a></div></div>
+<p>Known-solution protocols tend to have slightly lower variance than unbounded probabilistic protocols because the variance of a <a href="/wiki/Uniform_distribution_(continuous)" title="Uniform distribution (continuous)">rectangular distribution</a> is lower than the variance of a <a href="/wiki/Poisson_distribution" title="Poisson distribution">Poisson distribution</a> (with the same mean).<sup class="noprint Inline-Template" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Please_clarify" title="Wikipedia:Please clarify"><span title="What is a variance in this context? Why is the known-solution protocol related to a Poisson distribution and not some other distribution? (February 2018)">further explanation needed</span></a></i>&#93;</sup>  A generic technique for reducing variance is to use multiple independent sub-challenges, as the average of multiple samples will have a lower variance.
+</p><p>There are also fixed-cost functions such as the time-lock puzzle.
+</p><p>Moreover, the underlying functions used by these schemes may be:
+</p>
+<ul><li><b>CPU-bound</b> where the computation runs at the speed of the processor, <a href="/wiki/Moore%27s_law" title="Moore&#39;s law">which greatly varies in time</a>, as well as from high-end server to low-end portable devices.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">&#91;5&#93;</a></sup></li>
+<li><b>Memory-bound</b><sup id="cite_ref-ABuMaWo2003_6-0" class="reference"><a href="#cite_note-ABuMaWo2003-6">&#91;6&#93;</a></sup><sup id="cite_ref-DwoGoNao2003_7-0" class="reference"><a href="#cite_note-DwoGoNao2003-7">&#91;7&#93;</a></sup><sup id="cite_ref-Coe2005_8-0" class="reference"><a href="#cite_note-Coe2005-8">&#91;8&#93;</a></sup><sup id="cite_ref-Tro2014_9-0" class="reference"><a href="#cite_note-Tro2014-9">&#91;9&#93;</a></sup> where the computation speed is bound by main memory accesses (either latency or bandwidth), the performance of which is expected to be less sensitive to hardware evolution.</li>
+<li><b>Network-bound</b><sup id="cite_ref-Abliz09_10-0" class="reference"><a href="#cite_note-Abliz09-10">&#91;10&#93;</a></sup> if the client must perform few computations, but must collect some tokens from remote servers before querying the final service provider. In this sense, the work is not actually performed by the requester, but it incurs delays anyway because of the latency to get the required tokens.</li></ul>
+<p>Finally, some PoW systems offer <b>shortcut</b> computations that allow participants who know a secret, typically a private key, to generate cheap PoWs. The rationale is that mailing-list holders may generate stamps for every recipient without incurring a high cost. Whether such a feature is desirable depends on the usage scenario.
+</p>
+<h2><span class="mw-headline" id="List_of_proof-of-work_functions">List of proof-of-work functions</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Proof_of_work&amp;action=edit&amp;section=3" title="Edit section: List of proof-of-work functions">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Here is a list of known proof-of-work functions:
+</p>
+<ul><li><a href="/wiki/Quadratic_residue" title="Quadratic residue">Integer square root modulo</a> a large prime<sup id="cite_ref-DwoNao1992_1-1" class="reference"><a href="#cite_note-DwoNao1992-1">&#91;1&#93;</a></sup><sup class="noprint Inline-Template" style="white-space:nowrap;">&#91;<i><a href="/wiki/Wikipedia:Accuracy_dispute#Disputed_statement" title="Wikipedia:Accuracy dispute"><span title="The material near this tag is possibly inaccurate or nonfactual. (May 2019)">dubious</span></a>&#32;<span class="metadata"> &#8211; <a href="/wiki/Talk:Proof_of_work#Modular_square_roots" title="Talk:Proof of work">discuss</a></span></i>&#93;</sup></li>
+<li>Weaken <a href="/wiki/Fiat%E2%80%93Shamir_heuristic" title="Fiat–Shamir heuristic">Fiat–Shamir</a> signatures<sup id="cite_ref-DwoNao1992_1-2" class="reference"><a href="#cite_note-DwoNao1992-1">&#91;1&#93;</a></sup></li>
+<li>Ong–Schnorr–Shamir signature broken by Pollard<sup id="cite_ref-DwoNao1992_1-3" class="reference"><a href="#cite_note-DwoNao1992-1">&#91;1&#93;</a></sup></li>
+<li>Partial hash inversion<sup id="cite_ref-Ba1997_11-0" class="reference"><a href="#cite_note-Ba1997-11">&#91;11&#93;</a></sup><sup id="cite_ref-GaJaMaMa1998_12-0" class="reference"><a href="#cite_note-GaJaMaMa1998-12">&#91;12&#93;</a></sup><sup id="cite_ref-JaJue1999_2-1" class="reference"><a href="#cite_note-JaJue1999-2">&#91;2&#93;</a></sup> This paper formalizes the idea of a proof of work and introduces "the dependent idea of a <a href="/w/index.php?title=Bread_pudding_protocol&amp;action=edit&amp;redlink=1" class="new" title="Bread pudding protocol (page does not exist)">bread pudding protocol</a>", a "re-usable proof-of-work" (RPoW) system.<sup id="cite_ref-WaRei2003_13-0" class="reference"><a href="#cite_note-WaRei2003-13">&#91;13&#93;</a></sup></li>
+<li>Hash sequences<sup id="cite_ref-FraMa1997_14-0" class="reference"><a href="#cite_note-FraMa1997-14">&#91;14&#93;</a></sup></li>
+<li>Puzzles<sup id="cite_ref-JueBrai1999_15-0" class="reference"><a href="#cite_note-JueBrai1999-15">&#91;15&#93;</a></sup></li>
+<li><a href="/wiki/Diffie%E2%80%93Hellman" class="mw-redirect" title="Diffie–Hellman">Diffie–Hellman</a>–based puzzle<sup id="cite_ref-WaJueHaFe2004_16-0" class="reference"><a href="#cite_note-WaJueHaFe2004-16">&#91;16&#93;</a></sup></li>
+<li>Moderate<sup id="cite_ref-ABuMaWo2003_6-1" class="reference"><a href="#cite_note-ABuMaWo2003-6">&#91;6&#93;</a></sup></li>
+<li>Mbound<sup id="cite_ref-DwoGoNao2003_7-1" class="reference"><a href="#cite_note-DwoGoNao2003-7">&#91;7&#93;</a></sup></li>
+<li>Hokkaido<sup id="cite_ref-Coe2005_8-1" class="reference"><a href="#cite_note-Coe2005-8">&#91;8&#93;</a></sup></li>
+<li>Cuckoo Cycle<sup id="cite_ref-Tro2014_9-1" class="reference"><a href="#cite_note-Tro2014-9">&#91;9&#93;</a></sup></li>
+<li><a href="/wiki/Merkle_tree" title="Merkle tree">Merkle tree</a>–based<sup id="cite_ref-Coe2007_17-0" class="reference"><a href="#cite_note-Coe2007-17">&#91;17&#93;</a></sup></li>
+<li><a href="/wiki/Guided_tour_puzzle_protocol" title="Guided tour puzzle protocol">Guided tour puzzle protocol</a><sup id="cite_ref-Abliz09_10-1" class="reference"><a href="#cite_note-Abliz09-10">&#91;10&#93;</a></sup></li></ul>
+<h2><span class="mw-headline" id="Reusable_proof-of-work_as_e-money">Reusable proof-of-work as e-money</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Proof_of_work&amp;action=edit&amp;section=4" title="Edit section: Reusable proof-of-work as e-money">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Computer scientist <a href="/wiki/Hal_Finney_(cypherpunk)" class="mw-redirect" title="Hal Finney (cypherpunk)">Hal Finney</a> built on the proof-of-work idea, yielding a system that exploited reusable proof of work (RPoW).<sup id="cite_ref-18" class="reference"><a href="#cite_note-18">&#91;18&#93;</a></sup>
+The idea of making proofs of work reusable for some practical purpose had already been established in 1999.<sup id="cite_ref-JaJue1999_2-2" class="reference"><a href="#cite_note-JaJue1999-2">&#91;2&#93;</a></sup> Finney's purpose for RPoW was as <a href="/wiki/Token_money" title="Token money">token money</a>. Just as a gold coin's value is thought to be underpinned by the value of the raw gold needed to make it, the value of an RPoW token is guaranteed by the value of the real-world resources required to 'mint' a PoW token. In Finney's version of RPoW, the PoW token is a piece of <a href="/wiki/Hashcash" title="Hashcash">Hashcash</a>.
+</p><p>A website can demand a PoW token in exchange for service. Requiring a PoW token from users would inhibit frivolous or excessive use of the service, sparing the service's underlying resources, such as bandwidth to the <a href="/wiki/Internet" title="Internet">Internet</a>, computation, disk space, electricity, and administrative overhead.
+</p><p>Finney's RPoW system differed from a PoW system in permitting the random exchange of tokens without repeating the work required to generate them. After someone had "spent" a PoW token at a website, the website's operator could exchange that "spent" PoW token for a new, unspent RPoW token, which could then be spent at some third-party website similarly equipped to accept RPoW tokens. This would save the resources otherwise needed to 'mint' a PoW token. The anti-counterfeit property of the RPoW token was guaranteed by <a href="/wiki/Trusted_computing" class="mw-redirect" title="Trusted computing">remote attestation</a>. The RPoW server that exchanges a used PoW or RPoW token for a new one of equal value uses remote attestation to allow any interested party to verify what software is running on the RPoW server. Since the source code for Finney's RPoW software was published (under a <a href="/wiki/BSD_licenses" title="BSD licenses">BSD</a>-like license), any sufficiently knowledgeable programmer could, by inspecting the code, verify that the software (and, by extension, the RPoW server) never issued a new token except in exchange for a spent token of equal value.
+</p><p>Until 2009, Finney's system was the only RPoW system to have been implemented; it never saw economically significant use.
+</p><p>RPoW is protected by the private keys stored in the <a href="/wiki/Trusted_platform_module" class="mw-redirect" title="Trusted platform module">trusted platform module (TPM)</a> hardware and manufacturers holding TPM private keys. Stealing a TPM manufacturer's key or obtaining the key by examining the TPM chip itself would subvert that assurance.
+</p>
+<h3><span class="mw-headline" id="Bitcoin-type_proof_of_work">Bitcoin-type proof of work</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Proof_of_work&amp;action=edit&amp;section=5" title="Edit section: Bitcoin-type proof of work">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In 2009, the <a href="/wiki/Bitcoin" title="Bitcoin">Bitcoin</a> network went online. Bitcoin is a proof-of-work <a href="/wiki/Cryptocurrency" title="Cryptocurrency">cryptocurrency</a> that, like Finney's RPoW, is also based on the <a href="/wiki/Hashcash" title="Hashcash">Hashcash</a> PoW. But in Bitcoin, double-spend protection is provided by a decentralized P2P protocol for tracking transfers of coins, rather than the hardware trusted computing function used by RPoW. Bitcoin has better trustworthiness because it is protected by computation. Bitcoins are "mined" using the Hashcash proof-of-work function by individual miners and verified by the decentralized nodes in the P2P bitcoin network.
+</p><p>The difficulty is periodically adjusted to keep the <a href="/wiki/Blockchain#Block_time" title="Blockchain">block time</a> around a target time.
+</p>
+<h3><span class="mw-headline" id="Energy_consumption">Energy consumption</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Proof_of_work&amp;action=edit&amp;section=6" title="Edit section: Energy consumption">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Since the creation of Bitcoin, proof-of-work has been the predominant design  of  peer-to-peer  crypto  currency, but many studies, looking at the energy consumption of mining, show that that is not efficient. An study of 2014 showed that the power used for Bitcoin mining at that time was comparable to Ireland's electricity consumption.<sup id="cite_ref-19" class="reference"><a href="#cite_note-19">&#91;19&#93;</a></sup>
+</p><p>Since then,  new  design  attempts  to  demonstrate  the  viability  of  future  peer-to-peer tokens with  less dependency  on  energy  consumption is usually required to: 
+</p>
+<ul><li>make mining profitable;</li>
+<li>use non-specialist hardware;</li>
+<li>be ecologic;</li>
+<li>be safe in energy-autonomous network, with a high level of security.</li></ul>
+<p>Many alternatives, like <a href="/wiki/Proof_of_stake" title="Proof of stake">proof of stake</a>, have received more attention as they represent viable solutions to the problem.
+</p>
+<h2><span class="mw-headline" id="ASICs_and_mining_pools">ASICs and mining pools</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Proof_of_work&amp;action=edit&amp;section=7" title="Edit section: ASICs and mining pools">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Within the Bitcoin community there are groups working together in <a href="/wiki/Mining_pool" title="Mining pool">mining pools</a>.<sup id="cite_ref-20" class="reference"><a href="#cite_note-20">&#91;20&#93;</a></sup> Some miners use <a href="/wiki/Application-specific_integrated_circuit" title="Application-specific integrated circuit">application-specific integrated circuits</a> (ASICs) for PoW.<sup id="cite_ref-21" class="reference"><a href="#cite_note-21">&#91;21&#93;</a></sup> Some PoWs claim to be ASIC-resistant, i.e. to limit the efficiency gain that an ASIC can have over commodity hardware, like a GPU, to be well under an order of magnitude.
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Proof_of_work&amp;action=edit&amp;section=8" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Bitcoin" title="Bitcoin">Bitcoin</a></li>
+<li><a href="/wiki/Cryptocurrency" title="Cryptocurrency">Cryptocurrency</a></li>
+<li><a href="/wiki/Bitmessage" title="Bitmessage">Bitmessage</a></li>
+<li><a href="/wiki/Proof_of_stake" title="Proof of stake">Proof of stake</a></li>
+<li><a href="/wiki/Proof_of_authority" title="Proof of authority">Proof of authority</a></li>
+<li><a href="/wiki/Proof_of_space" title="Proof of space">Proof of space</a></li>
+<li><a href="/wiki/Proof_of_burn" class="mw-redirect" title="Proof of burn">Proof of burn</a></li>
+<li><a href="/wiki/Proof_of_elapsed_time" class="mw-redirect" title="Proof of elapsed time">Proof of elapsed time</a></li>
+<li><a href="/wiki/Ripple_Protocol_Consensus_Algorithm" class="mw-redirect" title="Ripple Protocol Consensus Algorithm">Ripple Protocol Consensus Algorithm</a></li></ul>
+<h2><span class="mw-headline" id="Notes">Notes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Proof_of_work&amp;action=edit&amp;section=9" title="Edit section: Notes">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><span class="citation wikicite" id="endnote_a"><b><a href="#ref_a">^</a></b></span> On most Unix systems this can be verified with a command: <code>echo -n 1:52:380119:calvin@comics.net:::9B760005E92F0DAE | openssl sha1</code></li></ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Proof_of_work&amp;action=edit&amp;section=10" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-DwoNao1992-1"><span class="mw-cite-backlink">^ <a href="#cite_ref-DwoNao1992_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-DwoNao1992_1-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-DwoNao1992_1-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-DwoNao1992_1-3"><sup><i><b>d</b></i></sup></a></span> <span class="reference-text"><cite id="CITEREFDworkNaor1993" class="citation journal"><a href="/wiki/Cynthia_Dwork" title="Cynthia Dwork">Dwork, Cynthia</a>; <a href="/wiki/Moni_Naor" title="Moni Naor">Naor, Moni</a> (1993). <a rel="nofollow" class="external text" href="http://www.wisdom.weizmann.ac.il/~naor/PAPERS/pvp.ps">"Pricing via Processing, Or, Combatting Junk Mail, Advances in Cryptology"</a>. <i>CRYPTO'92: Lecture Notes in Computer Science No. 740</i>. Springer: 139–147. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<span class="cs1-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="https://doi.org/10.1007%2F3-540-48071-4_10">10.1007/3-540-48071-4_10</a></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=CRYPTO%2792%3A+Lecture+Notes+in+Computer+Science+No.+740&amp;rft.atitle=Pricing+via+Processing%2C+Or%2C+Combatting+Junk+Mail%2C+Advances+in+Cryptology&amp;rft.pages=139-147&amp;rft.date=1993&amp;rft_id=info%3Adoi%2F10.1007%2F3-540-48071-4_10&amp;rft.aulast=Dwork&amp;rft.aufirst=Cynthia&amp;rft.au=Naor%2C+Moni&amp;rft_id=http%3A%2F%2Fwww.wisdom.weizmann.ac.il%2F~naor%2FPAPERS%2Fpvp.ps&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProof+of+work" class="Z3988"></span><style data-mw-deduplicate="TemplateStyles:r951705291">.mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background-image:url("//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png");background-image:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg");background-repeat:no-repeat;background-size:9px;background-position:right .1em center}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background-image:url("//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png");background-image:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg");background-repeat:no-repeat;background-size:9px;background-position:right .1em center}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background-image:url("//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png");background-image:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg");background-repeat:no-repeat;background-size:9px;background-position:right .1em center}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:#555}.mw-parser-output .cs1-subscription span,.mw-parser-output .cs1-registration span{border-bottom:1px dotted;cursor:help}.mw-parser-output .cs1-ws-icon a{background-image:url("//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png");background-image:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg");background-repeat:no-repeat;background-size:12px;background-position:right .1em center}.mw-parser-output code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;font-size:100%}.mw-parser-output .cs1-visible-error{font-size:100%}.mw-parser-output .cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration,.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left,.mw-parser-output .cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right,.mw-parser-output .cs1-kern-wl-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style></span>
+</li>
+<li id="cite_note-JaJue1999-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-JaJue1999_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-JaJue1999_2-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-JaJue1999_2-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><cite id="CITEREFJakobssonJuels1999" class="citation journal">Jakobsson, Markus; Juels, Ari (1999). "Proofs of Work and Bread Pudding Protocols". <i>Secure Information Networks: Communications and Multimedia Security</i>. Kluwer Academic Publishers: 258–272. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<span class="cs1-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="https://doi.org/10.1007%2F978-0-387-35568-9_18">10.1007/978-0-387-35568-9_18</a></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Secure+Information+Networks%3A+Communications+and+Multimedia+Security&amp;rft.atitle=Proofs+of+Work+and+Bread+Pudding+Protocols&amp;rft.pages=258-272&amp;rft.date=1999&amp;rft_id=info%3Adoi%2F10.1007%2F978-0-387-35568-9_18&amp;rft.aulast=Jakobsson&amp;rft.aufirst=Markus&amp;rft.au=Juels%2C+Ari&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProof+of+work" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-LauClay2004-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-LauClay2004_3-0">^</a></b></span> <span class="reference-text"><cite id="CITEREFLaurieClayton2004" class="citation journal">Laurie, Ben; Clayton, Richard (May 2004). "Proof-of-work proves not to work". <i>Workshop on the Economics of Information Security 2004</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Workshop+on+the+Economics+of+Information+Security+2004&amp;rft.atitle=Proof-of-work+proves+not+to+work&amp;rft.date=2004-05&amp;rft.aulast=Laurie&amp;rft.aufirst=Ben&amp;rft.au=Clayton%2C+Richard&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProof+of+work" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-LiuCa2006-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-LiuCa2006_4-0">^</a></b></span> <span class="reference-text"><cite id="CITEREFLiuCamp2006" class="citation web">Liu, Debin; Camp, L. Jean (June 2006). <a rel="nofollow" class="external text" href="http://www.econinfosec.org/archive/weis2006/prog.html">"Proof of Work can work - Fifth Workshop on the Economics of Information Security"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Proof+of+Work+can+work+-+Fifth+Workshop+on+the+Economics+of+Information+Security&amp;rft.date=2006-06&amp;rft.aulast=Liu&amp;rft.aufirst=Debin&amp;rft.au=Camp%2C+L.+Jean&amp;rft_id=http%3A%2F%2Fwww.econinfosec.org%2Farchive%2Fweis2006%2Fprog.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProof+of+work" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://wayback.vefsafn.is/wayback/20130721202930/http://downloadsquad.switched.com/2009/07/20/how-powerful-was-the-apollo-11-computer/">How powerful was the Apollo 11 computer?</a>, a specific comparison that shows how different classes of devices have different processing power.</span>
+</li>
+<li id="cite_note-ABuMaWo2003-6"><span class="mw-cite-backlink">^ <a href="#cite_ref-ABuMaWo2003_6-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-ABuMaWo2003_6-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite id="CITEREFAbadiBurrowsManasseWobber2005" class="citation journal"><a href="/wiki/Mart%C3%ADn_Abadi" title="Martín Abadi">Abadi, Martín</a>; Burrows, Mike; Manasse, Mark; Wobber, Ted (2005). <a rel="nofollow" class="external text" href="https://www.researchgate.net/publication/220169842">"Moderately hard, memory-bound functions"</a>. <b>5</b> (2): 299–327.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Moderately+hard%2C+memory-bound+functions&amp;rft.volume=5&amp;rft.issue=2&amp;rft.pages=299-327&amp;rft.date=2005&amp;rft.aulast=Abadi&amp;rft.aufirst=Mart%C3%ADn&amp;rft.au=Burrows%2C+Mike&amp;rft.au=Manasse%2C+Mark&amp;rft.au=Wobber%2C+Ted&amp;rft_id=https%3A%2F%2Fwww.researchgate.net%2Fpublication%2F220169842&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProof+of+work" class="Z3988"></span> <span class="cs1-hidden-error error citation-comment">Cite journal requires <code class="cs1-code">&#124;journal=</code> (<a href="/wiki/Help:CS1_errors#missing_periodical" title="Help:CS1 errors">help</a>)</span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-DwoGoNao2003-7"><span class="mw-cite-backlink">^ <a href="#cite_ref-DwoGoNao2003_7-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-DwoGoNao2003_7-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite id="CITEREFDworkGoldbergNaor2003" class="citation journal"><a href="/wiki/Cynthia_Dwork" title="Cynthia Dwork">Dwork, Cynthia</a>; <a href="/wiki/Andrew_V._Goldberg" title="Andrew V. Goldberg">Goldberg, Andrew</a>; <a href="/wiki/Moni_Naor" title="Moni Naor">Naor, Moni</a> (2003). "On memory-bound functions for fighting spam". <i>Advances in Cryptology: CRYPTO 2003</i>. Lecture Notes in Computer Science. Springer. <b>2729</b>: 426–444. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<span class="cs1-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="https://doi.org/10.1007%2F978-3-540-45146-4_25">10.1007/978-3-540-45146-4_25</a></span>. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-3-540-40674-7" title="Special:BookSources/978-3-540-40674-7"><bdi>978-3-540-40674-7</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Advances+in+Cryptology%3A+CRYPTO+2003&amp;rft.atitle=On+memory-bound+functions+for+fighting+spam&amp;rft.volume=2729&amp;rft.pages=426-444&amp;rft.date=2003&amp;rft_id=info%3Adoi%2F10.1007%2F978-3-540-45146-4_25&amp;rft.isbn=978-3-540-40674-7&amp;rft.aulast=Dwork&amp;rft.aufirst=Cynthia&amp;rft.au=Goldberg%2C+Andrew&amp;rft.au=Naor%2C+Moni&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProof+of+work" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-Coe2005-8"><span class="mw-cite-backlink">^ <a href="#cite_ref-Coe2005_8-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Coe2005_8-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite id="CITEREFCoelho2005" class="citation journal">Coelho, Fabien (2005). <a rel="nofollow" class="external text" href="http://eprint.iacr.org/2005/356">"Exponential memory-bound functions for proof of work protocols"</a>. <i>Cryptology ePrint Archive, Report</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Cryptology+ePrint+Archive%2C+Report&amp;rft.atitle=Exponential+memory-bound+functions+for+proof+of+work+protocols&amp;rft.date=2005&amp;rft.aulast=Coelho&amp;rft.aufirst=Fabien&amp;rft_id=http%3A%2F%2Feprint.iacr.org%2F2005%2F356&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProof+of+work" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-Tro2014-9"><span class="mw-cite-backlink">^ <a href="#cite_ref-Tro2014_9-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Tro2014_9-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite id="CITEREFTromp2015" class="citation journal">Tromp, John (2015). <a rel="nofollow" class="external text" href="https://eprint.iacr.org/2014/059.pdf">"Cuckoo Cycle; a memory bound graph-theoretic proof-of-work"</a> <span class="cs1-format">(PDF)</span>. <i>Financial Cryptography and Data Security: BITCOIN 2015</i>. Lecture Notes in Computer Science. Springer. <b>8976</b>: 49–62. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<a rel="nofollow" class="external text" href="https://doi.org/10.1007%2F978-3-662-48051-9_4">10.1007/978-3-662-48051-9_4</a>. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-3-662-48050-2" title="Special:BookSources/978-3-662-48050-2"><bdi>978-3-662-48050-2</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Financial+Cryptography+and+Data+Security%3A+BITCOIN+2015&amp;rft.atitle=Cuckoo+Cycle%3B+a+memory+bound+graph-theoretic+proof-of-work&amp;rft.volume=8976&amp;rft.pages=49-62&amp;rft.date=2015&amp;rft_id=info%3Adoi%2F10.1007%2F978-3-662-48051-9_4&amp;rft.isbn=978-3-662-48050-2&amp;rft.aulast=Tromp&amp;rft.aufirst=John&amp;rft_id=https%3A%2F%2Feprint.iacr.org%2F2014%2F059.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProof+of+work" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-Abliz09-10"><span class="mw-cite-backlink">^ <a href="#cite_ref-Abliz09_10-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Abliz09_10-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite id="CITEREFAblizZnati2009" class="citation journal">Abliz, Mehmud; Znati, Taieb (December 2009). "A Guided Tour Puzzle for Denial of Service Prevention". <i>Proceedings of the Annual Computer Security Applications Conference (ACSAC) 2009</i>. Honolulu, HI: 279–288. <a href="/wiki/CiteSeerX_(identifier)" class="mw-redirect" title="CiteSeerX (identifier)">CiteSeerX</a>&#160;<span class="cs1-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="//citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.597.6304">10.1.1.597.6304</a></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Proceedings+of+the+Annual+Computer+Security+Applications+Conference+%28ACSAC%29+2009&amp;rft.atitle=A+Guided+Tour+Puzzle+for+Denial+of+Service+Prevention&amp;rft.pages=279-288&amp;rft.date=2009-12&amp;rft_id=%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fsummary%3Fdoi%3D10.1.1.597.6304&amp;rft.aulast=Abliz&amp;rft.aufirst=Mehmud&amp;rft.au=Znati%2C+Taieb&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProof+of+work" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-Ba1997-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-Ba1997_11-0">^</a></b></span> <span class="reference-text"><cite id="CITEREFBack" class="citation web">Back, Adam. <a rel="nofollow" class="external text" href="http://hashcash.org">"HashCash"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=HashCash&amp;rft.aulast=Back&amp;rft.aufirst=Adam&amp;rft_id=http%3A%2F%2Fhashcash.org&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProof+of+work" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/> A popular PoW system. First announced in March 1997.</span>
+</li>
+<li id="cite_note-GaJaMaMa1998-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-GaJaMaMa1998_12-0">^</a></b></span> <span class="reference-text"><cite id="CITEREFGabberJakobssonMatiasMayer1998" class="citation journal">Gabber, Eran; Jakobsson, Markus; Matias, Yossi; Mayer, Alain J. (1998). <a rel="nofollow" class="external text" href="http://www.academia.edu/download/39946025/Curbing_Junk_E-Mail_via_Secure_Classific20151112-14708-1fnuq3w.pdf">"Curbing junk e-mail via secure classification"</a> <span class="cs1-format">(PDF)</span>. <i>Financial Cryptography</i>: 198–213.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Financial+Cryptography&amp;rft.atitle=Curbing+junk+e-mail+via+secure+classification&amp;rft.pages=198-213&amp;rft.date=1998&amp;rft.aulast=Gabber&amp;rft.aufirst=Eran&amp;rft.au=Jakobsson%2C+Markus&amp;rft.au=Matias%2C+Yossi&amp;rft.au=Mayer%2C+Alain+J.&amp;rft_id=http%3A%2F%2Fwww.academia.edu%2Fdownload%2F39946025%2FCurbing_Junk_E-Mail_via_Secure_Classific20151112-14708-1fnuq3w.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProof+of+work" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-WaRei2003-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-WaRei2003_13-0">^</a></b></span> <span class="reference-text"><cite id="CITEREFWangReiter2003" class="citation journal">Wang, Xiao-Feng; Reiter, Michael (May 2003). <a rel="nofollow" class="external text" href="http://cs.unc.edu/~reiter/papers/2003/SP.pdf">"Defending against denial-of-service attacks with puzzle auctions"</a> <span class="cs1-format">(PDF)</span>. <i>IEEE Symposium on Security and Privacy '03</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=IEEE+Symposium+on+Security+and+Privacy+%2703&amp;rft.atitle=Defending+against+denial-of-service+attacks+with+puzzle+auctions&amp;rft.date=2003-05&amp;rft.aulast=Wang&amp;rft.aufirst=Xiao-Feng&amp;rft.au=Reiter%2C+Michael&amp;rft_id=http%3A%2F%2Fcs.unc.edu%2F~reiter%2Fpapers%2F2003%2FSP.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProof+of+work" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-FraMa1997-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-FraMa1997_14-0">^</a></b></span> <span class="reference-text"><cite id="CITEREFFranklinMalkhi1997" class="citation journal"><a href="/wiki/Matthew_K._Franklin" title="Matthew K. Franklin">Franklin, Matthew K.</a>; <a href="/wiki/Dahlia_Malkhi" title="Dahlia Malkhi">Malkhi, Dahlia</a> (1997). <span class="cs1-lock-registration" title="Free registration required"><a rel="nofollow" class="external text" href="https://archive.org/details/financialcryptog0000fcco/page/151">"Auditable metering with lightweight security"</a></span>. <i>Financial Cryptography '97</i>. Lecture Notes in Computer Science. <b>1318</b>: <a rel="nofollow" class="external text" href="https://archive.org/details/financialcryptog0000fcco/page/151">151–160</a>. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<a rel="nofollow" class="external text" href="https://doi.org/10.1007%2F3-540-63594-7_75">10.1007/3-540-63594-7_75</a>. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-3-540-63594-9" title="Special:BookSources/978-3-540-63594-9"><bdi>978-3-540-63594-9</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Financial+Cryptography+%2797&amp;rft.atitle=Auditable+metering+with+lightweight+security&amp;rft.volume=1318&amp;rft.pages=151-160&amp;rft.date=1997&amp;rft_id=info%3Adoi%2F10.1007%2F3-540-63594-7_75&amp;rft.isbn=978-3-540-63594-9&amp;rft.aulast=Franklin&amp;rft.aufirst=Matthew+K.&amp;rft.au=Malkhi%2C+Dahlia&amp;rft_id=https%3A%2F%2Farchive.org%2Fdetails%2Ffinancialcryptog0000fcco%2Fpage%2F151&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProof+of+work" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/> Updated version May 4, 1998.</span>
+</li>
+<li id="cite_note-JueBrai1999-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-JueBrai1999_15-0">^</a></b></span> <span class="reference-text"><cite id="CITEREFJuelsBrainard1999" class="citation journal">Juels, Ari; Brainard, John (1999). "Client puzzles: A cryptographic defense against connection depletion attacks". <i>NDSS 99</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=NDSS+99&amp;rft.atitle=Client+puzzles%3A+A+cryptographic+defense+against+connection+depletion+attacks&amp;rft.date=1999&amp;rft.aulast=Juels&amp;rft.aufirst=Ari&amp;rft.au=Brainard%2C+John&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProof+of+work" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-WaJueHaFe2004-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-WaJueHaFe2004_16-0">^</a></b></span> <span class="reference-text"><cite id="CITEREFWatersJuelsHaldermanFelten2004" class="citation journal">Waters, Brent; Juels, Ari; Halderman, John A.; <a href="/wiki/Edward_Felten" title="Edward Felten">Felten, Edward W.</a> (2004). <a rel="nofollow" class="external text" href="http://www.cs.utexas.edu/~bwaters/publications/papers/outsource_paper.pdf">"New client puzzle outsourcing techniques for DoS resistance"</a> <span class="cs1-format">(PDF)</span>. <i>11th ACM Conference on Computer and Communications Security</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=11th+ACM+Conference+on+Computer+and+Communications+Security&amp;rft.atitle=New+client+puzzle+outsourcing+techniques+for+DoS+resistance&amp;rft.date=2004&amp;rft.aulast=Waters&amp;rft.aufirst=Brent&amp;rft.au=Juels%2C+Ari&amp;rft.au=Halderman%2C+John+A.&amp;rft.au=Felten%2C+Edward+W.&amp;rft_id=http%3A%2F%2Fwww.cs.utexas.edu%2F~bwaters%2Fpublications%2Fpapers%2Foutsource_paper.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProof+of+work" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-Coe2007-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-Coe2007_17-0">^</a></b></span> <span class="reference-text"><cite id="CITEREFCoelho2007" class="citation journal">Coelho, Fabien (2007). <a rel="nofollow" class="external text" href="http://eprint.iacr.org/2007/433">"An (almost) constant-effort solution-verification proof-of-work protocol based on Merkle trees"</a>. <i>Cryptology ePrint Archive, Report</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Cryptology+ePrint+Archive%2C+Report&amp;rft.atitle=An+%28almost%29+constant-effort+solution-verification+proof-of-work+protocol+based+on+Merkle+trees&amp;rft.date=2007&amp;rft.aulast=Coelho&amp;rft.aufirst=Fabien&amp;rft_id=http%3A%2F%2Feprint.iacr.org%2F2007%2F433&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProof+of+work" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20071222072154/http://rpow.net/">"Reusable Proofs of Work"</a>. Archived from <a rel="nofollow" class="external text" href="http://rpow.net/">the original</a> on December 22, 2007.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Reusable+Proofs+of+Work&amp;rft_id=http%3A%2F%2Frpow.net%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AProof+of+work" class="Z3988"></span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r951705291"/></span>
+</li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="https://digital-library.theiet.org/content/conferences/10.1049/cp.2014.0699">https://digital-library.theiet.org/content/conferences/10.1049/cp.2014.0699</a></span>
+</li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://blockchain.info/pools">Overview of the Bitcoin mining pools</a> on blockchain.info</span>
+</li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://www.digitaltrends.com/computing/what-is-an-asic-miner/">What is an ASIC miner</a> on digitaltrends.com</span>
+</li>
+</ol></div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Proof_of_work&amp;action=edit&amp;section=11" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20071222072154/http://rpow.net/">Finney's system</a> at the <a href="/wiki/Wayback_Machine" title="Wayback Machine">Wayback Machine</a>&#32;(archived December 22, 2007)</li>
+<li><a href="/wiki/Bit_gold" class="mw-redirect" title="Bit gold">bit gold</a> <a rel="nofollow" class="external text" href="http://unenumerated.blogspot.com/2005/12/bit-gold.html">Bit gold</a>. <i>Describes a complete money system (including generation, storage, assay, and transfer) based on proof of work functions and the machine architecture problem raised by the use of these functions.</i></li></ul>
+<div role="navigation" class="navbox" aria-labelledby="Bitcoin" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="3"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:Bitcoin" title="Template:Bitcoin"><abbr title="View this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Bitcoin" title="Template talk:Bitcoin"><abbr title="Discuss this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Bitcoin&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="Bitcoin" style="font-size:114%;margin:0 4em"><a href="/wiki/Bitcoin" title="Bitcoin">Bitcoin</a></div></th></tr><tr><td class="navbox-abovebelow" colspan="3"><div id="*_History_*_Economics_*_Legal_status">
+<ul><li><a href="/wiki/History_of_bitcoin" title="History of bitcoin">History</a></li>
+<li><a href="/wiki/Economics_of_bitcoin" title="Economics of bitcoin">Economics</a></li>
+<li><a href="/wiki/Legality_of_bitcoin_by_country_or_territory" title="Legality of bitcoin by country or territory">Legal status</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">People</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Gavin_Andresen" title="Gavin Andresen">Gavin Andresen</a></li>
+<li><a href="/wiki/Andreas_Antonopoulos" title="Andreas Antonopoulos">Andreas Antonopoulos</a></li>
+<li><a href="/wiki/Wences_Casares" title="Wences Casares">Wences Casares</a></li>
+<li><a href="/wiki/Tim_Draper" title="Tim Draper">Tim Draper</a></li>
+<li><a href="/wiki/Hal_Finney_(computer_scientist)" title="Hal Finney (computer scientist)">Hal Finney</a></li>
+<li><a href="/wiki/Mark_Karpel%C3%A8s" title="Mark Karpelès">Mark Karpelès</a></li>
+<li><a href="/wiki/Bobby_C._Lee" title="Bobby C. Lee">Bobby C. Lee</a></li>
+<li><a href="/wiki/Satoshi_Nakamoto" title="Satoshi Nakamoto">Satoshi Nakamoto</a></li>
+<li><a href="/wiki/Charlie_Shrem" title="Charlie Shrem">Charlie Shrem</a></li>
+<li><a href="/wiki/Nick_Szabo" title="Nick Szabo">Nick Szabo</a></li>
+<li><a href="/wiki/Amir_Taaki" title="Amir Taaki">Amir Taaki</a></li>
+<li><a href="/wiki/Ross_Ulbricht" title="Ross Ulbricht">Ross Ulbricht</a></li>
+<li><a href="/wiki/Roger_Ver" title="Roger Ver">Roger Ver</a></li>
+<li><a href="/wiki/Cody_Wilson" title="Cody Wilson">Cody Wilson</a></li>
+<li><a href="/wiki/Winklevoss_twins" title="Winklevoss twins">Winklevoss twins</a></li></ul>
+</div></td><td class="navbox-image" rowspan="6" style="width:1px;padding:0px 0px 0px 2px"><div><style data-mw-deduplicate="TemplateStyles:r936637989">.mw-parser-output .portal{border:solid #aaa 1px;padding:0}.mw-parser-output .portal.tleft{margin:0.5em 1em 0.5em 0}.mw-parser-output .portal.tright{margin:0.5em 0 0.5em 1em}.mw-parser-output .portal>ul{display:table;box-sizing:border-box;padding:0.1em;max-width:175px;background:#f9f9f9;font-size:85%;line-height:110%;font-style:italic;font-weight:bold}.mw-parser-output .portal>ul>li{display:table-row}.mw-parser-output .portal>ul>li>span:first-child{display:table-cell;padding:0.2em;vertical-align:middle;text-align:center}.mw-parser-output .portal>ul>li>span:last-child{display:table-cell;padding:0.2em 0.2em 0.2em 0.3em;vertical-align:middle}</style><div role="navigation" aria-label="Portals" class="noprint portal plainlist tright">
+<ul>
+<li><span><img alt="icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/55/Bills_and_coins.svg/32px-Bills_and_coins.svg.png" decoding="async" width="32" height="16" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/55/Bills_and_coins.svg/48px-Bills_and_coins.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/55/Bills_and_coins.svg/64px-Bills_and_coins.svg.png 2x" data-file-width="960" data-file-height="465" /></span><span><a href="/wiki/Portal:Money" title="Portal:Money">Money portal</a></span></li></ul></div></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Groups</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/List_of_bitcoin_companies" title="List of bitcoin companies">List of bitcoin companies</a></li>
+<li><a href="/wiki/List_of_bitcoin_organizations" title="List of bitcoin organizations">List of bitcoin organizations</a></li>
+<li><a href="/wiki/List_of_people_in_blockchain_technology" title="List of people in blockchain technology">List of people in blockchain technology</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Technologies</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Base58" title="Base58">Base58</a></li>
+<li><a href="/wiki/Bitcoin_network" title="Bitcoin network">Bitcoin network</a></li>
+<li><a href="/wiki/Blockchain" title="Blockchain">Blockchain</a></li>
+<li><a href="/wiki/Cryptocurrency" title="Cryptocurrency">Cryptocurrency</a></li>
+<li><a href="/wiki/Bitcoin_ATM" title="Bitcoin ATM">Bitcoin ATM</a></li>
+<li><a href="/wiki/Elliptic_Curve_Digital_Signature_Algorithm" title="Elliptic Curve Digital Signature Algorithm">ECDSA</a></li>
+<li><a href="/wiki/Lightning_Network" title="Lightning Network">Lightning Network</a></li>
+<li><a href="/wiki/Peer-to-peer" title="Peer-to-peer">P2P</a></li>
+<li><a class="mw-selflink selflink">Proof of work</a></li>
+<li><a href="/wiki/SegWit" title="SegWit">SegWit</a></li>
+<li><a href="/wiki/SHA-2" title="SHA-2">SHA-2</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Software client</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Bitcoin_Core" title="Bitcoin Core">Bitcoin Core</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/List_of_bitcoin_forks" title="List of bitcoin forks">Forks</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%">Client</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Bitcoin_XT" title="Bitcoin XT">Bitcoin XT</a></li>
+<li><a href="/wiki/Bitcoin_Classic" title="Bitcoin Classic">Bitcoin Classic</a></li>
+<li><a href="/wiki/Bitcoin_Unlimited" title="Bitcoin Unlimited">Bitcoin Unlimited</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Currency</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Bitcoin_Cash" title="Bitcoin Cash">Bitcoin Cash</a></li>
+<li><a href="/wiki/Bitcoin_Gold" title="Bitcoin Gold">Bitcoin Gold</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Cryptocurrency_exchange" title="Cryptocurrency exchange">Exchanges</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Binance" title="Binance">Binance</a></li>
+<li><a href="/wiki/Bitcoin_Center_NYC" title="Bitcoin Center NYC">Bitcoin Center NYC</a></li>
+<li><a href="/wiki/Bitfinex" title="Bitfinex">Bitfinex</a></li>
+<li><a href="/wiki/BitFlyer" title="BitFlyer">bitFlyer</a></li>
+<li><a href="/wiki/Bithumb" title="Bithumb">Bithumb</a></li>
+<li><a href="/wiki/BitMEX" title="BitMEX">BitMEX</a></li>
+<li><a href="/wiki/Bitstamp" title="Bitstamp">Bitstamp</a></li>
+<li><a href="/wiki/Bittrex" title="Bittrex">Bittrex</a></li>
+<li><a href="/wiki/BTCC_(company)" title="BTCC (company)">BTCC</a></li>
+<li><a href="/wiki/BuyUcoin" title="BuyUcoin">BuyUcoin</a></li>
+<li><a href="/wiki/Coinbase" title="Coinbase">Coinbase</a></li>
+<li><a href="/wiki/Coincheck" title="Coincheck">Coincheck</a></li>
+<li><a href="/wiki/CoinCorner" title="CoinCorner">CoinCorner</a></li>
+<li><a href="/wiki/Coinfloor" title="Coinfloor">Coinfloor</a></li>
+<li><a href="/wiki/Coinrail" title="Coinrail">Coinrail</a></li>
+<li><a href="/wiki/Coins.ph" title="Coins.ph">Coins.ph</a></li>
+<li><a href="/wiki/Gemini_(company)" title="Gemini (company)">Gemini</a></li>
+<li><a href="/wiki/Huobi" title="Huobi">Huobi</a></li>
+<li><a href="/wiki/Kraken_(company)" title="Kraken (company)">Kraken</a></li>
+<li><a href="/wiki/LocalBitcoins" title="LocalBitcoins">LocalBitcoins</a></li>
+<li><a href="/wiki/OKEx" title="OKEx">OKEx</a></li>
+<li><a href="/wiki/ShapeShift" title="ShapeShift">ShapeShift</a></li>
+<li><a href="/wiki/Upbit" title="Upbit">Upbit</a></li>
+<li><a href="/wiki/Zebpay" title="Zebpay">Zebpay</a></li></ul>
+</div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th id="Defunct" scope="row" class="navbox-group" style="width:1%">Defunct</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/BTC-e" title="BTC-e">BTC-e</a></li>
+<li><a href="/wiki/Cryptopia" title="Cryptopia">Cryptopia</a></li>
+<li><a href="/wiki/Mt._Gox" title="Mt. Gox">Mt. Gox</a></li>
+<li><a href="/wiki/Quadriga_Fintech_Solutions" title="Quadriga Fintech Solutions">QuadrigaCX</a></li></ul>
+</div></td></tr></tbody></table><div>
+</div></td></tr><tr><td class="navbox-abovebelow hlist" colspan="3"><div>
+<ul><li><img alt="Wikipedia book" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Symbol_book_class2.svg/16px-Symbol_book_class2.svg.png" decoding="async" title="Wikipedia book" width="16" height="16" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Symbol_book_class2.svg/23px-Symbol_book_class2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/89/Symbol_book_class2.svg/31px-Symbol_book_class2.svg.png 2x" data-file-width="180" data-file-height="185" /> <a href="/wiki/Book:Bitcoin" title="Book:Bitcoin">Book</a></li>
+<li><img alt="Category" src="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" decoding="async" title="Category" width="16" height="14" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" data-file-width="36" data-file-height="31" /> <a href="/wiki/Category:Bitcoin" title="Category:Bitcoin">Category</a></li>
+<li><img alt="Commons page" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" decoding="async" title="Commons page" width="12" height="16" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /> <a href="https://commons.wikimedia.org/wiki/Category:Bitcoin" class="extiw" title="commons:Category:Bitcoin">Commons</a></li></ul>
+</div></td></tr></tbody></table></div>
+<div role="navigation" class="navbox" aria-labelledby="Cryptocurrencies" style="padding:3px"><table class="nowraplinks hlist mw-collapsible expanded navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:Cryptocurrencies" title="Template:Cryptocurrencies"><abbr title="View this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Cryptocurrencies" title="Template talk:Cryptocurrencies"><abbr title="Discuss this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Cryptocurrencies&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; padding:0;">e</abbr></a></li></ul></div><div id="Cryptocurrencies" style="font-size:114%;margin:0 4em"><a href="/wiki/Cryptocurrency" title="Cryptocurrency">Cryptocurrencies</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">Technology</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Blockchain" title="Blockchain">Blockchain</a></li>
+<li><a href="/wiki/Cryptocurrency_tumbler" title="Cryptocurrency tumbler">Cryptocurrency tumbler</a></li>
+<li><a href="/wiki/Cryptocurrency_exchange" title="Cryptocurrency exchange">Cryptocurrency exchange</a></li>
+<li><a href="/wiki/Cryptocurrency_wallet" title="Cryptocurrency wallet">Cryptocurrency wallet</a></li>
+<li><a href="/wiki/Cryptographic_hash_function" title="Cryptographic hash function">Cryptographic hash function</a></li>
+<li><a href="/wiki/Distributed_ledger" title="Distributed ledger">Distributed ledger</a></li>
+<li><a href="/wiki/Fork_(blockchain)" title="Fork (blockchain)">Fork</a></li>
+<li><a href="/wiki/Lightning_Network" title="Lightning Network">Lightning Network</a></li>
+<li><a href="/wiki/Smart_contract" title="Smart contract">Smart contract</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Consensus_(computer_science)" title="Consensus (computer science)">Consensus</a> mechanisms</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Proof_of_authority" title="Proof of authority">Proof of authority</a></li>
+<li><a href="/wiki/Proof_of_space" title="Proof of space">Proof of space</a></li>
+<li><a href="/wiki/Proof_of_stake" title="Proof of stake">Proof of stake</a></li>
+<li><a class="mw-selflink selflink">Proof of work</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a class="mw-selflink selflink">Proof of work</a> currencies</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/SHA-2" title="SHA-2">SHA-256</a>-based</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Bitcoin" title="Bitcoin">Bitcoin</a></li>
+<li><a href="/wiki/Bitcoin_Cash" title="Bitcoin Cash">Bitcoin Cash</a></li>
+<li><a href="/wiki/Counterparty_(platform)" title="Counterparty (platform)">Counterparty</a></li>
+<li><a href="/wiki/MazaCoin" title="MazaCoin">MazaCoin</a></li>
+<li><a href="/wiki/Namecoin" title="Namecoin">Namecoin</a></li>
+<li><a href="/wiki/Peercoin" title="Peercoin">Peercoin</a></li>
+<li><a href="/wiki/Titcoin" title="Titcoin">Titcoin</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Ethash" title="Ethash">Ethash</a>-based</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Ethereum" title="Ethereum">Ethereum</a></li>
+<li><a href="/wiki/Ethereum_Classic" title="Ethereum Classic">Ethereum Classic</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Scrypt" title="Scrypt">Scrypt</a>-based</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Auroracoin" title="Auroracoin">Auroracoin</a></li>
+<li><a href="/wiki/Bitconnect" title="Bitconnect">Bitconnect</a></li>
+<li><a href="/wiki/Bitcoin_Gold" title="Bitcoin Gold">Bitcoin Gold</a></li>
+<li><a href="/wiki/Coinye" title="Coinye">Coinye</a></li>
+<li><a href="/wiki/Dogecoin" title="Dogecoin">Dogecoin</a></li>
+<li><a href="/wiki/Litecoin" title="Litecoin">Litecoin</a></li>
+<li><a href="/wiki/PotCoin" title="PotCoin">PotCoin</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Equihash" title="Equihash">Equihash</a>-based</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Zcash" title="Zcash">Zcash</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/CryptoNote" title="CryptoNote">CryptoNote</a>-based</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Monero_(cryptocurrency)" title="Monero (cryptocurrency)">Monero</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/X11_algorithm" class="mw-redirect" title="X11 algorithm">X11</a>-based</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Dash_(cryptocurrency)" title="Dash (cryptocurrency)">Dash</a></li>
+<li><a href="/wiki/Petro_(cryptocurrency)" title="Petro (cryptocurrency)">Petro</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Lyra2" title="Lyra2">Lyra2</a>-based</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Taler_(cryptocurrency)" title="Taler (cryptocurrency)">Taler</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/AmbaCoin" title="AmbaCoin">AmbaCoin</a></li>
+<li><a href="/wiki/IOTA_(technology)" title="IOTA (technology)">IOTA</a></li>
+<li><a href="/wiki/Primecoin" title="Primecoin">Primecoin</a></li>
+<li><a href="/wiki/Verge_(cryptocurrency)" title="Verge (cryptocurrency)">Verge</a></li>
+<li><a href="/wiki/Vertcoin" title="Vertcoin">Vertcoin</a></li>
+<li><a href="/wiki/Zcoin" title="Zcoin">Zcoin</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Proof_of_stake" title="Proof of stake">Proof of stake</a> currencies</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Gridcoin" title="Gridcoin">Gridcoin</a></li>
+<li><a href="/wiki/EOS.IO" title="EOS.IO">EOS.IO</a></li>
+<li><a href="/wiki/Nxt" title="Nxt">Nxt</a></li>
+<li><a href="/wiki/Steem" title="Steem">Steem</a></li>
+<li><a href="/wiki/Tezos" title="Tezos">Tezos</a></li>
+<li><a href="/wiki/TRON_(cryptocurrency)" title="TRON (cryptocurrency)">TRON</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/ERC-20" class="mw-redirect" title="ERC-20">ERC-20</a> tokens</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Aragon_(project)" title="Aragon (project)">Aragon</a></li>
+<li><a href="/wiki/Augur_(software)" title="Augur (software)">Augur</a></li>
+<li><a href="/wiki/Aventus_Protocol" title="Aventus Protocol">Aventus</a></li>
+<li><a href="/wiki/Basic_Attention_Token" class="mw-redirect" title="Basic Attention Token">Basic Attention Token</a></li>
+<li><a href="/wiki/Centra_Tech" title="Centra Tech">Centra</a></li>
+<li><a href="/wiki/Kin_(Token)" class="mw-redirect" title="Kin (Token)">Kin</a></li>
+<li><a href="/wiki/KodakCoin" title="KodakCoin">KodakCoin</a></li>
+<li><a href="/wiki/Minds" title="Minds">Minds</a></li>
+<li><a href="/wiki/Power_Ledger" title="Power Ledger">Power Ledger</a></li>
+<li><a href="/wiki/The_DAO_(organization)" title="The DAO (organization)">The DAO</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Other currencies</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Daniel_Larimer#BitShares" title="Daniel Larimer">BitShares</a></li>
+<li><a href="/wiki/Filecoin" title="Filecoin">Filecoin</a></li>
+<li><a href="/wiki/GNU_Taler" title="GNU Taler">GNU Taler</a></li>
+<li><a href="/wiki/Hashgraph" title="Hashgraph">Hashgraph</a></li>
+<li><a href="/wiki/Libra_(cryptocurrency)" class="mw-redirect" title="Libra (cryptocurrency)">Libra</a></li>
+<li><a href="/wiki/Nano_(cryptocurrency)" title="Nano (cryptocurrency)">Nano</a></li>
+<li><a href="/wiki/NEM_(cryptocurrency)" title="NEM (cryptocurrency)">NEM</a></li>
+<li><a href="/wiki/NEO_(cryptocurrency)" title="NEO (cryptocurrency)">NEO</a></li>
+<li><a href="/wiki/Ripple_(payment_protocol)" title="Ripple (payment protocol)">Ripple</a></li>
+<li><a href="/wiki/Stellar_(payment_network)" title="Stellar (payment network)">Stellar</a></li>
+<li><a href="/wiki/Tether_(cryptocurrency)" title="Tether (cryptocurrency)">Tether</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Related topics</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Airdrop_(cryptocurrency)" title="Airdrop (cryptocurrency)">Airdrop</a></li>
+<li><a href="/wiki/BitLicense" title="BitLicense">BitLicense</a></li>
+<li><a href="/wiki/Blockchain_game" class="mw-redirect" title="Blockchain game">Blockchain game</a></li>
+<li><a href="/wiki/Complementary_currency" title="Complementary currency">Complementary currency</a></li>
+<li><a href="/wiki/Crypto-anarchism" title="Crypto-anarchism">Crypto-anarchism</a></li>
+<li><a href="/wiki/Cryptocurrency_bubble" title="Cryptocurrency bubble">Cryptocurrency bubble</a> (<a href="/wiki/2018_cryptocurrency_crash" title="2018 cryptocurrency crash">2018 cryptocurrency crash</a>)</li>
+<li><a href="/wiki/Digital_currency" title="Digital currency">Digital currency</a></li>
+<li><a href="/wiki/Double-spending" title="Double-spending">Double-spending</a></li>
+<li><a href="/wiki/Initial_coin_offering" title="Initial coin offering">Initial coin offering</a></li>
+<li><a href="/wiki/Initial_exchange_offering" title="Initial exchange offering">Initial exchange offering</a></li>
+<li><a href="/wiki/Initiative_Q" title="Initiative Q">Initiative Q</a></li>
+<li><a href="/wiki/List_of_cryptocurrencies" title="List of cryptocurrencies">List of cryptocurrencies</a></li>
+<li><a href="/wiki/Stablecoin" title="Stablecoin">Stablecoin</a></li>
+<li><a href="/wiki/Token_money" title="Token money">Token money</a></li>
+<li><a href="/wiki/Virtual_currency" title="Virtual currency">Virtual currency</a></li></ul>
+</div></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div>
+<ul><li><img alt="Category" src="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" decoding="async" title="Category" width="16" height="14" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" data-file-width="36" data-file-height="31" /> <b><a href="/wiki/Category:Cryptocurrencies" title="Category:Cryptocurrencies">Category</a></b></li>
+<li><img alt="Commons page" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" decoding="async" title="Commons page" width="12" height="16" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /> <b><a href="https://commons.wikimedia.org/wiki/Category:Cryptocurrency" class="extiw" title="commons:Category:Cryptocurrency">Commons</a></b></li>
+<li><img alt="List-Class article" src="//upload.wikimedia.org/wikipedia/en/thumb/d/db/Symbol_list_class.svg/16px-Symbol_list_class.svg.png" decoding="async" title="List-Class article" width="16" height="16" srcset="//upload.wikimedia.org/wikipedia/en/thumb/d/db/Symbol_list_class.svg/23px-Symbol_list_class.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/d/db/Symbol_list_class.svg/31px-Symbol_list_class.svg.png 2x" data-file-width="180" data-file-height="185" /> <b><a href="/wiki/List_of_cryptocurrencies" title="List of cryptocurrencies">List</a></b></li></ul>
+</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw1295
+Cached time: 20200511100844
+Cache expiry: 2592000
+Dynamic content: false
+Complications: [vary‐revision‐sha1]
+CPU time usage: 0.548 seconds
+Real time usage: 0.679 seconds
+Preprocessor visited node count: 1957/1000000
+Post‐expand include size: 93335/2097152 bytes
+Template argument size: 3332/2097152 bytes
+Highest expansion depth: 16/40
+Expensive parser function count: 7/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 72465/5000000 bytes
+Number of Wikibase entities loaded: 0/400
+Lua time usage: 0.258/10.000 seconds
+Lua memory usage: 5.86 MB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  557.666      1 -total
+ 41.30%  230.316      1 Template:Reflist
+ 31.77%  177.156     14 Template:Cite_journal
+ 15.16%   84.536      1 Template:Cleanup
+ 13.67%   76.241      5 Template:Navbox
+ 11.90%   66.370      1 Template:Short_description
+ 10.45%   58.255      1 Template:Bitcoin
+  9.27%   51.705      1 Template:Pagetype
+  8.29%   46.247      3 Template:Category_handler
+  7.53%   42.003      3 Template:Main_other
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1560204-0!canonical and timestamp 20200511100844 and revision id 950649470
+ -->
+</div><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>
+		<div class="printfooter">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Proof_of_work&amp;oldid=950649470">https://en.wikipedia.org/w/index.php?title=Proof_of_work&amp;oldid=950649470</a>"</div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Cryptography" title="Category:Cryptography">Cryptography</a></li><li><a href="/wiki/Category:Cryptocurrencies" title="Category:Cryptocurrencies">Cryptocurrencies</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:CS1_errors:_missing_periodical" title="Category:CS1 errors: missing periodical">CS1 errors: missing periodical</a></li><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Articles_needing_cleanup_from_May_2015" title="Category:Articles needing cleanup from May 2015">Articles needing cleanup from May 2015</a></li><li><a href="/wiki/Category:All_pages_needing_cleanup" title="Category:All pages needing cleanup">All pages needing cleanup</a></li><li><a href="/wiki/Category:Cleanup_tagged_articles_with_a_reason_field_from_May_2015" title="Category:Cleanup tagged articles with a reason field from May 2015">Cleanup tagged articles with a reason field from May 2015</a></li><li><a href="/wiki/Category:Wikipedia_pages_needing_cleanup_from_May_2015" title="Category:Wikipedia pages needing cleanup from May 2015">Wikipedia pages needing cleanup from May 2015</a></li><li><a href="/wiki/Category:Wikipedia_articles_needing_clarification_from_February_2018" title="Category:Wikipedia articles needing clarification from February 2018">Wikipedia articles needing clarification from February 2018</a></li><li><a href="/wiki/Category:All_accuracy_disputes" title="Category:All accuracy disputes">All accuracy disputes</a></li><li><a href="/wiki/Category:Articles_with_disputed_statements_from_May_2019" title="Category:Articles with disputed statements from May 2019">Articles with disputed statements from May 2019</a></li><li><a href="/wiki/Category:Webarchive_template_wayback_links" title="Category:Webarchive template wayback links">Webarchive template wayback links</a></li></ul></div></div>
+		<div class="visualClear"></div>
+		
+	</div>
+</div>
+<div id='mw-data-after-content'>
+	<div class="read-more-container"></div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		
+<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+	<h3 id="p-personal-label">Personal tools</h3>
+	<ul >
+		<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Proof+of+work" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Proof+of+work" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o">Log in</a></li>
+	</ul>
+</div>
+
+		<div id="left-navigation">
+			<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+	<h3 id="p-namespaces-label">Namespaces</h3>
+	<ul >
+		<li id="ca-nstab-main" class="selected"><a href="/wiki/Proof_of_work" title="View the content page [c]" accesskey="c">Article</a></li><li id="ca-talk"><a href="/wiki/Talk:Proof_of_work" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t">Talk</a></li>
+	</ul>
+</div>
+
+			<div id="p-variants" role="navigation" class="emptyPortlet vectorMenu" aria-labelledby="p-variants-label">
+	<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+	<h3 id="p-variants-label">
+		<span>Variants</span>
+	</h3>
+	<ul class="menu" >
+		
+	</ul>
+</div>
+
+		</div>
+		<div id="right-navigation">
+			<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+	<h3 id="p-views-label">Views</h3>
+	<ul >
+		<li id="ca-view" class="collapsible selected"><a href="/wiki/Proof_of_work">Read</a></li><li id="ca-edit" class="collapsible"><a href="/w/index.php?title=Proof_of_work&amp;action=edit" title="Edit this page [e]" accesskey="e">Edit</a></li><li id="ca-history" class="collapsible"><a href="/w/index.php?title=Proof_of_work&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></li>
+	</ul>
+</div>
+
+			<div id="p-cactions" role="navigation" class="emptyPortlet vectorMenu" aria-labelledby="p-cactions-label">
+	<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+	<h3 id="p-cactions-label">
+		<span>More</span>
+	</h3>
+	<ul class="menu" >
+		
+	</ul>
+</div>
+
+			<div id="p-search" role="search">
+	<h3 >
+		<label for="searchInput">Search</label>
+	</h3>
+	<form action="/w/index.php" id="searchform">
+		<div id="simpleSearch">
+			<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/>
+			<input type="hidden" value="Special:Search" name="title"/>
+			<input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/>
+			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>
+		</div>
+	</form>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel">
+	<div id="p-logo" role="banner">
+		<a  title="Visit the main page" class="mw-wiki-logo" href="/wiki/Main_Page"></a>
+	</div>
+	<div class="portal portal-first" role="navigation" id="p-navigation"  aria-labelledby="p-navigation-label">
+	<h3  id="p-navigation-label">
+		Navigation
+	</h3>
+	<div class="body">
+		<ul><li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Wikipedia:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li></ul>
+		
+	</div>
+</div>
+
+
+	<div class="portal" role="navigation" id="p-interaction"  aria-labelledby="p-interaction-label">
+	<h3  id="p-interaction-label">
+		Interaction
+	</h3>
+	<div class="body">
+		<ul><li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li></ul>
+		
+	</div>
+</div>
+
+<div class="portal" role="navigation" id="p-tb"  aria-labelledby="p-tb-label">
+	<h3  id="p-tb-label">
+		Tools
+	</h3>
+	<div class="body">
+		<ul><li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Proof_of_work" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Proof_of_work" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Proof_of_work&amp;oldid=950649470" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Proof_of_work&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q7249984" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Proof_of_work&amp;id=950649470&amp;wpFormIdentifier=titleform" title="Information on how to cite this page">Cite this page</a></li></ul>
+		
+	</div>
+</div>
+
+<div class="portal" role="navigation" id="p-coll-print_export"  aria-labelledby="p-coll-print_export-label">
+	<h3  id="p-coll-print_export-label">
+		Print/export
+	</h3>
+	<div class="body">
+		<ul><li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Proof+of+work">Create a book</a></li><li id="coll-download-as-rl"><a href="/w/index.php?title=Special:ElectronPdf&amp;page=Proof+of+work&amp;action=show-download-screen">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Proof_of_work&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>
+		
+	</div>
+</div>
+
+<div class="portal" role="navigation" id="p-lang"  aria-labelledby="p-lang-label">
+	<h3  id="p-lang-label">
+		Languages
+	</h3>
+	<div class="body">
+		<ul><li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D8%A5%D8%AB%D8%A8%D8%A7%D8%AA_%D8%A7%D9%84%D8%B9%D9%85%D9%84" title="إثبات العمل – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target">العربية</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Prova_de_treball" title="Prova de treball – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Proof-of-Work" title="Proof-of-Work – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target">Čeština</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Proof_of_Work" title="Proof of Work – German" lang="de" hreflang="de" class="interlanguage-link-target">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Sistema_de_prueba_de_trabajo" title="Sistema de prueba de trabajo – Spanish" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li><li class="interlanguage-link interwiki-eo"><a href="https://eo.wikipedia.org/wiki/Laborpruva_sistemo" title="Laborpruva sistemo – Esperanto" lang="eo" hreflang="eo" class="interlanguage-link-target">Esperanto</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%A7%D8%AB%D8%A8%D8%A7%D8%AA_%DA%A9%D8%A7%D8%B1" title="اثبات کار – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Preuve_de_travail" title="Preuve de travail – French" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EC%9E%91%EC%97%85_%EC%A6%9D%EB%AA%85_%EC%8B%9C%EC%8A%A4%ED%85%9C" title="작업 증명 시스템 – Korean" lang="ko" hreflang="ko" class="interlanguage-link-target">한국어</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Proof-of-work" title="Proof-of-work – Italian" lang="it" hreflang="it" class="interlanguage-link-target">Italiano</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/%D7%9E%D7%A2%D7%A8%D7%9B%D7%AA_%D7%94%D7%95%D7%9B%D7%97%D7%AA_%D7%A2%D7%91%D7%95%D7%93%D7%94" title="מערכת הוכחת עבודה – Hebrew" lang="he" hreflang="he" class="interlanguage-link-target">עברית</a></li><li class="interlanguage-link interwiki-lv"><a href="https://lv.wikipedia.org/wiki/Darba_pier%C4%81d%C4%ABjums" title="Darba pierādījums – Latvian" lang="lv" hreflang="lv" class="interlanguage-link-target">Latviešu</a></li><li class="interlanguage-link interwiki-mk"><a href="https://mk.wikipedia.org/wiki/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC_%D1%81%D0%BE_%D0%B4%D0%BE%D0%BA%D0%B0%D0%B7_%D0%B7%D0%B0_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0" title="Систем со доказ за работа – Macedonian" lang="mk" hreflang="mk" class="interlanguage-link-target">Македонски</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AB%E3%83%BC%E3%83%95%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0" title="プルーフ・オブ・ワークシステム – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target">日本語</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Prova_de_trabalho" title="Prova de trabalho – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target">Português</a></li><li class="interlanguage-link interwiki-ro"><a href="https://ro.wikipedia.org/wiki/Proof-of-work" title="Proof-of-work – Romanian" lang="ro" hreflang="ro" class="interlanguage-link-target">Română</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE_%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B" title="Доказательство выполнения работы – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li><li class="interlanguage-link interwiki-simple"><a href="https://simple.wikipedia.org/wiki/Proof-of-work_system" title="Proof-of-work system – Simple English" lang="en-simple" hreflang="en-simple" class="interlanguage-link-target">Simple English</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Bevis-p%C3%A5-arbete" title="Bevis-på-arbete – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target">Svenska</a></li><li class="interlanguage-link interwiki-tr"><a href="https://tr.wikipedia.org/wiki/Emek_%C4%B0spat%C4%B1" title="Emek İspatı – Turkish" lang="tr" hreflang="tr" class="interlanguage-link-target">Türkçe</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%94%D0%BE%D0%BA%D0%B0%D0%B7_%D0%B2%D0%B8%D0%BA%D0%BE%D0%BD%D0%B0%D0%BD%D0%BE%D1%97_%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B8" title="Доказ виконаної роботи – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target">Українська</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E5%B7%A5%E4%BD%9C%E9%87%8F%E8%AD%89%E6%98%8E" title="工作量證明 – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li></ul>
+		<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q7249984#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+	</div>
+</div>
+
+
+</div>
+
+</div>
+
+<div id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info" class="">
+		<li id="footer-info-lastmod"> This page was last edited on 13 April 2020, at 04:48<span class="anonymous-show">&#160;(UTC)</span>.</li>
+		<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+	</ul>
+	<ul id="footer-places" class="">
+		<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+		<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+		<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+		<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+		<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+		<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+		<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+		<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Proof_of_work&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+	</ul>
+	<ul id="footer-icons" class="noprint">
+		<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a></li>
+		<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a></li>
+	</ul>
+	<div style="clear: both;"></div>
+</div>
+
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.548","walltime":"0.679","ppvisitednodes":{"value":1957,"limit":1000000},"postexpandincludesize":{"value":93335,"limit":2097152},"templateargumentsize":{"value":3332,"limit":2097152},"expansiondepth":{"value":16,"limit":40},"expensivefunctioncount":{"value":7,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":72465,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  557.666      1 -total"," 41.30%  230.316      1 Template:Reflist"," 31.77%  177.156     14 Template:Cite_journal"," 15.16%   84.536      1 Template:Cleanup"," 13.67%   76.241      5 Template:Navbox"," 11.90%   66.370      1 Template:Short_description"," 10.45%   58.255      1 Template:Bitcoin","  9.27%   51.705      1 Template:Pagetype","  8.29%   46.247      3 Template:Category_handler","  7.53%   42.003      3 Template:Main_other"]},"scribunto":{"limitreport-timeusage":{"value":"0.258","limit":"10.000"},"limitreport-memusage":{"value":6145351,"limit":52428800}},"cachereport":{"origin":"mw1295","timestamp":"20200511100844","ttl":2592000,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Proof of work","url":"https:\/\/en.wikipedia.org\/wiki\/Proof_of_work","sameAs":"http:\/\/www.wikidata.org\/entity\/Q7249984","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q7249984","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-03-02T06:46:55Z","dateModified":"2020-04-13T04:48:15Z","headline":"a system that regulates the formation of blocks on a blockchain"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":102,"wgHostname":"mw1369"});});</script></body></html>

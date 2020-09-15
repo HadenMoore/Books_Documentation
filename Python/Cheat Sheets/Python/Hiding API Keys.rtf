@@ -1,0 +1,58 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;\f2\fnil\fcharset0 Menlo-Regular;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red31\green31\blue31;
+\red31\green31\blue31;\red202\green202\blue202;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000\c0;\cssrgb\c16114\c16114\c16074;
+\cssrgb\c16149\c16149\c16068;\cssrgb\c83137\c83137\c83137;}
+\margl1440\margr1440\vieww13060\viewh13880\viewkind0
+\deftab720
+\pard\pardeftab720\sl640\partightenfactor0
+
+\f0\b\fs52 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec4 Create 3 Files in Your Application\
+\pard\pardeftab720\sl640\partightenfactor0
+
+\fs42 \cf2 \strokec4 config.py
+\f1\b0 \strokec4 \
+This file will store your API keys. You just need to update the portion in the strings with your API keys, depending on the service you may or may not need all four types of API keys. These in particular are required to create a Twitter application.\
+\pard\pardeftab720\sl640\partightenfactor0
+\cf2 \strokec5 \
+# .gitignore should include reference to config.py\
+
+\fs38 api_key = \'93YOUR_KEY\'94 \
+api_secret = \'93YOUR_SECRET\'94\
+access_token = \'93YOUR_ACCESS_TOKEN\'94\
+token_secret = \'93YOUR_TOKEN_SECRET\'94\
+\
+\
+
+\f0\b\fs42 \ul main_script.py\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b0 \cf2 \ulnone \strokec4 This file will store your main script that needs to access the API keys. This file can be named whatever you like.\
+
+\fs38 \
+import config\
+\
+from twython import Twython, TwythonError\
+\
+# Create a Twython Object by passing the necessary secret passwords. \
+twitter = Twython(config.api_key, config.api_secret, config.access_token, config.token_secret) \
+\
+\
+
+\f0\b\fs42 \ul .gitignore:  
+\f1\b0 \ulnone \
+\pard\pardeftab720\partightenfactor0
+\cf2 \strokec2 A .gitignore file tells GitHub to ignore the noted files, directories or files that end in specific extensions when committing files to GitHub.
+\f0\b \'a0This step is crucial to ensure that your config.py file does not end up viewable on GitHub! Here\'92s\'a0{\field{\*\fldinst{HYPERLINK "https://github.com/github/gitignore"}}{\fldrslt a collection of useful .gitignore templates}}.\
+\
+
+\f1\b0\fs38 config.py \
+__pycache__\
+.ipynb_checkpoints\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\fs24 \cf6 \cb1 \strokec6 \
+}
