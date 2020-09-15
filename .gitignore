@@ -104,8 +104,11 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
-# DS_Store
+# OS generated files #
+######################
 .DS_Store
+.DS_Store? 
+
 # Config 
 _config.yml
 # Environments
