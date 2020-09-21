@@ -1,12 +1,13 @@
 # Books & Documentation
-This is a Collection of Books, Programming Language Documentation, Operating Systems and Code Snippets
-that I've acquired overtime. All Books are in PDF Form.
+A Collection of Books on Various Programming Languages, Documentation, Operating Systems and Code Snippets
+that I've acquired overtime. *All Books are in PDF Form.
 
 If you have any questions or would like to contribute, please email me at:
 HadenS.Moore@Gmail.com
 
+[**Wiki** ](https://github.com/HadenMoore/Books_Documentation/wiki)
 
-**Languages:**
+**Languages:** 
 
 - [C# ](https://github.com/HadenMoore/Books_Documentation/tree/master/C%23)
 
@@ -43,7 +44,7 @@ HadenS.Moore@Gmail.com
 
 - [Git](https://github.com/HadenMoore/Books_Documentation/tree/master/Git)
 
-# About
+# About: 
 Created and Maintained by: 
 Haden Moore. 
 
@@ -57,4 +58,4 @@ Haden Moore.
 
 
 Last Updated: 
-- Tuesday, September 15th, 2020 at 10:05 AM (CST).
+- Monday, September 21st, 2020 at 9:56 AM (CST).
