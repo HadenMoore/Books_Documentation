@@ -2,8 +2,10 @@
 A Collection of Books on Various Programming Languages, Documentation, Operating Systems and Code Snippets
 that I've acquired overtime. *All Books are in PDF Form.*
 
-If you have any questions or would like to contribute, please email me at:
-HadenS.Moore@Gmail.com
+***Please Fork the Repository to stay updated.***
+
+***If you have any questions or would like to contribute, please email me at:
+HadenS.Moore@Gmail.com***
 
 [**Wiki** ](https://github.com/HadenMoore/Books_Documentation/wiki)
 
