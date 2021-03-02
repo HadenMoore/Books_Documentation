@@ -1,10 +1,9 @@
 # Books & Documentation
-A Collection of Books on Various Programming Languages, Documentation, Operating Systems and Code Snippets
-that I've acquired overtime. *All Books are in PDF Form.*
+A Collection of Books on Various Programming Languages, Documentation, Operating Systems, Cheat Sheets, and Code Snippets. *All Books are in PDF Form.*
 
 ***Please Fork the Repository to stay updated.***
 
-***If you have any questions or would like to contribute, please email me at:
+***If you have any questions or would like to contribute, please email:
 HadenS.Moore@Gmail.com***
 
 [**Wiki** ](https://github.com/HadenMoore/Books_Documentation/wiki)
@@ -34,6 +33,10 @@ HadenS.Moore@Gmail.com***
 - [Ruby on Rails](https://github.com/HadenMoore/Books_Documentation/tree/master/Ruby%20on%20Rails)
 - [SQL](https://github.com/HadenMoore/Books_Documentation/tree/master/SQL)
 
+**Cloud:**
+- [Private Cloud](https://github.com/HadenMoore/Books_Documentation/tree/master/Private%20Cloud)
+
+
 **Operating Systems:**
 - [Windows](https://github.com/HadenMoore/Books_Documentation/tree/master/Windows) 
   * [PowerShell](https://github.com/HadenMoore/Books_Documentation/tree/master/Windows/PowerShell) 
@@ -60,4 +63,4 @@ Haden Moore.
 
 
 Last Updated: 
-- Monday, September 21st, 2020 at 9:56 AM (CST).
+- Tuesday, March 2nd, 2021 at 8:43 AM (CST).
