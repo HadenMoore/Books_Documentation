@@ -1,5 +1,5 @@
 # Books & Documentation
-A Collection of Books on Various Programming Languages, Documentation, Operating Systems, Cheat Sheets, and Code Snippets. *All Books are in PDF Form.*
+A Collection of Books on Various Programming Languages, Frameworks, Documentation, Operating Systems, Interview Prep, Cheat Sheets and Code Snippets. *All Books are in PDF Form.*
 
 ***Please Fork the Repository to stay updated.***
 
@@ -53,14 +53,17 @@ HadenS.Moore@Gmail.com***
 Created and Maintained by: 
 Haden Moore. 
 
+If you have any questions or would like to contribute, contact me at:
+
+HadenS.Moore@Gmail.com 
+
  - Social Links: 
  
-	- LinkedIn: https://www.linkedin.com/in/hadenmoore 
-	- GitHub: https://github.com/HadenMoore
-	- Portfolio: https://www.hadenmoore.com 
 	- Twitter: @HadenMoore
 	- Instagram: @HadenMoore
-
+	- GitHub: https://github.com/HadenMoore
+	- Portfolio: https://www.hadenmoore.com 
+	- LinkedIn: https://www.linkedin.com/in/hadenmoore
 
 Last Updated: 
 - Tuesday, March 2nd, 2021 at 8:43 AM (CST).
