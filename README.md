@@ -64,6 +64,3 @@ HadenS.Moore@Gmail.com
 	- GitHub: https://github.com/HadenMoore
 	- Portfolio: https://www.hadenmoore.com 
 	- LinkedIn: https://www.linkedin.com/in/hadenmoore
-
-Last Updated: 
-- Tuesday, March 2nd, 2021 at 8:43 AM (CST).
