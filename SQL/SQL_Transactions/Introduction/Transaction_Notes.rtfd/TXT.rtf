@@ -1,0 +1,62 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 Helvetica-BoldOblique;\f2\fswiss\fcharset0 Helvetica-Oblique;
+\f3\fnil\fcharset0 Tahoma;\f4\fnil\fcharset0 Tahoma-Bold;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red28\green28\blue28;
+\red0\green0\blue0;\red28\green28\blue28;\red28\green28\blue28;}
+{\*\expandedcolortbl;;\cssrgb\c0\c1\c1;\cssrgb\c100000\c100000\c100000\c0;\cssrgb\c14558\c14558\c14503;
+\cssrgb\c0\c1\c1;\cssrgb\c14542\c14542\c14505;\cssrgb\c14510\c14510\c14510;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww13080\viewh11760\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs36\fsmilli18125 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec4 A 
+\f1\i\b \cf2 \strokec4 Transaction
+\f0\i0\b0 \cf2 \strokec4  is the logical work unit that performs a 
+\f2\i \cf2 \strokec4 Single Activity or Multiple Activities in a Database
+\f0\i0 \cf2 \strokec4 .\
+\
+
+\f1\i\b \cf2 \strokec4 Transactions
+\f0\i0\b0 \cf2 \strokec4  may consist of: 
+\f2\i \cf2 \strokec4 A Single Read, Write, Delete, or Update Operations or a combination of these. \
+
+\f0\i0 \cf2 \strokec4 \
+Suppose that, when we want to withdraw money from the ATM, the ATM application will achieve this operation in three steps. As a first step, the application will check the balance of the account, and then it will deduct the money from the source account. Along with these two processes, it will keep the log of this money withdrawing activity. The following image basically illustrates the working principle of the transactions in the relational database systems.
+\fs34\fsmilli17125 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {{\NeXTGraphic Pasted Graphic.png \width6408 \height6780 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\
+\
+\
+\
+\pard\pardeftab720\sl450\sa411\partightenfactor0
+
+\f3\fs36\fsmilli18100 \cf5 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec6 The main idea of transactions is that when each of the statements returns an error, the entire modifications rollback to provide data integrity. On the other hand, if all statements are completed successfully the data modifications will become permanent on the database. As a result, if we experience any power outage or other problems during the withdrawal of money from an ATM, transactions guarantee our balance consistency. It would be the best method to perform all these steps through a transaction because the four main properties of the transactions enable all operations more accurate and consistent. All these properties are known as the\'a0
+\f4\b \cf5 \strokec6 ACID
+\f3\b0 \cf5 \strokec6 \'a0(atomicity, consistency, isolation, durability) in the relational database systems with the first letter of their names.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl450\partightenfactor0
+\ls1\ilvl0
+\f4\b \cf5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\cf5 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec6 Atomicity:\'a0
+\f3\b0 \cf5 \strokec6 The entire of the operations that are included by the transaction performed successfully. Otherwise, all operations are canceled at the point of the failure and all the previous operations are rolled back\
+\ls1\ilvl0
+\f4\b \cf5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\cf5 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec6 Consistency:\'a0
+\f3\b0 \cf5 \strokec6 This property ensures that all the data will be consistent after a transaction is completed according to the defined rules, constraints, cascades, and triggers\
+\ls1\ilvl0
+\f4\b \cf5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\cf5 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec6 Isolation:\'a0
+\f3\b0 \cf5 \strokec6 All transactions are isolated from other transactions\
+\ls1\ilvl0
+\f4\b \cf5 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\cf5 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec6 Durable
+\f3\b0 \cf5 \strokec6 : The modification of the commited transactions becomes persist in the database
+\fs26\fsmilli13125 \cf7 \cb1 \strokec7 \
+}

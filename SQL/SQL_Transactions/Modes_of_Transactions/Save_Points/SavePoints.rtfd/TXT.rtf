@@ -1,0 +1,38 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;\f2\fmodern\fcharset0 CourierNewPSMT;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red41\green102\blue169;
+\red28\green28\blue28;\red25\green60\blue255;\red255\green255\blue255;\red21\green0\blue255;\red20\green105\blue217;
+\red16\green111\blue109;\red39\green39\blue38;\red251\green0\blue7;\red251\green0\blue7;\red251\green0\blue7;
+\red109\green109\blue109;\red109\green109\blue109;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000\c0;\cssrgb\c20405\c48330\c72202;
+\cssrgb\c14542\c14542\c14505;\cssrgb\c12594\c35385\c100000;\cssrgb\c100000\c100000\c99985\c0;\cssrgb\c11894\c12179\c100000;\cssrgb\c6697\c50422\c88157;
+\cssrgb\c2058\c50488\c50483;\cssrgb\c20066\c20066\c19991;\cssrgb\c99821\c0\c0;\cssrgb\c100000\c12195\c0;\cssrgb\c99762\c0\c0;
+\cssrgb\c50361\c50361\c50173;\cssrgb\c50416\c50416\c50164;}
+\margl1440\margr1440\vieww13440\viewh12700\viewkind0
+\deftab720
+\pard\pardeftab720\sl864\sa411\partightenfactor0
+
+\f0\b\fs36 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec4 Save Points in Transactions\
+\pard\pardeftab720\sl450\sa411\partightenfactor0
+
+\f1\b0 \cf2 \strokec5 Savepoints can be used to rollback any particular part of the transaction rather than the entire transaction. So that we can only rollback any portion of the transaction where between after the save point and before the rollback command. To define a save point in a transaction we use the\'a0SAVE TRANSACTION\'a0syntax and then we add a name to the save point. Now, let\'92s illustrates an example of savepoint usage. When we execute the following query, only the insert statement will be committed and the delete statement will be rolled back.\
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf6 \cb7 \strokec8 BEGIN\cf2 \cb3 \strokec9  \cf6 \cb7 \strokec8 TRANSACTION\cf2 \cb3 \strokec9  \strokec2 \
+\cf6 \cb7 \strokec8 INSERT\cf2 \cb3 \strokec9  \cf6 \cb7 \strokec8 INTO\cf2 \cb3 \strokec9  \strokec10 Person\strokec9  \strokec2 \
+\cf6 \cb7 \strokec8 VALUES\cf2 \cb3 \strokec11 (\strokec12 '\cf13 \cb7 \strokec14 Mouse\cf2 \cb3 \strokec12 '\strokec11 ,\strokec9  \strokec12 '\cf13 \cb7 \strokec14 Micky\cf2 \cb3 \strokec12 '\strokec11 ,\strokec12 '\cf13 \cb7 \strokec14 500\cf2 \cb3 \strokec12  \cf13 \cb7 \strokec14 South\cf2 \cb3 \strokec12  \cf13 \cb7 \strokec14 Buena\cf2 \cb3 \strokec12  \cf13 \cb7 \strokec14 Vista\cf2 \cb3 \strokec12  \cf13 \cb7 \strokec14 Street\cf2 \cb3 \strokec12 , \cf13 \cb7 \strokec14 Burbank\cf2 \cb3 \strokec12 '\strokec11 ,\strokec12 '\cf13 \cb7 \strokec14 California\cf2 \cb3 \strokec12 '\strokec11 ,\cf13 \cb7 \strokec2 43\cf2 \cb3 \strokec11 )\strokec2 \
+\cf6 \cb7 \strokec8 SAVE\cf2 \cb3 \strokec9  \cf6 \cb7 \strokec8 TRANSACTION\cf2 \cb3 \strokec9  \strokec10 InsertStatement\strokec2 \
+\cf6 \cb7 \strokec8 DELETE\cf2 \cb3 \strokec9  \strokec10 Person\strokec9  \cf6 \cb7 \strokec8 WHERE\cf2 \cb3 \strokec9  \strokec10 PersonID\strokec15 =\strokec2 3\
+\cf6 \cb7 \strokec8 SELECT\cf2 \cb3 \strokec9  \cf6 \cb7 \strokec16 *\cf2 \cb3 \strokec9  \cf6 \cb7 \strokec8 FROM\cf2 \cb3 \strokec9  \strokec10 Person\strokec9  \strokec2 \
+\cf6 \cb7 \strokec8 ROLLBACK\cf2 \cb3 \strokec9  \cf6 \cb7 \strokec8 TRANSACTION\cf2 \cb3 \strokec9  \strokec10 InsertStatement\strokec2 \
+\cf6 \cb7 \strokec8 COMMIT\cf2 \cb3 \strokec2 \
+\cf6 \cb7 \strokec8 SELECT\cf2 \cb3 \strokec9  \cf6 \cb7 \strokec16 *\cf2 \cb3 \strokec9  \cf6 \cb7 \strokec8 FROM\cf2 \cb3 \strokec9  \strokec10 Person\strokec2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {{\NeXTGraphic Pasted Graphic.png \width8910 \height7470 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\
+\
+\
+}
