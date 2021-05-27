@@ -121,7 +121,7 @@ env.bak/
 venv.bak/
 
 # IntelliJ IDE Configuration Data
-.idea
+.idea/
 
 # Miscellaneous Files
 aws.xml
