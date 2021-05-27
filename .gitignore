@@ -123,6 +123,12 @@ venv.bak/
 # IntelliJ IDE Configuration Data
 .idea
 
+# Miscellaneous Files
+aws.xml
+modules.xml
+profiles_settings.xml
+Project_Default.xml
+
 # Spyder project settings
 .spyderproject
 .spyproject
