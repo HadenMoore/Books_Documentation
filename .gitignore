@@ -120,6 +120,15 @@ ENV/
 env.bak/
 venv.bak/
 
+# IntelliJ IDE Configuration Data
+.idea/
+
+# Miscellaneous Files
+aws.xml
+modules.xml
+profiles_settings.xml
+Project_Default.xml
+
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -143,6 +152,9 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+SQL/.DS_Store
+SQL/.DS_Store
+
 /.idea/.gitignore
 /.idea/aws.xml
 /.idea/Books_Documentation.iml
