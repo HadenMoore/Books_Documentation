@@ -154,3 +154,12 @@ dmypy.json
 cython_debug/
 SQL/.DS_Store
 SQL/.DS_Store
+
+/.idea/.gitignore
+/.idea/aws.xml
+/.idea/Books_Documentation.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
